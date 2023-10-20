@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:2
+msgid "Filament Storage Details"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:5
+msgid "General Guidelines"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:7
+msgid "Here are some general guidelines for how careful you should be to store filaments."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:9
+msgid "Can be left in open air, sealed storage preferred: ABS, ASA"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:10
+msgid "Sealed storage highly recommended: PLA, PET-G"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:11
+msgid "Sealed storage highly recommended while printing and storing: TPU/TPE, Polyamides"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:14
+msgid "Why We Need Filament Storage"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:21
+msgid "A DIY filament storage solution"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:21
+msgid "A large sealed bin can be customized to fit your use with silica packets thrown in."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:25
+msgid "It's important to keep in mind that filaments need to be stored in a specific way- and even the basic filaments PLA and PET-G are no exception. Filaments are **hygroscopic** (absorb moisture from the air), and that affects print quality majorly if not taken care of. Store filaments in a closed and sealed container, preferably kept dry with spare silica packets, and don't leave them out whenever possible."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:29
+msgid "If you suspect a filament has taken on water, look up a drying temperature for it, and put it in the oven or a specialized filament dryer at that temperature for a few hours to get rid of the water."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:32
+msgid "An easy way to tell if a filament has taken on moisture is if you hear a slight popping noise when printing- this is the moisture forming bubbles in the filament as it's heated."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:37
+msgid "Storing While Printing"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:39
+msgid "Some more sensitive hygroscopic filaments don't just need to be stored in sealed containers, but also need to be printed while in a sealed container. Lots of companies sell or design \"dryboxes\" for this purpose, such as SUNLU's filament dryer box, BambuLab's AMS setup, or custom designs such as one by Prusa Research. Do your own research and find out which of these is best for you if you deal with extremely sensitive filaments."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:48
+msgid "Prusa's filament drybox"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:48
+msgid "Prusa's filament drybox solution, 3D printed and DIY."
+msgstr ""

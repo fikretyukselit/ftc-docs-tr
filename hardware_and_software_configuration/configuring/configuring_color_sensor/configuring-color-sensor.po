@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:2
+msgid "Configuring a Color Distance Sensor"
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:4
+msgid "The REV Robotics Color Distance Sensor is an I2C sensor. It actually combines two sensor functions into a single device. It is a color sensor, that can determine the color of an object. It is also a distance or range sensor, that can be used to measure short range distances. Note that in this tutorial, the word \"distance\" is used interchangeably with the word \"range\"."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:12
+msgid "Configuring a Color Distance Sensor Instructions"
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:14
+msgid "1. Touch the words **I2C Bus 0** on the screen to launch the I2C configuration screen for this I2C bus."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:22
+msgid "The Expansion Hub has four independent I2C buses, labeled \"0\" through \"3\".  In this example, since you connected the Color Sensor to the port labeled \"0\", it resides on I2C Bus 0."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:24
+msgid "2. Look at the **I2C Bus 0** screen. There should already be a sensor configured for this bus. The Expansion Hub has its own built-in inertial measurement unit (IMU) sensor. This sensor can be used to determine the orientation of a robot, as well as measure the accelerations on a robot."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:35
+msgid "The built-in IMU is internally connected to I2C Bus 0 on each Expansion Hub.  Whenever you configure an Expansion Hub using the Robot Controller, the app automatically configures the IMU for I2C Bus 0. You will need to add another I2C device for this bus to be able to configure the color sensor."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:37
+msgid "Press the **Add** button to add another I2C device to this bus."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:44
+msgid "4. Select \"REV Color/Range Sensor\" from the dropdown selector for this new device. Use the touchscreen keyboard to name this device \"sensorColorRange\"."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:53
+msgid "5. Press the **Done** button to complete the I2C sensor configuration. The app should return to the previous screen."
+msgstr ""

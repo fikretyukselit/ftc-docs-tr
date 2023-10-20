@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cad_resources/solidworks/solidworks.rst:2
+msgid "SOLIDWORKS® CAD Resources"
+msgstr ""
+
+#: cad_resources/solidworks/solidworks.rst:4
+msgid "For over 15 years, Dassault Systèmes has been a software supplier to *FIRST®* teams with SOLIDWORKS®. We are also introducing the 3DEXPERIENCE® platform, a technology platform that provides Product Lifecycle Management (PLM), collaboration, community, and Cloud CAD Apps to all *FIRST* teams. Enhance collaborative robot design with your team."
+msgstr ""
+
+#: cad_resources/solidworks/solidworks.rst:11
+msgid "Obtaining SOLIDWORKS® Software"
+msgstr ""
+
+#: cad_resources/solidworks/solidworks.rst:13
+msgid "Dassault Systèmes makes select software available to all *FIRST* teams."
+msgstr ""
+
+#: cad_resources/solidworks/solidworks.rst:15
+msgid "As of the 2022-2023 season, Dassault Systèmes is changing their software application process. **More Details to be announced by Kickoff**. All teams who would like to request software should create a 3DEXPERIENCE ID regardless of whether you're requesting desktop or cloud-based software."
+msgstr ""
+
+#: cad_resources/solidworks/solidworks.rst:17
+msgid "Dassault Systèmes provides both cloud-based and desktop-based tools to *FIRST* teams. Teams must:"
+msgstr ""
+
+#: cad_resources/solidworks/solidworks.rst:20
+msgid "`Create a 3DEXPERIENCE ID <https://eu1-ds-iam.3dexperience.3ds.com/login>`__ if you don't have one."
+msgstr ""
+
+#: cad_resources/solidworks/solidworks.rst:22
+msgid "Apply to request your license (**more details coming soon**)."
+msgstr ""
+
+#: cad_resources/solidworks/solidworks.rst:25
+msgid "SOLIDWORKS® Training Videos"
+msgstr ""
+
+#: cad_resources/solidworks/solidworks.rst:27
+msgid "Learning content for both the cloud-based and desktop-based tools is managed through the `3DS online learning portal <https://edu.3ds.com/en/learn/eduspace>`__, which manages access through your 3DEXPERIENCE ID."
+msgstr ""

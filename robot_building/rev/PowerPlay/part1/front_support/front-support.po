@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:2
+msgid "Front Support Beam"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:5
+msgid "Step 1: Add Screws to Corner Brackets"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:8
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:38
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:60
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:92
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:129
+msgid "Parts Needed:"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:10
+msgid "REV-41-1320 – Bracket, Inside Corner (2)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:12
+msgid "REV-41-1359 – Screw, Hex Cap, M3, 8mm (8)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:14
+msgid "REV-41-1361 – Nut, Locking, M3 (8)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:20
+msgid "*Figure 18- Unassembled view*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:26
+msgid "*Figure 19- Assembled view*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:30
+msgid "Screw the nuts onto the screws just until it’s difficult to turn them; just so that the nuts don’t fall off. The screw heads will need to slide along the center of an extrusion in a later step."
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:35
+msgid "Step 2: Add Corner Brackets to Beam"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:40
+msgid "REV-41-1431 – Extrusion, 225mm, 90-90 Degree (1)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:42
+msgid "Corner Bracket Assemblies (2 - from step 1)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:48
+msgid "*Figure 20- Unassembled view*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:54
+msgid "*Figure 21- Assembled view*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:57
+msgid "Step 3: Add Floating Screws to Beam"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:62
+msgid "Front Beam Assembly (1 - from step 2)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:64
+msgid "REV-41-1359 – Screw, Hex Cap, M3, 8mm (2)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:66
+msgid "REV-41-1360 – Screw, Hex Cap, M3, 16mm (2)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:72
+msgid "*Figure 22- Unassembled view*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:78
+msgid "*Figure 23- Assembled view*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:82
+msgid "Two of the 8mm screws are loaded onto what will become the front face of the beam."
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:85
+msgid "One of the 8mm and two of the 16mm screws are loaded onto what will become the top face of the beam"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:89
+msgid "Step 4: Add Front Support Beam"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:94
+msgid "Chassis (from Back Support Beam, step 4)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:96
+msgid "Front Support beam assembly (1 - from step 3)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:102
+msgid "*Figure 24- Unassembled view*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:109
+msgid "*Figure 25- Unassembled view*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:115
+msgid "*Figure 26- Assembled view*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:119
+msgid "There should be 121mm between the back support beam and the front support beam (there will be 136mm center to center)."
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:122
+msgid "If a ruler is not available, the position may need to be adjusted in a later step."
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:126
+msgid "Step 5: Add Switch Bracket"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:131
+msgid "Chassis Switch Plate (part of REV-31-1387)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:133
+msgid "REV-41-1361 – Nut, Locking, M3 (2)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:139
+msgid "*Figure 27- Unassembled view*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/front_support/front-support.rst:145
+msgid "*Figure 28- Assembled view*"
+msgstr ""

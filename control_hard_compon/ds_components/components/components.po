@@ -1,0 +1,195 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: control_hard_compon/ds_components/components/components.rst:2
+msgid "Driver Station Components"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:5
+msgid "Android Device"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:14
+msgid "REV Driver Hub"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:0
+msgid "REV-31-1596"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:25
+msgid "REV Driver Hub (REV-31-1596)"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:31
+msgid "Android Smartphone"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:0
+msgid "MotoE5"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:42
+msgid "Moto E5"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:44
+msgid "The heart of the Driver Station is the Android Device that runs the Driver Station App. This Android Device requirement can be fulfilled either through the use of a `REV Driver Hub <https://www.revrobotics.com/rev-31-1596/>`_ or one of the approved Android Smartphones listed in :doc:`Game Manual 1 <../../../manuals/game_manuals/game_manuals>`. It is of vital importance that the Driver Station App be updated to a version that meets or exceeds the minimum Driver Station App version as defined in :doc:`Game Manual 1 <../../../manuals/game_manuals/game_manuals>`."
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:55
+msgid "USB-OTG Adapter / Hubs"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:64
+#: control_hard_compon/ds_components/components/components.rst:0
+msgid "USB OTG Cable"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:75
+msgid "USB OTG Adapter Cable"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:81
+msgid "USB Hub"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:0
+msgid "USBHub"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:92
+msgid "Anker USB Hub"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:98
+msgid "USB OTG Hub"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:0
+msgid "REV-31-1592"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:109
+msgid "REV UltraUSB (REV-31-1592)"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:111
+msgid "If the Android Device being used is an Android Smartphone, the smartphone only provides a single USB-Micro-B port on the bottom of the phone. In order to use USB devices with the Android Smartphone, like a gamepad, a USB-OTG Adapter Cable must be used. This cable provides a USB Type A port for the Gamepad or peripherals (like a USB Hub, to allow more than one Gamepad to be used). If available, it is instead recommended to use a USB Hub with OTG cable built in, like the `REV UltraUSB (REV-31-1592) <https://www.revrobotics.com/rev-31-1592/>`_ - this reduces the number of connections and failure points in the system."
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:120
+msgid "When using a REV Driver Hub, no OTG adapters are necessary - gamepads may connect directly to one of the three USB-A ports on the device."
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:124
+msgid "Comercial USB Battery Pack"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:133
+msgid "USB Battery Pack"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:0
+msgid "REV-31-1387"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:144
+msgid "Anker Battery Pack"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:146
+msgid "A commercial USB battery pack is an auxiliary power source that can be used in specific situations in accordance with the :ref:`Game Manuals<manuals/game_manuals/game_manuals:game manuals>`. A USB battery pack is permitted to be used to charge your Android Device. Only the REV Driver Hub can be charged while in use, through its USB-C port."
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:153
+msgid "Gamepads"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:162
+msgid "Logitech F310"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:0
+msgid "LogitechF310"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:173
+msgid "Logitech F310 Gamepad"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:179
+msgid "Sony DualSense"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:0
+msgid "Sony DualSense PS5"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:190
+msgid "Sony DualSense Gamepad"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:196
+msgid "Sony Dualshock 4"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:0
+msgid "DualShock4"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:207
+msgid "Sony DualShock 4 Gamepad"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:213
+msgid "Etpark PS4 Wired"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:0
+msgid "Etpark PS4"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:224
+msgid "Etpark PS4 Wired Gamepad"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:230
+#: control_hard_compon/ds_components/components/components.rst:0
+msgid "Xbox 360"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:241
+msgid "Xbox 360 Gamepad"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:247
+msgid "Quadstick"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:0
+msgid "quadstick"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:258
+msgid "Quadstick FPS"
+msgstr ""
+
+#: control_hard_compon/ds_components/components/components.rst:260
+msgid ":ref:`Game Manual 1 <manuals/game_manuals/game_manuals:game manuals>` defines the gamepads that are allowed in competition play. Up to two gamepads, in any combination, of the allowed types of gamepads may be used. All gamepads MUST be used in wired mode only, no wireless of any kind is allowed. Special features of some gamepads (Rumble, Lighting) may be programmed and used by teams for notifications and signaling to the drivers of the robot."
+msgstr ""

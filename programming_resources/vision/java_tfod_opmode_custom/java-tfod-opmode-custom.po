@@ -1,0 +1,645 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:2
+msgid "Java Custom Model Sample OpMode for TFOD"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:7
+msgid "This tutorial describes the regular, or **Builder**, version of the FTC Java **Sample OpMode** for TensorFlow Object Detection (TFOD)."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:10
+msgid "This Sample, called **“ConceptTensorFlowObjectDetection.java”**, can recognize **official or custom** FTC game elements and provide their visible size and position. It uses the Java **Builder pattern** to customize standard/default TFOD settings."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:15
+msgid "This is **not the same** as the “Easy” version, which uses only default settings and official/built-in TFOD model(s), described here:"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:18
+msgid ":doc:`Java Easy Sample OpMode for TFOD <../java_tfod_opmode/java-tfod-opmode>`"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:20
+msgid "For the 2023-2024 game CENTERSTAGE, the official game element is a hexagonal white **Pixel**. The FTC SDK software contains a TFOD model of this object, ready for recognition. That default model was created with a Machine Learning process described here:"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:25
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:40
+msgid ":ref:`FIRST Machine Learning Toolchain<ftc_ml/index:*FIRST* Machine Learning Toolchain>`"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:32
+msgid "TFOD Recognition"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:32
+msgid "Example Pixel Recognition using TFOD"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:34
+msgid "For extra points, FTC teams may instead use their own custom TFOD models of game elements, called **Team Props** in CENTERSTAGE. That option is covered in this tutorial, after showing how to use the default model. Custom TFOD models are created by teams using the same Machine Learning process:"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:47
+msgid "Team Props"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:47
+msgid "Example Team Props"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:49
+msgid "This tutorial shows **OnBot Java** screens. Users of **Android Studio** can follow along with a few noted exceptions, since the Sample OpMode is exactly the same."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:54
+msgid "Creating the OpMode"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:56
+msgid "At the FTC **OnBot Java** browser interface, click on the large black **plus-sign icon** “Add File”, to open the New File dialog box."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:64
+msgid "New File Dialog"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:64
+msgid "Example New File Dialog"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:66
+msgid "Specify a name for your new OpMode. Select **“ConceptTensorFlowObjectDetection”** as the Sample OpMode to be the template for your new OpMode."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:70
+msgid "This Sample has optional gamepad inputs, so it could be designated as a **TeleOp** OpMode (see green oval above)."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:73
+msgid "Click “OK” to create your new OpMode."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:75
+msgid "\\ **Android Studio** users should follow the commented instructions to copy this class from the Samples folder to the Teamcode folder, with a new name. Also remove the ``@Disabled`` annotation, to make the OpMode visible in the Driver Station list."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:80
+msgid "The new OpMode should appear in the editing window of OnBot Java."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:87
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:87
+msgid "Sample Open Dialog"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:89
+msgid "By default, the Sample OpMode assumes you are using a webcam, configured as “Webcam 1”. If instead you are using the built-in camera on your Android RC phone, change the USE_WEBCAM Boolean from ``true`` to ``false`` (orange oval above)."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:95
+msgid "Preliminary Testing"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:97
+msgid "This Sample OpMode is **ready to use**, for detecting the default/built-in model (white Pixel for CENTERSTAGE)."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:100
+msgid "If **Android Studio** users get a DS error message “Loading model from asset failed”, skip to the next section “Downloading the Model”."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:103
+msgid "Click the “Build Everything” button (wrench icon at lower right), and wait for confirmation “BUILD SUCCESSFUL”."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:106
+msgid "If Build is prevented by some other OpMode having errors/issues, they must be fixed before your new OpMode can run. For a quick fix, you could right-click on that filename and choose “Disable/Comment”. This “comments out” all lines of code, effectively removing that file from the Build. That file can be re-activated later with “Enable/Uncomment”."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:112
+msgid "In Android Studio (or OnBot Java), you can open a problem class/OpMode and type **CTRL-A** and **CTRL-/** to select and “comment out” all lines of code. This is reversible with **CTRL-A** and **CTRL-/** again."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:116
+msgid "Now run your new OpMode from the Driver Station (in the TeleOp list, if so designated). The OpMode should recognize any CENTERSTAGE white Pixel within the camera’s view, based on the trained TFOD model."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:120
+msgid "For a **preview** during the INIT phase, touch the Driver Station’s 3-dot menu and select **Camera Stream**."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:128
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:128
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:393
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:393
+msgid "Sample DS Camera Stream"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:130
+msgid "Camera Stream is not live video; tap to refresh the image. Use the small white arrows at bottom right to expand or revert the preview size. To close the preview, choose 3-dots and Camera Stream again."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:134
+msgid "After the DS START button is touched, the OpMode displays Telemetry for any recognized Pixel(s):"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:142
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:142
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:406
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:406
+msgid "Sample DS Telemetry"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:144
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:408
+msgid "The above Telemetry shows the Label name, and TFOD recognition confidence level. It also gives the **center location** and **size** (in pixels) of the Bounding Box, which is the colored rectangle surrounding the recognized object."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:149
+msgid "The pixel origin (0, 0) is at the top left corner of the image."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:151
+msgid "Before and after DS START is touched, the Robot Controller provides a video preview called **LiveView**."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:159
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:159
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:421
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:421
+msgid "Sample RC LiveView"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:161
+msgid "For Control Hub (with no built-in screen), plug in an HDMI monitor or learn about ``scrcpy`` (https://github.com/Genymobile/scrcpy). The above image is a LiveView screenshot via ``scrcpy``."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:165
+msgid "If you don’t have a physical Pixel on hand, try pointing the camera at this image:"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:173
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:173
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:431
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:431
+msgid "Sample Pixel"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:175
+msgid "**Congratulations!** At this point the Sample OpMode and your camera are working properly. Ready for a custom model?"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:179
+msgid "Downloading the Model"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:181
+msgid "Now we describe how to load a trained inference model in the form of a TensorFlow Lite (``.tflite``) file."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:184
+msgid "Instead of an **actual custom model**, here we use the standard FTC model of the white Pixel from CENTERSTAGE (2023-2024). Later, your team will follow this **same process** with your custom TFOD model, specifying its filename and labels (objects to recognize)."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:189
+msgid "The standard ``.tflite`` file (white Pixel) is available on GitHub at the following link:"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:192
+msgid "CENTERSTAGE TFLite File (https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/tensorflow/CenterStage.tflite)"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:195
+msgid "For competition, teams can use the :ref:`FIRST Machine Learning Toolchain<ftc_ml/index:*FIRST* Machine Learning Toolchain>` to train their own custom models of Team Props.  Then use the process described here; simply specify your custom model filename and labels."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:200
+msgid "Very advanced teams could use Google's TensorFlow Object Detection API (https://github.com/tensorflow/models/tree/master/research/object_detection) to create their own custom inference model."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:204
+msgid "Click the “Download Raw File” button to download the ``CenterStage.tflite`` file from GitHub to your local device (e.g. laptop). See the green arrow."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:213
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:213
+msgid "Public Repo"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:216
+msgid "Uploading to the Robot Controller"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:218
+msgid "Next, OnBot Java users will upload the TFOD model to the Robot Controller. Connect your laptop to your Robot Controller’s wireless network, open the Chrome browser, and navigate to the FTC “Manage” page:"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:227
+msgid "RC Manage Page"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:227
+msgid "Robot Controller Manage Page"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:229
+msgid "\\ **Android Studio** users should instead skip to the instructions at the bottom of this section."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:232
+msgid "Scroll down and click on “Manage TensorFlow Lite Models”."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:239
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:239
+msgid "TensorFlow Lite Model Management"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:241
+msgid "Now click the “Upload Models” button."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:248
+msgid "Uploading Models"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:248
+msgid "Upload Models"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:250
+msgid "Click “Choose Files”, and use the dialog box to find and select the downloaded ``CenterStage.tflite`` file."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:258
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:258
+msgid "Choose Files"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:260
+msgid "Now the file will upload to the Robot Controller. The file will appear in the list of TensorFlow models available for use in OpModes."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:268
+msgid "CenterStage TFLITE Uploaded"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:268
+msgid "CENTERSTAGE TFLITE File Uploaded"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:270
+msgid "\\ **Android Studio** users should instead store the TFOD model in the project **assets** folder. At the left side, look under ``FtcRobotController`` for the folder ``assets``. If it’s missing, right-click ``FtcRobotController``, choose ``New``, ``Directory`` and ``src\\main\\assets``. Right-click ``assets``, choose ``Open In`` and ``Explorer``, then copy/paste your ``.tflite`` file into that assets folder."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:279
+msgid "Basic OpMode Settings"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:281
+msgid "This Sample OpMode can now be modified, to detect the uploaded TFOD model."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:284
+msgid "Again, this tutorial uploaded the standard TFOD model (white Pixel for CENTERSTAGE), just to demonstrate the process. Use the same steps for your custom TFOD model."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:288
+msgid "First, change the filename here:"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:294
+msgid "to this:"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:300
+msgid "Later, you can change this filename back to the actual name of your custom TFOD model. Here we are using the default (white Pixel) model just downloaded."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:306
+msgid "**Android Studio** users should instead verify or store the TFOD model in the project **assets** folder as noted above, and use:"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:313
+msgid "OR (for a custom model)"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:321
+msgid "For this example, the following line **does not** need to be changed:"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:330
+msgid "… because “Pixel” is the correct and only TFOD Label in the standard model file."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:333
+msgid "Later, you might have custom Labels like “myRedProp” and “myBlueProp” (for CENTERSTAGE). The list should be in alphabetical order and contain the labels in the dataset(s) used to make the TFOD model."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:339
+msgid "Next, scroll down to the Java method ``initTfod()``."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:341
+msgid "Here is the Java **Builder pattern**, used to specify various settings for the TFOD Processor."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:349
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:349
+msgid "Builder Pattern Settings"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:351
+msgid "The **yellow ovals** indicate its distinctive features: **create** the Processor object with ``new Builder()``, and **close/finalize** with the ``.build()`` method."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:355
+msgid "This is the streamlined version of the Builder pattern. Notice all the ``.set`` methods are “chained” to form a single Java expression, ending with a semicolon after ``.build()``."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:359
+msgid "Uncomment two Builder lines, circled above in green:"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:366
+msgid "\\ **Android Studio** users should instead uncomment the lines ``.setModelAssetName(TFOD_MODEL_ASSET)`` and ``.setModelLabels(LABELS)``."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:370
+msgid "These Builder settings tell the TFOD Processor which model and labels to use for evaluating camera frames."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:373
+msgid "\\ **That’s it!**\\  You are ready to test this Sample OpMode again, this time using a “custom” (uploaded) TFOD model."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:377
+msgid "Testing with Custom Model"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:379
+msgid "In OnBot Java, click the “Build Everything” button (wrench icon at lower right), and wait for confirmation “BUILD SUCCESSFUL”."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:382
+msgid "Now run your updated OpMode from the Driver Station. The OpMode should recognize objects within the camera’s view, based on the trained TFOD model."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:386
+msgid "Test the **Camera Stream** preview during the INIT phase."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:395
+msgid "Tap to refresh the image. Expand or revert the preview size as needed. Close the preview, with 3-dots and Camera Stream again."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:398
+msgid "After the DS START button is touched, the OpMode displays Telemetry for any recognized object(s):"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:413
+msgid "Also test the RC’s video **LiveView**, using HDMI or ``scrcpy`` (https://github.com/Genymobile/scrcpy):"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:423
+msgid "For a large view of this standard model, right-click the image to open in a new browser tab:"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:433
+msgid "When your team creates, uploads and specifies a custom model containing **red and blue Team Props**, the OpMode will recognize and process those – instead of the standard model shown here."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:438
+msgid "Program Logic and Initialization"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:440
+msgid "How does this simple OpMode work?"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:442
+msgid "During the INIT stage (before DS START is touched), this OpMode calls a **method to initialize** the TFOD Processor and the FTC VisionPortal."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:446
+msgid "After DS START is touched, the OpMode runs a continuous loop, calling a **method to display telemetry** about any TFOD recognitions."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:449
+msgid "The OpMode also contains optional features to remind teams about **CPU resource management**, useful in vision processing."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:452
+msgid "You’ve already seen the first part of the method ``initTfod()`` which uses a streamlined, or “chained”, sequence of Builder commands to create the TFOD Processor."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:456
+msgid "The second part of that method uses regular, non-chained, Builder commands to create the VisionPortal."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:491
+msgid "All settings have been uncommented here, to see them more easily."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:493
+msgid "Here the ``new Builder()`` creates a separate ``VisionPortal.Builder`` object called ``builder``, allowing traditional/individual Java method calls for each setting. For the streamlined “chained” TFOD process, the ``new Builder()`` operated directly on the TFOD Processor called ``tfod``, without creating a ``TfodProcessor.Builder`` object. Both approaches are valid."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:500
+msgid "Notice the process again **closes** with a call to the ``.build()`` method."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:504
+msgid "Telemetry Method"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:506
+msgid "After DS START is touched, the OpMode continuously calls this method to display telemetry about any TFOD recognitions:"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:532
+msgid "In the first line of code, **all TFOD recognitions** are collected and stored in a List variable. The camera might “see” more than one game element in its field of view, even if not intended (i.e. for CENTERSTAGE with 1 game element)."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:537
+msgid "The ``for() loop`` then iterates through that List, handling each item, one at a time. Here the “handling” is simply processing certain TFOD fields for DS Telemetry."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:541
+msgid "The ``for() loop`` calculates the pixel coordinates of the **center** of each Bounding Box (the preview’s colored rectangle around a recognized object)."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:545
+msgid "Telemetry is created for the Driver Station, with the object’s name (Label), recognition confidence level (percentage), and the Bounding Box’s location and size (in pixels)."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:549
+msgid "For competition, you want to do more than display Telemetry, and you want to exit the main OpMode loop at some point. These code modifications are discussed in another section below."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:554
+msgid "Resource Management"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:556
+msgid "Vision processing is “expensive”, using much **CPU capacity and USB bandwidth** to process millions of pixels streaming in from the camera."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:559
+msgid "This Sample OpMode contains three optional features to remind teams about resource management. Overall, the SDK provides :ref:`over 10 tools <apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth:visionportal cpu and bandwidth>` to manage these resources, allowing your OpMode to run effectively."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:564
+msgid "As the first example, **streaming images** from the camera can be paused and resumed. This is a very fast transition, freeing CPU resources (and potentially USB bandwidth)."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:578
+msgid "Pressing the Dpad buttons, you can observe the off-and-on actions in the RC preview (LiveView), described above. In your competition OpMode, these streaming actions would be programmed, not manually controlled."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:584
+msgid "The second example, commented out, similarly allows a vision processor (TFOD and/or AprilTag) to be disabled and re-enabled:"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:592
+msgid "Simply set the Boolean to ``false`` (to disable), or ``true`` (to re-enable)."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:597
+msgid "The third example: after exiting the main loop, the VisionPortal is closed."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:605
+msgid "Teams may consider this at any point when the VisionPortal is no longer needed by the OpMode, freeing valuable CPU resources for other tasks."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:609
+msgid "Adjusting the Zoom Factor"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:611
+msgid "If the object to be recognized will be more than roughly 2 feet (61 cm) from the camera, you might want to set the digital Zoom factor to a value greater than 1. This tells TensorFlow to use an artificially magnified portion of the image, which may offer more accurate recognitions at greater distances."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:624
+msgid "This ``setZoom()`` method can be placed in the INIT section of your OpMode,"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:627
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:677
+msgid "immediately after the call to the ``initTfod()`` method, or"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:629
+msgid "as the very last command inside the ``initTfod()`` method."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:631
+msgid "This method is **not** part of the TFOD Processor Builder pattern, so the Zoom factor can be set to other values during the OpMode, if desired."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:635
+msgid "The “zoomed” region can be observed in the DS preview (Camera Stream) and the RC preview (LiveView), surrounded by a greyed-out area that is **not evaluated** by the TFOD Processor."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:640
+msgid "Other Adjustments"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:642
+msgid "This Sample OpMode contains another adjustment, commented out:"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:649
+msgid "The SDK uses a default **minimum confidence** level of 75%. This means the TensorFlow Processor needs a confidence level of 75% or higher, to consider an object as “recognized” in its field of view."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:653
+msgid "You can see the object name and actual confidence (as a **decimal**, e.g. 0.96) near the Bounding Box, in the Driver Station preview (Camera Stream) and Robot Controller preview (Liveview)."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:657
+msgid "Adjust this parameter to a higher value if you want the processor to be more selective in identifying an object."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:662
+msgid "Another option is to define, or clip, a **custom area for TFOD evaluation**, unlike ``setZoom`` which is always centered."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:673
+msgid "Adjust the four margins as desired, in units of pixels."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:675
+msgid "These method calls can be placed in the INIT section of your OpMode,"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:679
+msgid "as the very last commands inside the ``initTfod()`` method."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:681
+msgid "As with ``setProcessorEnabled()`` and ``setZoom()``, these methods are **not** part of the Processor or VisionPortal Builder patterns, so they can be set to other values during the OpMode, if desired."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:686
+msgid "Modifying the Sample"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:688
+msgid "In this Sample OpMode, the main loop ends only when the DS STOP button is touched. For CENTERSTAGE competition, teams should **modify this code** in at least two ways:"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:692
+msgid "for a significant recognition, take action or store key information – inside the ``for() loop``"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:695
+msgid "end the main loop based on your criteria, to continue the OpMode"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:697
+msgid "As an example, you might set a Boolean variable ``isPixelDetected`` (or ``isPropDetected``) to ``true``, if a significant recognition has occurred."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:701
+msgid "You might also evaluate and store which randomized Spike Mark (red or blue tape stripe) holds the white Pixel or Team Prop."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:704
+msgid "Regarding the main loop, it could end after the camera views all three Spike Marks, or after your code provides a high-confidence result. If the camera’s view includes more than one Spike Mark position, perhaps the Pixel/Prop’s **Bounding Box** size and location could be useful. Teams should consider how long to seek an acceptable recognition, and what to do otherwise."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:711
+msgid "In any case, the OpMode should exit the main loop and continue running, using any stored information."
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:714
+msgid "Best of luck this season!"
+msgstr ""
+
+#: programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom.rst:718
+msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
+msgstr ""

@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:2
+msgid "Connecting 12V Power to the Hub"
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:4
+msgid "The Hub draws power from a 12V rechargeable battery. For safety reasons, the battery has a 20A fuse built in. A mechanical switch is used to turn on/turn off the power."
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:8
+msgid "Note that it will take an estimated 5 minutes to complete this task."
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:12
+msgid "Connecting 12V Power to the Hub Instructions"
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:14
+msgid "1. If your 12V battery has a Tamiya style connector, connect the Tamiya to XT30 adapter cable to the matching end of the switch cable."
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:22
+msgid "Do not connect the 12V battery to the Tamiya adapter yet.  We will connect the battery during a later step."
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:24
+msgid "2. Connect the other end of the switch cable to a matching XT30 port on the Hub."
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:32
+msgid "Verify that the switch is in the OFF position."
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:39
+msgid "Connect the 12V battery to the Tamiya to XT30 cable."
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:46
+msgid "5. Turn on the switch and verify that the Hub is drawing power from the battery. Note that the Hub's LED should be illuminated (notice the blue LED in upper right-hand corner of the Hub in the image below)."
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:56
+msgid "6. Turn off the switch and verify that the Hub is off. Note that the Hub's LED should not be illuminated."
+msgstr ""

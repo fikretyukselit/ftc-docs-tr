@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:2
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:0
+msgid "VisionPortal Initialization"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:5
+msgid "Overview"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:7
+msgid "Here we describe Step 3, **creating a VisionPortal**, to allow an OpMode to use AprilTag and/or TensorFlow Object Detection (TFOD). This continues from the previous page :doc:`Vision Processor Initialization <../vision_processor_init/vision-processor-init>`, which described Step 2: creating an AprilTag Processor and/or a TensorFlow Object Detection (TFOD) Processor. The two Processors evaluate camera frames independently."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:14
+msgid "Steps 1, 2 and 3 are typically performed in the OpMode's INIT section, before the ``waitForStart()`` method or Block."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:17
+msgid "After this Step 3, actual use of AprilTag and TFOD can begin -- before or after the DS Start button is touched."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:21
+msgid "VisionPortal Initialization - Easy"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:23
+msgid "The SDK provides an \"easy\" way to make VisionPortal, using only **defaults** and not mentioning a \"Builder\":"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:0
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:0
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:0
+msgid "Blocks"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:0
+msgid "Easy VisionPortal Initialization"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:35
+msgid "The FTC Blocks VisionPortal toolbox, or palette, offers \"Easy Create\" Blocks for:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:37
+msgid "AprilTag or TFOD (or both)"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:38
+msgid "webcam, built-in RC phone camera, or \"Switchable Camera Name\""
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:40
+msgid "That's 3 x 3 = 9 total choices, all \"Easy\"."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:0
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:0
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:0
+msgid "Java"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:53
+msgid "To also use TFOD in the same OpMode, simply add it like this example:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:61
+msgid "VisionPortal Initialization - Builder"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:63
+msgid "The SDK also provides the \"Builder\" way to make VisionPortal, allowing **custom settings**:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:75
+msgid "VisionPortal Initialization with a Builder"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:104
+msgid "This example shows only 4 VisionPortal Builder features; others are available."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:106
+msgid "To also use TFOD in the same OpMode, simply insert its ``addProcessor(myTfodProcessor)`` Block or Java method."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:109
+msgid "The SDK allows multiple, fully capable Portals.  This is covered separately at the **MultiPortal** page."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:113
+msgid "Java Builder Chain"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:115
+msgid "The Builder pattern can be implemented in a streamlined manner, using Java.  The following code is equivalent to the above individual method calls."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:117
+msgid "Comments are omitted here, to clearly illustrate the chaining."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:132
+msgid "Here the object ``myVisionPortalBuilder`` was not created; the build was performed directly on ``myVisionPortal``.  The Builder pattern allows the \"dot\" methods to be chained in a single Java statement ending with ``.build()``."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:137
+msgid "Enabling and Disabling Processors"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:139
+msgid "This note is repeated from the previous page 2, :doc:`Vision Processor Initialization <../vision_processor_init/vision-processor-init>`"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:142
+msgid "For a Processor created at Step 2, an OpMode does **not need** to enable that Processor at this Step 3, **VisionPortal Initialization**."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:145
+msgid "The ``setProcessorEnabled()`` command is **not** part of the Builder pattern."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:147
+msgid "Use ``setProcessorEnabled(   , true)`` only to **re-enable** the processor, after **disabling** (by setting to ``false``).  This topic is covered further at the **Managing CPU and Bandwidth** page."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:151
+msgid "At this page's Step 3, the ``addProcessor()`` command **automatically enables** the specified processor.   Thus OpModes **do not initialize** with this, after Step 2 or 3:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:0
+msgid "VisionPortal Enable"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:164
+msgid "VisionPortal Enabling/Disabling"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:174
+msgid "Again, use this only to **re-enable** the processor, after **disabling** (by setting to ``false``)."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_init/visionportal-init.rst:179
+msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
+msgstr ""

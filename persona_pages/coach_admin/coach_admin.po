@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: persona_pages/coach_admin/coach_admin.rst:2
+msgid "Coach (Administrative) Resources"
+msgstr ""
+
+#: persona_pages/coach_admin/coach_admin.rst:4
+msgid "Welcome to FIRST Tech Challenge coach's page! Resources have been organized by type to help your team stay organized and be successful throughout the season. These resources are focused on the coach or administrator needs to manage the team while promoting FIRST's ethos. Just click on the panel or on the button link for the resource you want to explore!"
+msgstr ""
+
+#: persona_pages/coach_admin/coach_admin.rst:12
+msgid "**I AM A COACH**"
+msgstr ""
+
+#: persona_pages/coach_admin/coach_admin.rst:23
+msgid "FIRST Core Values"
+msgstr ""
+
+#: persona_pages/coach_admin/coach_admin.rst:27
+msgid "We express the FIRST philosophies of Gracious Professionalism and Coopertition through our Core Values."
+msgstr ""
+
+#: persona_pages/coach_admin/coach_admin.rst:34
+msgid "FIRST Dashboard Links"
+msgstr ""
+
+#: persona_pages/coach_admin/coach_admin.rst:38
+msgid "Discover registration and purchasing FAQs. Team Registration requires *FIRST* Dashboard account access on firstinspires.org."
+msgstr ""
+
+#: persona_pages/coach_admin/coach_admin.rst:47
+msgid "Register Your Team (Login)"
+msgstr ""
+
+#: persona_pages/coach_admin/coach_admin.rst:56
+msgid "Youth Registration"
+msgstr ""
+
+#: persona_pages/coach_admin/coach_admin.rst:69
+msgid "Business Plan and Budget"
+msgstr ""
+
+#: persona_pages/coach_admin/coach_admin.rst:73
+msgid "A simple guide to managing your team's budget."
+msgstr ""
+
+#: persona_pages/coach_admin/coach_admin.rst:81
+msgid "Team Management"
+msgstr ""
+
+#: persona_pages/coach_admin/coach_admin.rst:85
+msgid "Resources to provide your team a well-paced and successful season."
+msgstr ""
+
+#: persona_pages/coach_admin/coach_admin.rst:93
+msgid "Coach Guidance"
+msgstr ""
+
+#: persona_pages/coach_admin/coach_admin.rst:97
+msgid "Discover the best practices for new coaches."
+msgstr ""
+
+#: persona_pages/coach_admin/coach_admin.rst:105
+msgid "Pre-Event Checklists"
+msgstr ""
+
+#: persona_pages/coach_admin/coach_admin.rst:109
+msgid "Simple checklists to prepare for competition."
+msgstr ""

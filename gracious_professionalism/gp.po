@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gracious_professionalism/gp.rst:2
+msgid "*Gracious Professionalism®*"
+msgstr ""
+
+#: gracious_professionalism/gp.rst:4
+msgid "*Gracious Professionalism®* is part of the ethos of *FIRST*. It’s a way of doing things that encourages high quality work, emphasizes the value of others, and respects individuals and the community.  *Gracious Professionalism* is not clearly defined for a reason. It can and should mean different things to everyone."
+msgstr ""
+
+#: gracious_professionalism/gp.rst:10
+msgid "Some possible meanings of *Gracious Professionalism* include:"
+msgstr ""
+
+#: gracious_professionalism/gp.rst:12
+msgid "gracious attitudes and behaviors are win-win,"
+msgstr ""
+
+#: gracious_professionalism/gp.rst:13
+msgid "gracious folks respect others and let that respect show in their actions,"
+msgstr ""
+
+#: gracious_professionalism/gp.rst:14
+msgid "professionals possess special knowledge and are trusted by society to use that knowledge responsibly, and"
+msgstr ""
+
+#: gracious_professionalism/gp.rst:15
+msgid "gracious professionals make a valued contribution in a manner pleasing to others and to themselves."
+msgstr ""
+
+#: gracious_professionalism/gp.rst:17
+msgid "In the context of *FIRST*, this means that all teams and participants should:"
+msgstr ""
+
+#: gracious_professionalism/gp.rst:19
+msgid "learn to be strong competitors, but also treat one another with respect and kindness in the process, and"
+msgstr ""
+
+#: gracious_professionalism/gp.rst:20
+msgid "avoid leaving anyone feeling as if they are excluded or unappreciated."
+msgstr ""
+
+#: gracious_professionalism/gp.rst:22
+msgid "Knowledge, pride, and empathy should be comfortably and genuinely blended.  In the end, *Gracious Professionalism* is part of pursuing a meaningful life. When professionals use knowledge in a gracious manner and individuals act with integrity and sensitivity, everyone wins and society benefits."
+msgstr ""
+
+#: gracious_professionalism/gp.rst:32
+msgid "*The FIRST spirit encourages doing high-quality, well-informed work in a manner that leaves everyone feeling valued. Gracious Professionalism seems to be a good descriptor for part of the ethos of FIRST. It is part of what makes FIRST different and wonderful.*"
+msgstr ""
+
+#: gracious_professionalism/gp.rst:37
+msgid "Dr. Woodie Flowers, (1943 – 2019), Distinguished Advisor to *FIRST*"
+msgstr ""
+
+#: gracious_professionalism/gp.rst:39
+msgid "It is a good idea to spend time going over this concept with your team and reinforcing it regularly. We recommend providing your team with real-life examples of *Gracious Professionalism* in practice, such as when a team loans valuable materials or expertise to another team that they will later face as an opponent in competition. Routinely highlight opportunities to display *Gracious Professionalism* at events and encourage team members to suggest ways in which they can demonstrate this quality themselves and through outreach activities."
+msgstr ""
+
+#: gracious_professionalism/gp.rst:48
+msgid "In Memoriam"
+msgstr ""
+
+#: gracious_professionalism/gp.rst:50
+msgid "In October 2019, Dr. Woodie Flowers, an innovator in design and engineering education and a Distinguished Advisor to *FIRST* and supporter of our mission, passed away. As thousands of heartfelt tributes to Woodie have poured in from around the world, it is clear his legacy will live on indefinitely through the gracious nature of our community and our ongoing commitment to empowering educators and building global citizens."
+msgstr ""
+
+#: gracious_professionalism/gp.rst:59
+msgid "Dr. Woodie Flowers, (1943 - 2019)"
+msgstr ""

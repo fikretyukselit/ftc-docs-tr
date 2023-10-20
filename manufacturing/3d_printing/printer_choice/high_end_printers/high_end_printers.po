@@ -1,0 +1,355 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:2
+msgid "High-End Printers ($600+ USD)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:4
+msgid "Tip for both of the Prusa printers listed on this page. You can now order Prusa printers from either their headquarters in Czechia or their subsidiary and sole authorized reseller **PrintedSolid**, based in Delaware. If you live in the USA and plan to order a Prusa printer, save yourself the headache of customs and long shipping times and order from their USA subsidiary."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:10
+msgid "Prusa MK3S+ ($649-$899)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:12
+msgid "If you're looking to buy a printer that just works every time, the Prusa MK3S+ is amazing. Prusa has had millions of hours running these machines, and just about every issue with this printer has been found, patched, and pushed to the consumer. If it's any testament to their consistency, the 3d printed parts used on the Mk3s+ are printed mostly on Mk3s+ printers. This is Prusa's previous flagship printer and is more tested and cheaper than the Mk4, but if you are looking at Prusa make sure to explore the Mk4 as well due to it's more updated features."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:19
+msgid "Mk3s+ Features"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:20
+msgid "Easy to Repair"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:21
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:53
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:88
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:125
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:157
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:198
+msgid "Auto Bed Leveling"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:22
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:54
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:199
+msgid "Removable Spring Steel Sheets"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:23
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:91
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:127
+msgid "All-Metal Direct Drive Extruder"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:24
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:57
+msgid "250mm x 210mm x 210mm Print Volume"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:25
+msgid "Unrivaled consistency as a workhorse"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:28
+msgid "Mk3s+ Drawbacks"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:29
+msgid "Slow printing speed"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:30
+msgid "Dated technology (such as lack of WiFi)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:31
+msgid "Last generation 3d printer, Mk4 improves on issues"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:None
+msgid "Picture of a Prusa Mk3"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:41
+msgid "Prusa MK4 ($799-$1099)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:43
+msgid "This printer is for anyone interested in consistency with an improved featureset. The Prusa MK4 is the successor to the MK3S+ with the same reliability and consistency hallmarks but adds newer features such as WiFi as well as being much faster and more user friendly. This machine is still in it's early stages of development and improvement as of 2023, and will surely make leaps and bounds in consistency, features, and software optimization as Prusa finds more issues and patches them."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:51
+msgid "Mk4 Features"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:52
+msgid "High Speed (Nearing comparison to BambuLab printers)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:55
+msgid "All-Metal Direct Drive Extruder with a planetary gearbox"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:56
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:92
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:128
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:160
+msgid "WiFi Printing capabilities and remote print monitoring"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:60
+msgid "Mk4 Drawbacks"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:61
+msgid "Cartesian kinematics make matching the speed of CoreXY printers difficult"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:None
+msgid "Picture of a Prusa Mk4"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:72
+msgid "BambuLab X1C ($1199-$1449)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:74
+msgid "This printer is for you want a no-compromises 3d printer that can handle pretty much anything you throw at it with incredible speed and reliability while using engineering-grade filaments. This printer comes at $1199 for just the printer and $1449 for the combo that includes BambuLab's multimaterial system which can handle 4 filament rolls at once."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:79
+msgid "This printer is **expensive** and is targeted towards advanced filaments. The P1P can print basic filaments such as PLA/PETG about as fast and well as the BambuLab X1C at half the price. If you have the budget for an X1C, it may be worth considering buying 2 P1Ps instead if you don't need all the bells and whistles the X1C has and plan to only print PLA/PETG."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:86
+msgid "X1C Features"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:87
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:124
+msgid "Extremely fast CoreXY motion system"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:89
+msgid "Full Color Touchscreen"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:90
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:126
+msgid "Removable Beds of All Surfaces"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:93
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:129
+msgid "256mm x 256mm x 256mm Print Volume"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:94
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:130
+msgid "Heated chamber allows for more advanced engineering materials"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:95
+msgid "LIDAR sensor for flow calibration and first layer quality checking"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:96
+msgid "Stock hardened hotend capable of most filled and abrasive filaments"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:97
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:131
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:162
+msgid "Automatic print failure detection"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:100
+msgid "X1C Drawbacks"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:101
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:135
+msgid "Replacement parts are proprietary from Bambu Lab (albeit well-priced)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:102
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:136
+msgid "Carbon Fiber rods can wear out over time"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:103
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:137
+msgid "Reliant on Bambu Lab for future firmware/software updates"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:104
+msgid "This printer doesn't shine if you don't use it for advanced filaments, and may not be worth the cost if you don't plan to"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:None
+msgid "Picture of a BambuLabs X1C"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:114
+msgid "BambuLab P1S ($699-$949)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:116
+msgid "If the X1C's frills such as LIDAR, touchscreen, and a hardened extruder didn't sound all that useful to you, the P1S could be a good option. You still get an enclosure and auxiliary cooling, while the P1P doesn't, which allows you to print filaments like ABS/ASA without difficulty, but this printer needs a fair few upgrades to print filled filaments and more advanced engineering filaments safely."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:123
+msgid "P1S Features"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:134
+msgid "P1S Drawbacks"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:None
+msgid "Picture of a BambuLabs P1S"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:147
+msgid "AnkerMake M5 ($699)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:149
+msgid "Anker's new entry into the 3d printer market, the AnkerMake M5, is a very reasonably priced printer for the features it brings. With print failure detection, speed printing capabilities, and an extremely friendly interface with almost no setup, the M5 is a great option."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:155
+msgid "M5 Features"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:156
+msgid "Cartesian Motion System optimized for speed"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:158
+msgid "Removable Bed"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:159
+msgid "Direct Drive Extruder"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:161
+msgid "235mm x 235mm x 250mm Print Volume"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:163
+msgid "Extremely friendly software and setup for new users"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:166
+msgid "M5 Drawbacks"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:167
+msgid "Replacement parts are proprietary from AnkerMake (albeit well-priced)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:168
+msgid "Reliant on Anker for future firmware/software updates"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:169
+msgid "Cartesian motion system limits speed, still doesn't match CoreXY machines at a similar price range"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:170
+msgid "PTFE Lined Hotend"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:171
+msgid "V wheel motion system can wear after long extended use"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:None
+msgid "Picture of a AnkerMake M5"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:182
+msgid "DIY Printers (Voron, HevOrt, VZBot)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:184
+msgid "For teams just getting into 3D printing or teams that haven't had experience with at least 2-3 other printers we would highly advise against a DIY printer. These printers are **projects** and take significant effort and upkeep, which make them a poor choice for a first or second printer."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:188
+msgid "If you want to take a deeper dive into 3D Printing and achieve both extreme speeds and quality, a DIY printer may be a good choice. DIY printers can be tailored to your specific needs and perform extremely well but are typically a huge time and financial commitment."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:194
+msgid "Features"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:195
+msgid "Most well-documented DIY Printers feature..."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:197
+msgid "Extremely fast CoreXY motion systems"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:200
+msgid "Direct Drive Extruders with All Metal Hotends"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:201
+msgid "Large Build Volumes (250mm^3 or more)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:202
+msgid "Klipper Firmware and live dashboards for print monitoring"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:203
+msgid "High customizability and a strong community that creates modifications"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:206
+msgid "Drawbacks"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:207
+msgid "Extremely complex to assemble, wire, and configure"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:208
+msgid "Have to source your own parts, no \"official\" place to buy from"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:209
+msgid "Huge time commitment"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:210
+msgid "Huge financial commitment (typically $1000+)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:None
+msgid "Picture of a Voron 2.4"
+msgstr ""

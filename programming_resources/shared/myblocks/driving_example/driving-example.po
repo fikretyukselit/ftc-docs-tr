@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/shared/myblocks/driving_example/driving-example.rst:2
+msgid "Driving Example"
+msgstr ""
+
+#: programming_resources/shared/myblocks/driving_example/driving-example.rst:4
+msgid "Here is the Java code (method only) for converting an **inches of driving** target into an **encoder counts** target. The conversion depends on the drive motors’ counts-per-rotation (CPR), and the diameter of the drive wheels. This example assumes 1:1 gear ratio between the motor and wheel."
+msgstr ""
+
+#: programming_resources/shared/myblocks/driving_example/driving-example.rst:12
+msgid "This method takes three inputs from the Blocks user, and **returns** one output (of type ``int`` or integer) to the regular Block that **calls** the myBlock."
+msgstr ""
+
+#: programming_resources/shared/myblocks/driving_example/driving-example.rst:16
+msgid "Notice the calculation uses the variable or **constant** named PI, from the inherited class Math. This holds the fixed numeric value 3.14159…."
+msgstr ""
+
+#: programming_resources/shared/myblocks/driving_example/driving-example.rst:20
+msgid "Here is an example of typical usage."
+msgstr ""
+
+#: programming_resources/shared/myblocks/driving_example/driving-example.rst:24
+msgid "Notice the ``(int)`` operator at the ``return`` command. This converts or **casts** the countsToDrive variable of type ``double`` to type ``int``, to be compatible with the required **return type**. Learn more about **type casting** `here <https://www.w3schools.com/java/java_type_casting.asp>`__ or `here <https://www.geeksforgeeks.org/type-conversion-java-examples/>`__."
+msgstr ""
+
+#: programming_resources/shared/myblocks/driving_example/driving-example.rst:31
+msgid "As programmer, you could modify this example in many ways, such as: - handle a **gear ratio** between the drive motors and wheels - the second and third parameters could be **‘hard-coded’** into the myBlock, if they will never change - those 2 variables could be initialized in a **non-myBlock method** and used by multiple myBlock methods in that same Java class"
+msgstr ""

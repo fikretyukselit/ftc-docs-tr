@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: manufacturing/index.rst:1
+#: manufacturing/index.rst:7
+msgid "Manufacturing"
+msgstr ""
+
+#: manufacturing/index.rst:1
+msgid "Manufacturing methods for the FIRST Tech Challenge."
+msgstr ""
+
+#: manufacturing/index.rst:1
+msgid "FIRST Tech Challenge, FTC Docs, Manufacturing"
+msgstr ""
+
+#: manufacturing/index.rst:9
+msgid "Manufacturing is an extremely important part of building a robot for the FIRST Tech Challenge. While Commercial-Off-The-Shelf parts can be used for the majority, and in some cases the entirety, of a robot, there are many times when a custom part is needed. This section will cover some of the most common manufacturing methods used in FTC for creating these parts. It is important to note that there are many different ways to manufacture parts, and this section will only contain those that are most commonly used."
+msgstr ""
+
+#: manufacturing/index.rst:15
+msgid "While a CAD model is not always needed to build a robot or part, it is often required when manufacturing custom parts. For this reason, it is recommended that a team design their robot (or at least the part that needs to be made) in a CAD software. For more information on CAD, see the :doc:`CAD Resources <../cad_resources/index>` section."
+msgstr ""
+
+#: manufacturing/index.rst:20
+msgid "Here are some manufacturing methods that are commonly used in FTC:"
+msgstr ""
+
+#: manufacturing/index.rst:22
+msgid "Prototyping (Proof-of-Concept, Testing) (Cardboard, Wood, Foam, etc.)"
+msgstr ""
+
+#: manufacturing/index.rst:23
+msgid ":doc:`3D Printing <3d_printing/index>` (Smaller parts, Prototyping) (Plastics)"
+msgstr ""
+
+#: manufacturing/index.rst:24
+msgid "Machining (Larger Parts, Plates) (Metal, Wood, Composites, Plastics)"
+msgstr ""
+
+#: manufacturing/index.rst:25
+msgid "Laser Cutting (Plates, Gears, etc.) (Wood, Composites, Plastics)"
+msgstr ""

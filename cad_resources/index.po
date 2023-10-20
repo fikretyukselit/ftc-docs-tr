@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cad_resources/index.rst:1
+#: cad_resources/index.rst:7
+msgid "CAD Resources"
+msgstr ""
+
+#: cad_resources/index.rst:1
+msgid "Computer Aided Design Resources for the FIRST Tech Challenge"
+msgstr ""
+
+#: cad_resources/index.rst:1
+msgid "FTC Docs, FIRST Tech Challenge, CAD, Resources"
+msgstr ""
+
+#: cad_resources/index.rst:9
+msgid "`Computer Aided Design (CAD) <https://en.wikipedia.org/wiki/Computer-aided_design>`__ and 3D animation software is used in *FIRST* Tech Challenge by teams to design and visualize complex systems prior to manufacturing. There are many software options for CAD and there's no way to list them all. Some software is provided free of charge, some software is provided for a fee, and some require subscriptions. However, many organizations provide free access to \"premium\" CAD software to *FIRST* teams."
+msgstr ""
+
+#: cad_resources/index.rst:17
+msgid "When looking for a CAD package, consider what computers the software will run on. Some CAD packages are desktop solutions and require a fairly competent computer with ample resources to run. Some CAD suppliers also provide cloud-based tools, which move the processing load onto cloud servers - these solutions often merely require an internet-connected computer with a web browser."
+msgstr ""
+
+#: cad_resources/index.rst:23
+msgid "Here are a few tools commonly used by teams:"
+msgstr ""
+
+#: cad_resources/index.rst:25
+msgid "Software for Beginners"
+msgstr ""
+
+#: cad_resources/index.rst:27
+msgid "`Autodesk TinkerCAD <https://www.tinkercad.com/>`__ (free) (desktop)"
+msgstr ""
+
+#: cad_resources/index.rst:28
+msgid "`FreeCAD <https://www.freecadweb.org/>`__ (free) (desktop)"
+msgstr ""
+
+#: cad_resources/index.rst:30
+msgid "Software for Intermediate Users"
+msgstr ""
+
+#: cad_resources/index.rst:32
+msgid ":doc:`Autodesk Fusion 360 <autodesk/autodesk>` (Free to *FIRST* teams) (desktop)"
+msgstr ""
+
+#: cad_resources/index.rst:33
+msgid ":doc:`Dassault Systemes 3DEXPERIENCE <solidworks/solidworks>` (Free to *FIRST* teams) (cloud)"
+msgstr ""
+
+#: cad_resources/index.rst:34
+msgid ":doc:`PTC OnShape <ptc/ptc>` (Free to *FIRST* teams) (Cloud)"
+msgstr ""
+
+#: cad_resources/index.rst:35
+msgid "`Trimble SketchUp <https://sketchup.com/>`__ (Free plans available) (desktop)"
+msgstr ""
+
+#: cad_resources/index.rst:37
+msgid "Software for Professional Users"
+msgstr ""
+
+#: cad_resources/index.rst:39
+msgid ":doc:`Autodesk Inventor <autodesk/autodesk>` (Free to *FIRST* teams) (desktop)"
+msgstr ""
+
+#: cad_resources/index.rst:40
+msgid ":doc:`Dassault Systemes Solidworks <solidworks/solidworks>` (Free to *FIRST* teams) (desktop)"
+msgstr ""
+
+#: cad_resources/index.rst:41
+msgid ":doc:`PTC Creo <ptc/ptc>` (Free to *FIRST* teams) (desktop)"
+msgstr ""

@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:2
+msgid "Blocks Reference Materials :bdg-warning:`Blocks`"
+msgstr ""
+
+#: programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:5
+msgid "Blocks Reference Manual"
+msgstr ""
+
+#: programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:7
+msgid "As you start to write more complicated op modes, you will need to use more features of the FIRST Tech Challenge software development kit (SDK). Bruce Schafer of the Oregon Robotics Tournament & Outreach Program (ORTOP) created a useful reference document that describes the programming blocks that are available with the Blocks Programming Tool:"
+msgstr ""
+
+#: programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:14
+msgid "`Blocks Programming Tool Reference Manual <http://www.ortop.org/ftc/BlocksProgramming/BlocksProgrammingReferenceManual.pdf>`__"
+msgstr ""
+
+#: programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:18
+msgid "Sample Op Modes"
+msgstr ""
+
+#: programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:20
+msgid "The Blocks Programming Tool has several built-in example op modes that demonstrate how to do different tasks with the FIRST Tech Challenge control system. As you create a new file, you can use the Sample dropdown list control to display a list of available sample op modes or templates:"
+msgstr ""
+
+#: programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:32
+msgid "Technology Forum"
+msgstr ""
+
+#: programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:34
+msgid "Registered teams can create user accounts on the FIRST Tech Challenge Community forum. Teams can use the forum to ask questions and receive support from the FIRST Tech Challenge community."
+msgstr ""
+
+#: programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:38
+msgid "The technology forum can be found at the following address:"
+msgstr ""
+
+#: programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:40
+msgid "https://ftc-community.firstinspires.org"
+msgstr ""
+
+#: programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:43
+msgid "REV Robotics Expansion Hub Documentation"
+msgstr ""
+
+#: programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:45
+msgid "`REV Robotics Expansion Hub Getting Started Guide <https://docs.revrobotics.com/duo-control/control-system-overview/expansion-hub-basics>`__"
+msgstr ""

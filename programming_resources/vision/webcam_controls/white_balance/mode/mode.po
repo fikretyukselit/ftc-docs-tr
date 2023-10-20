@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:2
+msgid "White Balance Control Mode"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:4
+msgid ":java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.WhiteBalanceControl.Mode`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:6
+msgid "This interface supports 3 values of WhiteBalanceControl.Mode:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:8
+msgid "AUTO"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:9
+msgid "MANUAL"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:10
+msgid "UNKNOWN"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:12
+msgid "To directly control the color balance temperature, set the webcam to Manual mode. Mode is managed with these WhiteBalanceControl methods:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:15
+msgid "setMode(WhiteBalanceControl.Mode.MODE)"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:16
+msgid "getMode()"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:18
+msgid "The Logitech C920 defaults to Auto mode for white balance control, and even reverts to Auto in a fresh session, after being set to Manual in a previous session. For other CameraControl settings, some webcams revert to a default value and some preserve their last commanded value."
+msgstr ""

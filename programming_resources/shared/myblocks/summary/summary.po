@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/shared/myblocks/summary/summary.rst:2
+msgid "Summary: Benefits of myBlocks"
+msgstr ""
+
+#: programming_resources/shared/myblocks/summary/summary.rst:4
+msgid "MyBlocks now provide access to the full range of Java in the Software Development Kit (SDK). Blocks programming can now perform tasks **previously unavailable** to Blocks-only teams. This now includes :ref:`External Libraries <programming_resources/shared/external_libraries_blocks/external-libraries-blocks:external libraries in onbot java and blocks>`."
+msgstr ""
+
+#: programming_resources/shared/myblocks/summary/summary.rst:11
+msgid "MyBlocks can neatly package previously **long or complex Functions** in Blocks."
+msgstr ""
+
+#: programming_resources/shared/myblocks/summary/summary.rst:14
+msgid "MyBlocks programming allows some team members to begin learning and using Java, contributing valuable new features. The other team members can continue learning and working in Blocks, producing the team’s official code. Nobody is held back, or left behind."
+msgstr ""
+
+#: programming_resources/shared/myblocks/summary/summary.rst:19
+msgid "MyBlocks can be created with **OnBot Java**, which runs on the RC phone or Control Hub. Building and testing are very fast. Many teams do not have easy access to Android Studio, for reasons including school computers that prevent software installation."
+msgstr ""
+
+#: programming_resources/shared/myblocks/summary/summary.rst:24
+msgid "By developing and sharing myBlocks, experienced teams could **help new teams** in a more direct way, beyond simply posting a link to their Java library. The *FIRST* Tech Challenge community might ultimately benefit from a curated repository for tested, well documented myBlocks.  Perhaps the “Blocks Store”?"
+msgstr ""

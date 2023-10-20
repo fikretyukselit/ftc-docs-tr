@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst:2
+msgid "Pan and Tilt"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst:4
+msgid "A webcam does not typically express pan and tilt values in *pixels*, the smallest unit of image capture by the webcam sensor. For example, the Logitech C920 and the Microsoft LifeCam VX-5000 have a range of +/-36,000 units, far greater than the pixel count in each axis."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst:9
+msgid "The webcam accepts pan and tilt as a pair of (x, y) values. Thus the SDK pan and tilt methods handle these values **only as a pair**, in a special class named PanTiltHolder. This class has two fields, named pan and tilt, of type integer."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst:14
+msgid "Here’s an example to illustrate using the basic methods:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst:22
+msgid "To retrieve values from the webcam:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst:30
+msgid "The above examples assume these objects already exist:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst:38
+msgid "The webcam may support minimum and maximum allowed pan/tilt paired values. Subject to the control object guidelines shown above, these can be retrieved as follows:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst:42
+msgid "``minPanTiltHolder = getMinPanTilt();``"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst:43
+msgid "``maxPanTiltHolder = getMaxPanTilt();``"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst:45
+msgid "There are no ``set()`` methods for min and max pan/tilt values; these are hard-coded in the webcam’s firmware. Note that firmware settings may vary among different versions of the same webcam model."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst:49
+msgid "These pan and tilt methods are called on a PtzControl object, as described above for exposure."
+msgstr ""

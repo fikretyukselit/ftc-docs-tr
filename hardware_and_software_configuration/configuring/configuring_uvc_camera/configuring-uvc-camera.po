@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:2
+msgid "Configuring an External UVC Camera and a Powered USB Hub"
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:7
+msgid "Game rules and in the Game Manual Part 1 have been modified to allow the use of USB Video Class (UVC) Compatible Cameras for computer vision-related tasks. Teams have the option of using an externally connected camera instead of the Android smartphone’s built-in camera for computer vision tasks."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:13
+msgid "The advantage of using an external camera is that the camera can be mounted in a location that is convenient for vision-related tasks while the Android Robot Controller can be mounted where it is convenient for Robot Controller-related tasks."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:18
+msgid "The disadvantage of using an external camera is there is additional complexity introduced with the USB-connected camera. An external camera adds costs and weight to a robot and it needs to be wired correctly to run properly."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:24
+msgid "What type of External Camera can be Used?"
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:26
+msgid "The system supports a “UVC” or USB Video Device Class cameras. Theoretically, if a camera is UVC compliant, then it should work with the system. However, there are a couple of recommended web cameras that have been tested with the FIRST Tech Challenge software and have been calibrated to work accurately with this software:"
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:32
+msgid "Logitech HD Webcam C310"
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:33
+msgid "Logitech HD Pro Webcam C920"
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:35
+msgid "Note that calibrating a UVC camera is an advanced task. Details on how to create a calibration file can be found in the comments of the *teamwebcamcalibrations.xml* file that is available as part of the ftc_app project folder (visit this `link <https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__ for an online copy of the file)."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:45
+msgid "USB Hub"
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:47
+msgid "Teams who would like to use an external camera will need a USB hub to connect their Android Robot Controller to the external camera and the REV Robotics Expansion Hub. To work properly, the USB hub should meet the following requirements:"
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:52
+msgid "Compatible with USB 2.0."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:53
+msgid "Supports a data transfer rate of 480Mbps."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:55
+msgid "Note that the Modern Robotics Core Power Distribution Module cannot be used for this task since its data transfer speed is not fast enough to work with the USB-connected webcam."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:59
+msgid "Also note that rule c(iii) permits the use of a powered USB hub to make this connection. If a team uses a powered USB hub, the power to operate the USB hub can only come from either of the following sources:"
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:63
+msgid "An externally connected USB 5V Battery Pack."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:64
+msgid "The 5V DC Aux power port of a REV Robotics Expansion Hub (note that this requires advanced skills to implement)."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:67
+msgid "FIRST has tested a few USB 2.0 powered hubs and recommends one from Anker. At the time this document was written, this hub was available from `Anker.com <https://www.anker.com/products/a7516>`__."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:73
+msgid "The Anker 4-port powered hub is convenient because it has a Micro USB port that is used to connect the hub to a 5V power source (highlighted with orange circle in figure below)."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:79
+msgid "This port allows a user to plug a standard USB type B Micro Cable into the hub, and then connect the other end of the cable (which has a USB Type A connector) into the output port of an external 5V USB battery pack. In the image below, the Anker 4 port hub is powered by a “limefuel” external 5V battery pack using a standard Type A to Type B USB Micro cable. Note the battery is highlighted by the yellow outline in the figure below."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:89
+msgid "A USB hub can also draw power from the 5V auxiliary ports on the REV Robotics Expansion Hub. This configuration requires that the user have a special cable that on one end can be plugged into the 5V Auxiliary port and on the other end can be plugged into the power port of the USB hub."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:96
+msgid "Note that teams can create this special cable using one end of a servo extension cable (to plug into the 5V aux port) and one end of a Micro USB cable (to plug into the Anker hub’s power port). **Creating this cable is an advanced task and should only be attempted by teams who have guidance from an adult mentor who has expertise in electronics and wiring! It is extremely important that the polarity is correct for this special cable. If the polarity is reversed it could damage your electronic equipment.**"
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:106
+msgid "Sample Op Modes"
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:108
+msgid "There are sample Blocks and Java Op Modes that demonstrate how to use the external UVC web camera for Vuforia or TensorFlow operations. Before a team can use the external UVC camera, a configuration file must be configured with the external camera defined as one of the USB-connected devices."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:114
+msgid "Once a valid configuration file has been defined and activated, the programmer can use the external UVC camera, instead of the internal Android cameras, for vision-related tasks."
+msgstr ""

@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cad_resources/ptc/ptc.rst:2
+msgid "PTC CAD Resources"
+msgstr ""
+
+#: cad_resources/ptc/ptc.rst:4
+msgid "PTC is proud to join forces with *FIRST* to empower the engineers and innovators of tomorrow! Through PTC Education, teams can gain free software and services, including Onshape, Creo, Mathcad, Windchill, and Vuforia, easy-to-use training curriculum, and financial grants to select teams. PTC’s product development software will enable collaboration, increase efficiency, and enhance accuracy during the robot design process."
+msgstr ""
+
+#: cad_resources/ptc/ptc.rst:12
+msgid "Obtaining PTC Software"
+msgstr ""
+
+#: cad_resources/ptc/ptc.rst:14
+msgid "PTC makes software available to all *FIRST* teams via their *FIRST* `PTC Student Download Page <https://www.ptc.com/en/education/student/first>`__."
+msgstr ""
+
+#: cad_resources/ptc/ptc.rst:17
+msgid "PTC's cloud-based CAD tool, `OnShape <https://www.onshape.com/en/>`__, merely requires a `FREE Education account <https://www.onshape.com/en/education/>`__ available to all *FIRST* teams (each student/mentor on the team needs their own account, mentors/coaches should sign up as an \"Educator\"). Once you're signed up for a free account, ALL of `PTC's OnShape training materials <https://learn.onshape.com/>`__ are now available through the OnShape login. PTC also `provides access to their desktop-based CAD tool, Creo <https://www.ptc.com/en/products/education/free-software/standalone-educator>`__, free to *FIRST* teams."
+msgstr ""
+
+#: cad_resources/ptc/ptc.rst:28
+msgid "PTC Onshape Training Videos"
+msgstr ""
+
+#: cad_resources/ptc/ptc.rst:30
+msgid "*FIRST* Tech Challenge specific Training Videos"
+msgstr ""
+
+#: cad_resources/ptc/ptc.rst:32
+msgid "`Using the FIRST Tech Challenge Library with Onshape <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`__"
+msgstr ""
+
+#: cad_resources/ptc/ptc.rst:34
+msgid "Select PTC Learning Pathway Training Series (available on OnShape login)"
+msgstr ""
+
+#: cad_resources/ptc/ptc.rst:36
+msgid "`CAD Basics Learning Path Training <https://learn.onshape.com/learn/learning-path/introduction-to-cad>`__"
+msgstr ""
+
+#: cad_resources/ptc/ptc.rst:37
+msgid "`OnShape Fundamentals Training <https://learn.onshape.com/learn/learning-path/onshape-fundamentals-cad>`__"
+msgstr ""

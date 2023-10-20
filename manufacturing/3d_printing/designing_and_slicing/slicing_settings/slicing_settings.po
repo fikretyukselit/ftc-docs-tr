@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:2
+msgid "Explanation of Slicer Settings"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:5
+msgid "Layer Height"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:7
+msgid "Layer height is the biggest factor affecting quality, speed, and (somewhat) strength, if you are concerned about tolerances and quality, a good starting point is 50% of your nozzle width (typically 0.4mm, so a 0.2mm width at 50%). On the other hand if you want more speed, at the cost of some strength, opt for up to 75% of your nozzle width instead (up to 0.32mm for a 0.4mm nozzle)."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:None
+msgid "An image visualizing layer lines"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:19
+msgid "Walls"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:21
+msgid "Walls refer to how many solid \"outer\" layers a print has a we'd recommend anywhere from 3-5 walls for strong prints. Additionally, its a good idea for all prints is to turn on an alternating extra shell. This interlocks the walls with the infill more, making the infill stronger."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:None
+msgid "An image visualizing shell count"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:36
+msgid "An image visualizing alternating extra shell"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:36
+msgid "While sometimes a tough setting to find, this alternating extra shell interlocks with infill and considerably impacts strength."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:41
+msgid "Infill"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:42
+msgid "Infill is a measure of how solid your part is. This can vary based on desired strength. Infill patterns are the pattern taken by the percentage of infill that you specify. For Infill patterns it is recommended to use **3D infill patterns** such as \"Cubic\" and \"Gyroid\". 2D infill patterns such as \"Grid\" don't have uniform stability in all directions."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:None
+msgid "An image showing various infill patterns available"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:54
+msgid "Supports"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:56
+msgid "3D Printers are amazing, but all machines unfortunately, have limitations, and with 3D printers that means, you can't print melted plastic in midair and expect it to stay there. This is where supports come in. Supports are excess printed material designed to be broken away after the print. Generally, we want to avoid support material by designing around it. But if not possible, it's a good idea to use \"Support Enforcers\"/\"Paint On Supports\" to closely control what areas you know need support. This makes cleanup after a print a lot easier."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:61
+msgid "If you want more info on supports, check out Prusa's guide `here! <https://help.prusa3d.com/en/article/support-material_1698>`_"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:None
+msgid "An image showing support structures (Prusa)"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:72
+msgid "Recommended Wall and Infill Settings"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:74
+msgid "While not applicable for all situations, this is some general guidance on wall and infill strength for PLA parts."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:76
+msgid "**Purely Aesthetic Parts**: 5-10% Infill, 2 alternating 3 Walls"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:77
+msgid "**Typical Use Parts**: 10-20% Infill, 3 alternating 4 Walls"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:78
+msgid "**Load Bearing and Structural Parts**: 40-60% Infill, 4 alternating 5 Walls"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:79
+msgid "**Fully Structural and Integral Parts (Take Shocks when Robot is dropped)**: 80-100% Infill, 4 alternating 5 Walls"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:81
+msgid "Depending on how well your printer is tuned, 100% infill can be weaker than slightly lower infill. 90% infill is a recommended maximum to leave space for overextrusion."
+msgstr ""

@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: control_hard_compon/rc_components/index.rst:1
+msgid "FTC Robot Controller Overview, FTC Docs"
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:1
+msgid "A Visual Overview of the FTC Robot Controller"
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:1
+msgid "FTC, FIRST Tech Challenge, RC, Robot Controller, Control Hub, Expansion Hub"
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:8
+msgid "Robot Controller Overview"
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:10
+msgid "These images represent a basic connection diagram for the components that have typically been included in a standard Robot Starter Kit plus the components purchased from the *FIRST* Storefront (demonstrating components from the REV and Tetrix starter kits, along with the Electronics kit). These configurations show sample connections, and in no way represent the only possible way of connecting these components.  In both diagrams is an extra optional REV Expansion Hub that has NOT been included with standard starter kits nor electronics kits; it is included in these diagrams as a sample of how to connect an additional optional REV Expansion Hub if one is available and desired."
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:21
+msgid "Click on the headers below to switch between the different control system configuration diagrams."
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:0
+msgid "Control Hub"
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:28
+msgid ":download:`Control Hub B1 - Basic Config<files/B1.pdf>`"
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:0
+msgid "Basic Control Hub RC Diagram"
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:34
+#: control_hard_compon/rc_components/index.rst:44
+#: control_hard_compon/rc_components/index.rst:54
+#: control_hard_compon/rc_components/index.rst:64
+msgid "Diagrams courtesy of FRC Team 3161 and Stefen Acepcion"
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:38
+msgid ":download:`Control Hub B2 - Advanced Config<files/B2.pdf>`"
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:0
+msgid "Advanced Control Hub RC Diagram"
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:0
+msgid "Android Phone / Hub"
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:48
+msgid ":download:`Android Phone A1 - Basic Config<files/A1.pdf>`"
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:0
+msgid "Basic Android Phone RC Diagram"
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:58
+msgid ":download:`Android Phone A1 - Advanced Config<files/A2.pdf>`"
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:0
+msgid "Advanced Android Phone RC Diagram"
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:0
+msgid "License"
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:68
+msgid ":download:`License and Attribution<../license/sa_license.pdf>`"
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:0
+msgid "License Info"
+msgstr ""
+
+#: control_hard_compon/rc_components/index.rst:74
+msgid "Diagram courtesy of FRC Team 3161 and Stefen Acepcion"
+msgstr ""

@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/shared/pid_coefficients/pid-coefficients.rst:2
+msgid "Changing PID Coefficients"
+msgstr ""
+
+#: programming_resources/shared/pid_coefficients/pid-coefficients.rst:4
+msgid "The REV Robotics Expansion Hub allows a user to change the PID coefficients used for closed loop motor control. The PID coefficients are channel and mode specific. Note that the Modern Robotics and Hitechnic DC motor controllers do not support adjustable PID coefficients."
+msgstr ""
+
+#: programming_resources/shared/pid_coefficients/pid-coefficients.rst:10
+msgid "The following op mode uses an extended or enhanced DcMotor class (called “DcMotorEx”) to change the PID coefficients for the RUN_USING_ENCODER mode for a motor named “left_drive”. The op mode uses the setPIDCoefficients method of the DcMotorEx class to change the values. This method is not available with the standard DcMotor class."
+msgstr ""
+
+#: programming_resources/shared/pid_coefficients/pid-coefficients.rst:16
+msgid "Note that changes made to the PID coefficients do not persist if you power cycle the REV Robotics Expansion Hub. If you need your changes to the PID to persist, you should consider modifying your op mode to store state information on the Android phone. The Android Developer website has a tutorial on how to save data from your app onto an Android device `here <https://developer.android.com/training/data-storage>`__"
+msgstr ""
+
+#: programming_resources/shared/pid_coefficients/pid-coefficients.rst:83
+msgid "Note that the actual change of the PID coefficients occurs on the motor controller that is controlling the selected motor. An alternate way to adjust the PID coefficients is to use the extended/enhanced PID-related methods of the DcMotorControllerEx class:"
+msgstr ""

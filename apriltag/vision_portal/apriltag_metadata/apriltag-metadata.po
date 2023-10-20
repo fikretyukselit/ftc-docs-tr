@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:2
+msgid "AprilTag Metadata"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:7
+msgid "A Library tag stores **Metadata**, a collection of at least 4 fields (of these Blocks/Java types):"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:10
+msgid "ID code (number/``int``)"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:11
+msgid "tag name (text/``String``)"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:12
+msgid "tag size (number/``double``)"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:13
+msgid "unit for tag size and estimated position (``DistanceUnit INCH, MM, CM, METER``)"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:15
+msgid "Two optional Metadata fields are described at the **Advanced Use** page."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:17
+msgid "The full use of Metadata Blocks and Java methods is covered at the **Library** page.  For now it's enough to know the 4 basic elements of Metadata."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:21
+msgid "Tag Contents"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:23
+msgid "The SDK 8.2 Sample OpModes use AprilTags with these Metadata values:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:25
+msgid "``583, Nemo, 4, DistanceUnit.INCH``"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:26
+msgid "``584, Jonah, 4, DistanceUnit.INCH``"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:27
+msgid "``585, Cousteau, 6, DistanceUnit.INCH``"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:28
+msgid "``586, Ariel, 6, DistanceUnit.INCH``"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:30
+msgid "These four are available with the ``getSampleTagLibrary()`` Block or Java method."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:33
+msgid "After Kickoff in September 2023, the CENTERSTAGE game tags will be available with ``getCenterStageTagLibrary()``.  That Library currently contains 3 placeholder tags: MEOW (ID 0), WOOF (ID 1) and OINK (ID 2)."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:37
+msgid "Before and after Kickoff, a call to ``getCurrentGameTagLibrary()`` will provide **both sets** of tags."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:40
+msgid "These three Libraries are discussed further at the **Library** page."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:43
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:0
+msgid "Tag Names"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:45
+msgid "A tag name, whether default or custom, can be retrieved as follows:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:0
+msgid "Blocks"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:56
+msgid "Example of Reading AprilTag Names"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:0
+msgid "Java"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:61
+msgid "Example of retrieving AprilTag Name"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:69
+msgid "As with tag ID code, the tag name is usually retrieved inside a ``for()`` loop, for immediate processing or stored for later use.  See the **Initialization** page for sample ``for()`` loop code."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:73
+msgid "Unlike tag ID code, a detected AprilTag might have **no tag name** -- if it was not placed into the Library by default or with the custom Builder pattern."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:76
+msgid "To avoid logic errors, an OpMode can check the Metadata for a **null** condition before attempting to process a tag name.  This is illustrated in these Sample OpModes:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:80
+msgid "Blocks: ``ConceptAprilTag``"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:81
+msgid "Java: ``ConceptAprilTag.java``"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:85
+msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
+msgstr ""

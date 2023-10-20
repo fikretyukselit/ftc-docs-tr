@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:2
+msgid "Connecting a Motor to the Hub"
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:4
+msgid "The Hub can drive up to four (4) 12V DC motors per Hub. The Hub uses a type of electrical connector known as a 2-pin JST VH connector. Many of the FIRST-approved 12V DC motors are equipped with Anderson Powerpole connectors. An adapter cable can be used to connect the Anderson Powerpole connectors to the Hub motor port (see `FIRST Tech Challenge Robot Wiring Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf>`__ for more information)."
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:18
+msgid "For the examples in this tutorial, *FIRST* recommends that the user build a simple rig to secure the motor in place and prevent it from moving about during the test runs. The image above shows a Tetrix motor installed in a rig built with a Tetrix motor mount and some Tetrix C-channels. A gear was mounted on the motor shaft to make it easier for the user to see the rotation of the shaft."
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:25
+msgid "Note that it will take an estimated 2.5 minutes to complete this task."
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:29
+msgid "Connecting a 12V Motor to the Hub Instructions"
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:31
+msgid "1. Connect the Anderson Powerpole end of the motor's power cable to the Powerpole end of the Anderson to JST VH adapter cable."
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:39
+msgid "2. Connect the other end of the Anderson to JST VH adapter cable into the motor port labeled \"0\" on the Hub."
+msgstr ""

@@ -1,0 +1,276 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:2
+msgid "Mid-Range Printers ($300-$600 USD)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:5
+msgid "AnkerMake M5C ($399)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:7
+msgid "Anker's budget 3d printing machine, the AnkerMake M5C, is an absolute bargain for the features and speed it brings. This printer has speed printing capabilities and an extremely friendly interface with almost no setup. This is one of the cheapest printers that can reach 0.5m/s speeds while printing, which alone makes it stand out."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:12
+msgid "M5C Features"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:13
+msgid "Cartesian Motion System optimized for speed"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:14
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:45
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:86
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:119
+msgid "Auto Bed Leveling"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:15
+msgid "Removable Bed"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:16
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:88
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:128
+msgid "All-Metal Direct Drive Extruder"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:17
+msgid "WiFi Printing capabilities"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:18
+msgid "220mm x 220mm x 250mm Print Volume"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:19
+msgid "Extremely friendly software and setup for new users"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:22
+msgid "M5C Drawbacks"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:23
+msgid "Replacement parts are proprietary from AnkerMake (albeit well-priced)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:24
+msgid "Reliant on Anker for future firmware/software updates"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:25
+msgid "Limited on speed compared to CoreXY, but still has unrivaled speed at this price and availability"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:26
+msgid "No screen on the printer, all monitoring must be done digitally"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:27
+msgid "V wheel motion system can wear after long extended use"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:None
+msgid "Picture of a AnkerMake M5C"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:37
+msgid "Prusa Mini ($429)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:39
+msgid "If you're ok with paying a premium and getting a smaller build volume in exchange for a printer that just works every time, the Prusa Mini is a great option, as Prusa has had millions of hours running these machines. Just about every issue with this printer has been found, patched, and pushed to the consumer."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:44
+msgid "Prusa Mini Features"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:46
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:120
+msgid "Removable Spring Steel Sheets"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:47
+msgid "Prusa's consistency guarantee"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:48
+msgid "Open Source Hardware"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:49
+msgid "Easily Transportable"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:50
+msgid "180mm x 180mm x 180mm Print Volume"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:53
+msgid "Prusa Mini Drawbacks"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:54
+msgid "Premium price"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:55
+msgid "Cantilever/unsupported X axis"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:56
+msgid "Lead times due to printer desirability"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:57
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:137
+msgid "No stock network capability"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:59
+msgid "You can now order Prusa printers from either their headquarters in Czechia or their subsidiary and sole authorized reseller **PrintedSolid**, based in Delaware. If you live in the USA and plan to order a Prusa printer, save yourself the headache of customs and long shipping times and order from their USA subsidiary."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:None
+msgid "Picture of a Prusa Mini"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:71
+msgid "BambuLab P1P ($599)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:73
+msgid "Built for speed by BambuLab, the P1P is a CoreXY machine with well engineered proprietary hardware and software. A machine that is proving very reliable for many despite BambuLab's short time in the 3d printer marketplace so far, the P1P is an amazing mid range option with a lot of manufacturing capability for it's cost. This printer is also compatible with BambuLab's multimaterial system, and can be upgraded to their new offering, the P1S, for just 150$ if your needs eventually outgrow the P1P."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:79
+msgid "This printer is a PLA workhorse, being able to print it about as fast and well as the BambuLab X1C at half the price. Even if you have the budget for an X1C, it may be worth considering buying 2 P1Ps instead if you don't need all the bells and whistles the X1C has and plan to only print PLA/PETG."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:84
+msgid "P1P Features"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:85
+msgid "Extremely fast CoreXY motion system"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:87
+msgid "Removable Beds of All Surfaces"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:89
+msgid "WiFi Printing capabilities and remote print monitoring"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:90
+msgid "256mm x 256mm x 256mm Print Volume"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:91
+msgid "Automatic print failure detection"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:94
+msgid "P1P Drawbacks"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:95
+msgid "Replacement parts are proprietary from Bambu Lab (albeit well-priced)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:96
+msgid "Carbon Fiber rods can wear out over time"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:97
+msgid "Reliant on Bambu Lab for future firmware/software updates"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:None
+msgid "Picture of a BambuLabs P1P"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:107
+msgid "Creality Ender-3 S1/Pro/Plus ($379-$549)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:109
+msgid "If you want a printer that can do most things well at a reasonable price, the Ender-3 S1 is a good fit for you. It has a standard build volume but is packed with pretty much every modern and quality of life upgrade installed out of the box, although you are paying for this premium. Additionally, it has a similar community backing to that of the original Ender-3 series due to similarities between the S1s and the originals."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:116
+msgid "S1 Features"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:117
+msgid "All Ender 3 S1s have at least:"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:121
+msgid "Direct Drive Extruder"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:122
+msgid "Built in Belt Tensioners"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:123
+msgid "Dual Z-Axis"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:124
+msgid "220mm x 220mm x 270mm Print Volume"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:126
+msgid "The S1 Pro also has:"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:130
+msgid "The S1 Plus has:"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:132
+msgid "300mm x 300mm x 300mm Print Volume"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:135
+msgid "S1 Drawbacks"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:136
+msgid "PTFE Lined Hotend on Normal and Plus Versions"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:138
+msgid "Speed limited compared to other printers at this price range"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:145
+msgid "Picture of an Ender 3 S1"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:145
+msgid "This is the Ender 3 S1 base model."
+msgstr ""

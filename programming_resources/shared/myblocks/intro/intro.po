@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/shared/myblocks/intro/intro.rst:2
+msgid "Introduction"
+msgstr ""
+
+#: programming_resources/shared/myblocks/intro/intro.rst:4
+msgid "This tutorial shows how to make **custom Blocks**, to be used in regular Blocks programs. These **“myBlocks”** are programmed in Java, with OnBot Java or Android Studio."
+msgstr ""
+
+#: programming_resources/shared/myblocks/intro/intro.rst:13
+msgid "sample myBlock, return void"
+msgstr ""
+
+#: programming_resources/shared/myblocks/intro/intro.rst:13
+msgid "sample myBlock: operate a servo, no value returned"
+msgstr ""
+
+#: programming_resources/shared/myblocks/intro/intro.rst:17
+msgid "A myBlock can add **advanced capability** previously available only to teams using all-Java code. Or, a single myBlock can serve as a **‘super-Function’**, containing robot instructions that previously needed many regular Blocks. Now your team’s Blocks code can be more powerful, and simpler!"
+msgstr ""
+
+#: programming_resources/shared/myblocks/intro/intro.rst:29
+msgid "sample myBlock, return encoder counts"
+msgstr ""
+
+#: programming_resources/shared/myblocks/intro/intro.rst:29
+msgid "sample myBlock: return encoder target value based on inputs"
+msgstr ""
+
+#: programming_resources/shared/myblocks/intro/intro.rst:31
+msgid "Also, myBlocks programming allows some team members to begin learning and using Java, contributing valuable new features. The other team members can continue learning and working in Blocks, producing the team’s official code. Nobody is held back, or left behind."
+msgstr ""
+
+#: programming_resources/shared/myblocks/intro/intro.rst:36
+msgid "Hats off to Google engineer `Liz Looney <https://github.com/lizlooney>`__ for this major development!"
+msgstr ""
+
+#: programming_resources/shared/myblocks/intro/intro.rst:40
+msgid "Notes on Java"
+msgstr ""
+
+#: programming_resources/shared/myblocks/intro/intro.rst:42
+msgid "This tutorial builds myBlocks with :ref:`OnBot Java <programming_resources/onbot_java/onbot-java-tutorial:onbot java programming tutorial>`, a programming tool running on the Control Hub or Robot Controller (RC) phone. Students already using :ref:`Android Studio <programming_resources/android_studio_java/android-studio-tutorial:android studio programming tutorial>` can easily follow the same programming."
+msgstr ""
+
+#: programming_resources/shared/myblocks/intro/intro.rst:47
+msgid "This tutorial does not teach `Java <https://en.wikipedia.org/wiki/Java_(programming_language)>`__ or OnBot Java (OBJ), beyond the bare minimum needed for basic myBlocks."
+msgstr ""

@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:2
+msgid "Power Distribution"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:5
+msgid "Robot Main Battery"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:14
+msgid "TETRIX 12V Battery"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:0
+msgid "W39057"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:25
+msgid "TETRIX (W39057, formally 739023)"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:31
+msgid "MATRIX 12V Battery"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:0
+msgid "14-0014"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:42
+msgid "Modern Robotics/MATRIX (14-0014)"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:48
+msgid "REV 12V Battery"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:0
+msgid "REV-31-1302"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:59
+msgid "REV Robotics (REV-31-1302)"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:61
+msgid "The main power of a robot comes from one 12v battery. The battery may be one of the batteries shown above. Refer to section ``<RE03>`` in the :ref:`Game Manual Part 1<manuals/game_manuals/game_manuals:game manuals>` for exact information on allowed batteries. Note that it is typically allowed by ``<RE15>`` to replace the connector on the batteries, provided the in-line fuse on the battery is preserved."
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:69
+msgid "Be sure to remove the 20A fuse from the in-line fuse holder prior to cutting any wires/connectors if/when replacing the factory default battery connector."
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:73
+msgid "Main Power Switch"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:82
+msgid "REV Power Switch"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:0
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:0
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:0
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:0
+msgid "REV-31-1387"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:93
+msgid "REV (REV-31-1387)"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:99
+msgid "TETRIX Power Switch"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:110
+msgid "TETRIX (part # W39129)"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:116
+msgid "MATRIX Power Switch"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:127
+msgid "MATRIX (part #50-0030)"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:130
+msgid "One Main Power Switch must control all power provided by the Main Battery. It along with its label should be placed in accordance to :ref:`Game Manual Part 1<manuals/game_manuals/game_manuals:game manuals>`. The legal power switches are shown above. ``<RE01>``"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:135
+msgid ":download:`Power Switch Label <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/power-button-labels.pdf>`"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:138
+msgid "Power Distribution Block"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:147
+msgid "REV XT30 Power Distribution Block"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:0
+msgid "REV-31-1293"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:158
+msgid "REV (REV-31-1293)"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:160
+msgid "Power Distribution Blocks help to distribute the power to devices such as Control Hubs, SPARKminis, and more. See :ref:`Game Manual Part 1<manuals/game_manuals/game_manuals:game manuals>` for a description of legal Power Distribution methods. The REV XT30 Power Distribution Block shown is only one option for distributing power, and is not the only legal device for power distribution."
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:168
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:177
+msgid "REV Servo Power Module"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:0
+msgid "REV-31-1144"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:188
+msgid "REV (REV-11-1144)"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:190
+msgid "This is an electronic device that boosts the power supplied to 3-wire servos. A REV Servo Power Module has 6 input servo ports and 6 matching output ports. It draws power from a 12V source and provides 6V power to each output servo port. A REV Servo Power Module can provide up to 15A of current across all output servo ports for a total of 90 Watts of power per module."
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:197
+msgid "Commercial USB Battery Pack"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:206
+msgid "USB Battery Pack"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:217
+msgid "Anker Battery Pack"
+msgstr ""
+
+#: control_hard_compon/rc_components/power_distr/power-distr.rst:219
+msgid "A commercial USB battery pack is an auxiliary power source that can be used in specific situations in accordance with the :ref:`Game Manuals<manuals/game_manuals/game_manuals:game manuals>`"
+msgstr ""

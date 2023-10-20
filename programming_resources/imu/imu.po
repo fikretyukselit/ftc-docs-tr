@@ -1,0 +1,1160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/imu/imu.rst:2
+msgid "Universal IMU Interface"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:7
+msgid "In September 2022, REV Robotics began shipping `Control Hubs <https://www.revrobotics.com/rev-31-1595/>`__ with a different internal Inertial Measurement Unit (IMU). The new IMU chip is designated `BHI260AP <https://www.bosch-sensortec.com/products/smart-sensor-systems/bhi260ap/>`__, replacing the existing Hub’s IMU chip `BNO055 <https://www.bosch-sensortec.com/products/smart-sensors/bno055/>`__.  Both are from Bosch Sensortec. An IMU can measure many aspects of device motion; this explanatory document focuses primarily on **rotation**."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:16
+msgid "The `Software SDK <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__ **version 8.1** introduced a **universal interface** that supports both the BHI260AP and BNO055 IMU. This basic tutorial introduces some new features:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:21
+#: programming_resources/imu/imu.rst:1180
+msgid "robot configuration allows selection of IMU type"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:22
+msgid "universal classes and methods supporting both IMU types"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:23
+#: programming_resources/imu/imu.rst:1181
+msgid "three ways to specify Hub mounting orientation on the robot"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:25
+msgid "Teams wanting to use the newer IMU are required to:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:27
+msgid "use SDK 8.1 or newer"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:28
+msgid "update the Control Hub OS to 1.1.3 or newer."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:30
+msgid "However **all teams** are encouraged to begin using the universal IMU classes and methods for **new** Blocks and Java code. And, migrating **existing code** would allow you to switch easily (and perhaps urgently) to a new Control Hub during the season."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:35
+msgid "Don’t know which IMU you have? Check the **Manage** page under ``Program & Manage`` in any of these places:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:38
+msgid "connected Driver Station (DS) app"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:39
+msgid "connected computer’s Chrome browser, at ``http://192.168.43.1:8080`` (Control Hub) or ``http://192.168.49.1:8080`` (RC phone)"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:40
+msgid "REV Hardware Client (when Hub LED is green)"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:42
+msgid "Each Hub’s IMU type is listed there, as of SDK 8.0."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:49
+msgid "2-hub display"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:49
+msgid "Sample Control Hub and Expansion Hub display"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:52
+msgid "*Reminder: REV Expansion Hubs purchased after December 2021 have no internal IMU.*"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:55
+msgid "Do you have existing OpModes using the original IMU? Your code can run unchanged, using Hubs with the BNO055. The new SDK 8.1 fully supports legacy Blocks and Java code using classes and methods for the BNO055 IMU."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:59
+msgid "The SDK 8.1 README provides more technical background:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "Unlike the old ``BNO055IMU`` interface, which only worked correctly when the"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "REV Hub was mounted flat on your robot, the ``IMU`` interface allows you to"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "specify the orientation of the REV Hub on your robot. It will account for"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "this, and give you your orientation in a Robot Coordinate System, instead of"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "a special coordinate system for the REV Hub. As a result, your pitch and yaw"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "will be 0 when your *robot* is level, instead of when the REV Hub is level,"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "which will result in much more reliable orientation angle values for most"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "mounting orientations."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:0
+msgid "..."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "If you have calibrated your BNO055, you can provide that calibration data to"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "the new ``IMU`` interface by passing a ``BNO055IMUNew.Parameters`` instance"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "to ``IMU.initialize()``."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "Because of the new robot-centric coordinate system, the pitch and roll"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "angles returned by the ``IMU`` interface will be different from the ones"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "returned by the ``BNO055IMU`` interface. When you are migrating your code,"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "pay careful attention to the documentation."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:80
+msgid "Potential Usage"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:82
+msgid "*FIRST* Tech Challenge robots drive mostly on a flat playing field, typically using the IMU to monitor or control **Heading** (Yaw or Z-angle)."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:85
+msgid "Heading is preserved between OpMode runs, unless the robot or Robot Controller (RC) app are restarted. This can be useful between Autonomous and TeleOp. Heading can be reset during an OpMode, as discussed below."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:89
+msgid "*Heading can drift slowly over time. An absolute reference is not available from gravity or from a magnetometer, which can be affected by nearby motors. This ‘Yaw drift’ is discussed below.*"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:93
+msgid "The IMU can help with more than Heading! Some *FIRST* Tech Challenge games have placed robots on **tilted surfaces**:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:None
+msgid "previous games 1"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:None
+msgid "previous games 2"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:106
+msgid "Sample images from previous games utilizing tilted surfaces"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:108
+msgid "(Block Party!, *FIRST* RES-Q, Relic Recovery, Face Off!, Get Over It!)"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:110
+msgid "Such fields, and special circumstances in **any** *FIRST* Tech Challenge game, may cause teams to seek IMU readings for **Pitch** and **Roll** angles."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:113
+msgid "Examples might include:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:115
+msgid "robot’s left wheels are raised, on an obstacle"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:116
+msgid "robot is tilted forward on its front 4 wheels (of 6-wheel West Coast Drive)"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:117
+msgid "robot has tipped over (!)"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:118
+msgid "robot’s secondary Expansion Hub (with IMU) is mounted on a tilting mechanism"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:120
+msgid "The Software SDK can also provide values for **angular velocity**, which is the rate of change (degrees per second) for Roll, Pitch or Yaw."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:123
+msgid "Let’s get started!"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:126
+msgid "Configure IMU"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:128
+msgid "Robot configuration of the IMU is **automatic**, and shouldn’t need changes. But here’s how to confirm or rename your configured IMU."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:131
+msgid "In a connected DS app, touch the 3-dots icon at top right, then touch ``Configure Robot``. For any new or existing Configuration, touch ``Control Hub Portal``, then select the Hub with the IMU you want to use. Typically this will be the Control Hub, whether old or new."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:141
+msgid "IMU Robot Configuration"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:141
+msgid "REV IMU Robot Configuration Validation"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:143
+msgid "**Yellow**: The internal IMU is (always) connected at I2C Bus 0, Port 0.  If you want another I2C device also on Bus 0, plug it into the Hub and use the ``Add`` button."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:147
+msgid "**Green**: The default IMU type shown will reflect the actual unit in this Hub; fix this only if it was incorrectly modified. Your IMU OpModes **require a correct choice here**."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:151
+msgid "**Purple**: The default device name is “imu”, used by all Sample OpModes for Blocks and Java. You may enter a custom name here, but you must then **update** all your OpModes that reference the IMU."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:155
+msgid "When done, **save** and **activate** this configuration."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:157
+msgid "*If a Blocks OpMode is open at the computer’s programming screen, close and re-open that OpMode to capture this updated configuration. Blocks are provided only for devices in the configuration that’s active*\\  **upon opening**\\  *an OpMode.*"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:163
+msgid "Axes Definition"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:165
+msgid "Robot orientation is defined using the Robot Coordinate System, with 3 axes that are **orthogonal** (at 90 degrees to each other), with origin inside the robot."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:169
+msgid "You must decide which face or direction is **“forward”** on your robot (which could be round!)."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:173
+msgid "Placing a tape label “FRONT” at the **team-agreed front face** or front edge of the robot can avoid confusion later – really!"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:176
+msgid "Heading, or Yaw, is the measure of rotation about the Z axis, which points **up** toward the ceiling."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:179
+msgid "Pitch is the measure of rotation about the X axis, which points **out the right side** of the robot."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:182
+msgid "Roll is the measure about the Y axis, which points **out the front** of the robot."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:185
+msgid "*These are Robot axes, different than (and not aligned with) the Hub axes used by the legacy* ``BNO055IMU`` *driver.*"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:188
+msgid "Rotation follows the traditional **right-hand rule**: with the thumb pointing along the positive axis, the fingers curl in the direction of **positive** rotation."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:193
+msgid "*Fun fact: the IMU is located approximately under the word “PROUD”, near the lower right corner of the Hub.*"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:196
+msgid "This tutorial will **not** discuss the *FIRST* Tech Challenge `Field Coordinate System <https://ftc-docs.firstinspires.org/en/latest/game_specific_resources/field_coordinate_system/field-coordinate-system.html>`__. Your OpModes might relate robot orientation to the overall field or `‘global coordinates’ <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Vuforia-for-Blocks#vuforia-introduction>`__ for navigation, but that’s beyond the focus here on using the IMU."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:204
+msgid "Physical Hub Mounting"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:206
+msgid "Under SDK 8.1, you can specify the **physical orientation** of the Hub on the robot. This allows you to receive IMU angle values expressed in **robot axes**, useful for understanding and managing the robot’s movement."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:211
+msgid "Before jumping into programming, let’s discuss your options for physically mounting the Hub on the robot. In general, the Hub’s mounting can be considered **Orthogonal** or **Non-Orthogonal**."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:216
+msgid "Orthogonal Mounting"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:218
+msgid "Imagine a **cube** anywhere on your robot, parallel to the floor, with one flat side facing exactly towards the designated “front” of your robot. Place your Hub on one of these cube faces, with the Hub’s straight edges **parallel** to the cube."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:223
+msgid "If that describes the orientation of your Hub, use the **Orthogonal** method of specifying its orientation. See the IMU Programming section below."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:227
+msgid "Here are some common examples:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:236
+msgid "Orthogonal #1"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "Logo UP, USB Forward"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:247
+msgid "Logo UP, USB FORWARD"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:253
+msgid "Orthogonal #2"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:264
+msgid "Logo LEFT, USB UP"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:270
+msgid "Orthogonal #3"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:281
+msgid "Logo RIGHT, USB UP"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:287
+msgid "Orthogonal #4"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:298
+msgid "Logo FORWARD, USB UP"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:304
+msgid "Orthogonal #5"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:315
+msgid "Logo BACKWARD, USB UP"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:321
+msgid "Orthogonal #6"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:332
+msgid "Logo DOWN, USB FORWARD"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:338
+msgid "Orthogonal #7"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:349
+msgid "Logo FORWARD, USB LEFT"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:355
+msgid "Orthogonal #8"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:366
+msgid "Logo FORWARD, USB RIGHT"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:372
+msgid "Orthogonal #9"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:383
+msgid "Logo UP, USB BACKWARD"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:385
+msgid "With six cube faces, and four 90-degree positions on each face, there are **24 possible Orthogonal orientations**."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:389
+msgid "Non-Orthogonal Mounting"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:391
+msgid "Here are some scenarios, ranging from simple to complex:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:393
+msgid "Imagine the same front-aligned cube, with your Hub on any face. The Hub’s edges are **not parallel** to the cube. Namely, the Hub is rotated only **in-plane** (clockwise or counter-clockwise, looking at the REV logo)."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:397
+msgid "The Hub is mounted/tilted at some oblique angle from a face on the imaginary cube. At that single tilted angle, the Hub is not rotated in-plane (clockwise or counter-clockwise, looking at the logo)."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:400
+msgid "The Hub is tilted at multiple angles, with or without in-plane rotation."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:403
+msgid "For any Non-Orthogonal scenarios, SDK 8.1 provides **two ways** to describe the Hub’s orientation. See below for the **Angles** method and the **Quaternion** method."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:408
+msgid "IMU Programming"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:410
+msgid "SDK 8.1 offers new classes and methods that apply **universally** to both types of IMU. Once configured, the IMU type will not affect your programming. The programming steps include:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:414
+msgid "set the IMU **parameters**, or use defaults"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:415
+msgid "**initialize** the IMU"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:416
+msgid "**read values** from the IMU, use as needed to control the robot"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:417
+msgid "optional: **reset Heading** one or more times"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:419
+msgid "The following sections cover these topics in order."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:422
+msgid "Parameters"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:424
+msgid "There are **three ways** to describe the Hub’s orientation, using IMU parameters. One is for Orthogonal mounting, and two are for Non-Orthogonal mounting. Choose the simplest method that applies to your robot."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:428
+msgid "As an example, in the *FIRST* Tech Challenge Blocks menu under ``Sensors`` and ``IMU``, you can find these three methods for specifying parameters:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:436
+msgid "Sample Blocks screenshot demonstrating parameter methods"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:436
+msgid "Sample Blocks screenshot, demonstrating the three parameter methods"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:439
+msgid "Parameters for Method 1, Orthogonal"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:441
+msgid "Method 1 consists of supplying a simple Orthogonal configuration. This requires you to determine the direction that the REV logo is facing. To do this, consider the Hub is mounted on an imaginary cube aligned to the “front” of the robot.  Specify the Hub’s mounting face: “Forward” means robot forward (front face), “Left” means robot left, etc."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:447
+msgid "Next, choose how the Hub is rotated on that face. Use the USB ports at the “top” of the Hub to determine this direction; assume you are at the rear of the robot, looking “forward”."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:452
+msgid "*Certain combinations are physically impossible. For example, if the REV logo is facing UP, the USB ports cannot also be facing UP. The OpMode will reject such combinations during IMU initialization.*"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:456
+msgid "It’s optional to save the parameters to a new variable called, for example, “myIMUparameters”. That variable can be used in the next step (IMU initialization)."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:0
+msgid "Blocks"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "specifying Logo Facing Direction"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:470
+msgid "Specifying Logo Facing Direction"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "specifying USB Facing Direction"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:477
+msgid "Specifying USB Facing Direction"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "Setting parameters to variable"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:484
+msgid "Setting parameters to a Variable"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:0
+msgid "Java"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:502
+msgid "Hub Axes for Setting Parameters"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:504
+msgid "Only for the next two Parameters sections (Angles and Quaternion), we must temporarily use **Hub axes** instead of Robot axes. Hub axes are also at 90 degrees to each other, with origin inside the Hub."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:508
+msgid "**The assumed initial Hub position is REV logo facing UP (Robot +Z), with USB ports FORWARD (Robot +Y).** For the Angles and Quaternion methods, all rotations start here."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:512
+msgid "*Again, “forward” is based on your team’s agreed definition.*"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:514
+msgid "In this starting orientation, the Hub axes are **aligned with** the Robot Coordinate System:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:517
+msgid "Heading, or Yaw, is the measure of rotation about the Z axis, which points upwards through the Hub’s front plate or logo."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:519
+msgid "Pitch is the measure of rotation about the X axis, which points toward the right-side I2C sensor ports."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:521
+msgid "Roll is the measure about the Y axis, which points toward the top-edge USB port(s)."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:524
+msgid "Hub rotations also follow the right-hand rule."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:526
+msgid "The legacy ``BNO055IMU`` driver uses **different Hub axes**: its X axis pointed to the USB port, and Y axis pointed to the left-side motor ports. The new SDK 8.1 universal IMU driver uses the above Hub axes for BNO055 and BHI260AP."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:532
+msgid "Parameters for Method 2, Angles"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:534
+msgid "If your Hub is **not** mounted Orthogonally, you can specify the Hub’s *rotation* about one or more **Hub axes** X, Y, Z. These are expressed in *degrees*, and the **order** in which the rotations are applied (it matters!)."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:539
+msgid "The Blocks IMU palette contains a Block with default parameters for the Angles method of describing the Hub’s orientation on the robot. Let’s review this Blocks palette function now, as a good example. The Java API closely resembles the Blocks method."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:549
+#: programming_resources/imu/imu.rst:549
+msgid "Sample Block demonstrating angles method"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:551
+msgid "The second listed default is ZYX, meaning you will provide the Hub’s rotations in that order. Thus the “first angle” is the Z axis, the “second angle” is the Y axis, and the “third angle” is the X axis."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:555
+msgid "So the Hub will be rotated as follows: +90 degrees about **Z**, no rotation about **Y**, then -45 degrees about **X** (in its new direction)."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:559
+msgid "For the Angles method, the assumed initial Hub position is REV Logo facing UP, with USB ports facing FORWARD. Additional rotations begin at this orientation."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:563
+msgid "From logo-up/USB-forward, this example starts with a “first angle” rotation of **+90 degrees about the Z axis**. Namely, the Hub rotates counter-clockwise (CCW), ending with the USB ports pointing to the robot’s left side. Note the **X and Y axes have also rotated CCW**, since they are INTRINSIC (described below)."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:569
+msgid "The “second angle” rotation is **0 degrees, no action**."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:571
+msgid "The “third angle” rotation is **-45 degrees about the Hub’s X axis**, which **now points in the robot’s forward direction** (after the first-angle Z rotation). So, the top edge of the Hub tilts downward, causing the USB ports to angle downward at 45 degrees, at the robot’s left side."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:577
+msgid "Here’s the full sequence:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:586
+msgid "Angles Rotation Step #1"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:597
+msgid "Starting Position"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:603
+msgid "Angles Rotation Step #2"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:614
+msgid "First Angle (Z axis +90)"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:620
+msgid "Angles Rotation Step #3"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:631
+msgid "Third Angle (X axis -45)"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:633
+msgid "The remaining default parameters don’t need attention or editing. The third listed default is simply DEGREES, easy to work with. The first listed default is INTRINSIC axes reference, which means that the Hub axes move with each rotation of the Hub. (The other choice, rarely used, is EXTRINSIC for global axes that **don’t move** with each Hub rotation.)"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:639
+msgid "As with Orthogonal, it’s optional to save the parameters to a new variable called, for example, “myIMUparameters”. That variable can be used in the next step (IMU initialization)."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "setting angles in Blocks"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:653
+msgid "Setting Angles in Blocks"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:677
+msgid "Parameters for Method 3, Quaternion"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:679
+msgid "As an alternative to the Angles method, the Hub’s non-orthogonal orientation can be described using a `Quaternion <https://en.wikipedia.org/wiki/Quaternion>`__, an advanced math technique for describing **any** combination of tilting and rotating."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:685
+msgid "The following default Quaternion (w=1, x=0, y=0, z=0) describes a Hub in the assumed starting position: Logo facing UP, and USB ports FORWARD. Namely, no rotations."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "default quaternion"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:699
+msgid "Default Quaternion (no rotation)"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:737
+msgid "This basic tutorial does not cover the math behind Quaternions, an advanced substitute for Euler Angles described above. The SDK 8.1 IMU interface supports the use of Quaternions, for teams and third party libraries familiar with them."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:743
+msgid "Initialize IMU"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:745
+msgid "This prepares the IMU for operation, using the parameters you defined."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:747
+msgid "In Blocks, use the first Block shown in the IMU palette, called ``imu.initialize``. Most teams do this during the INIT phase of their OpMode, before ``waitForStart()``."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:751
+msgid "The IMU should be motionless during its initialization process. The OpMode will continue when initialization is complete."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:755
+msgid "Fun fact: Under the legacy ``BNO055IMU`` interface, intialization takes about 900 milliseconds. Under the new universal IMU interface, the BNO055 takes about 100 milliseconds, while the BHI260AP takes about 50 milliseconds."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:760
+msgid "For **any of the three methods** (Orthogonal, Angles, Quaternion), initialize with the IMU parameters from the ``new`` Block, or from your optional Variable."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:769
+msgid "Two methods for Initializing the IMU:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "Initialize IMU directly"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:776
+msgid "Initializing the IMU directly"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "Initialize IMU using Parameters"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:783
+msgid "Initializing the IMU using Parameters"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:806
+msgid "Read IMU Angles - Basic"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:808
+msgid "Now you can read the IMU values for **robot orientation**, expressed as Heading (Yaw or Z-angle), Pitch (X-angle) and Roll (Y-angle). You have no concern now about the Hub’s orientation or mounting – that has been defined with parameters, and the SDK is ready to provide actual data about the robot, using the robot’s axes."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:815
+msgid "*Reminder: Robot Z points upwards to the ceiling. Robot Y points forward – whatever you decide is “forward” on your robot (which could be round!). Robot X points to the right side of the robot. Robot rotations follow the right-hand rule.*"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:820
+msgid "For all axes, IMU angles are provided in the range of **-180 to +180 degrees** (or from ``-Pi`` to ``+Pi`` radians). If you are working with values that might cross the +/- 180-degree transition, handle this with your programming. That’s beyond the scope of this IMU tutorial."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:825
+msgid "Here's an example of reading IMU Angles:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:832
+msgid "In Blocks, create a new Variable to receive data from this green Block in the **IMU** palette:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "Get YPR Angles"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:840
+msgid "Get Yaw-Pitch-Roll Angles"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:842
+msgid "From the **YawPitchRollAngles** palette under **Utilities**, use the green Blocks to read each angle from the Variable you just created."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:850
+msgid "Extract Angles"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:852
+msgid "These Blocks are used here in a Repeat Loop, to display the angles on the Driver Station:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "Displaying YPR using Telemetry"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:860
+msgid "Displaying Yaw-Pitch-Roll using Telemetry"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:862
+#: programming_resources/imu/imu.rst:998
+msgid "These Blocks are shown in the Sample OpMode called ``SensorIMU``."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:879
+msgid "Note that the robot’s orientation is described here **intrinsically**; the axes move with each rotation. Here’s an example from the Javadocs:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "As an example, if the yaw is 30 degrees, the pitch is 40 degrees, and"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "the roll is 10 degrees, that means that you would reach the described"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "orientation by first rotating a robot 30 degrees counter-clockwise from"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "the starting point, with all wheels continuing to touch the ground"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "(rotation around the Z axis). Then, you make your robot point 40 degrees"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "upward (rotate it 40 degrees around the X axis). Because the X axis"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "moved with the robot, the pitch is not affected by the yaw value. Then"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "from that position, the robot is tilted 10 degrees to the right, around"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "the newly positioned Y axis, to produce the actual position of the"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "robot."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:893
+msgid "*Again, the IMU*\\  **output**\\  *results are given in the*\\  **Robot Coordinate System**\\ *, or Robot axes. Only for a non-Orthogonal orientation,*\\  **Hub axes**\\  *were used temporarily for*\\  **input**\\  *parameters, describing the Hub’s rotation to achieve its mounted orientation.*"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:900
+msgid "Read IMU Angles - Flexible"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:902
+msgid "As an alternative to the ``YawPitchRollAngles`` class, the SDK also provides a more flexible ``Orientation`` class. This allows you to specify a **custom order** of axis rotations, and a choice of intrinsic or extrinsic axes."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:907
+msgid "*Again, IMU angles are provided in the range of -180 to +180 degrees (or from* ``-Pi`` *to* ``+Pi`` *radians).*"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:910
+msgid "Here is an example use of these functions:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:917
+msgid "As before, first create an object (Blocks Variable) containing the array of orientation values (from the Blocks ``Sensors / IMU`` palette):"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:925
+msgid "Get Robot Orientation"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:927
+msgid "Notice the **axes order of XYZ**, different than the ZXY order used by the ``YawPitchRollAngles`` class."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:930
+msgid "Then extract the specific axis rotations you want, from the Blocks ``Utilities / Orientation`` palette:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:938
+msgid "Extract Orientation Angles"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:961
+msgid "*Pay close attention to the selection of*\\  **axes order**\\ *, which greatly affects the IMU results. If you care mostly about Heading (Yaw), choose an axes order that starts with Z.*"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:966
+msgid "Read Angular Velocity"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:968
+msgid "The SDK also provides values for **angular velocity**, the rate of change (degrees or radians per second) for Roll, Pitch or Yaw."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:971
+msgid "Here is an example for reading Angular Velocity:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:978
+msgid "As before, first create an object (Blocks Variable) containing the array of angular velocity values (from the Blocks ``Sensors / IMU`` palette):"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:986
+msgid "Get Robot Angular Velocity"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:988
+msgid "Then extract the specific axis rotations you want, from the Blocks ``Utilities / AngularVelocity`` palette:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:996
+msgid "Extract Rotation Rates"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1017
+msgid "These are also shown in each of the Java **Sample OpModes** listed in a section below."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1021
+msgid "Reset Heading"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1023
+msgid "It can be useful to reset the Heading (or Yaw or Z-angle) to zero, at one or more places in your OpMode."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1026
+msgid "Here is an example for resetting the Yaw axis:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1033
+msgid "In Blocks, this optional command is simple:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:1040
+msgid "Reset Yaw"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1050
+msgid "It’s safest to reset Yaw only when the robot has not significantly deviated from a flat/horizontal orientation."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1053
+msgid "This command assumes the Hub’s actual orientation was **correctly described** with Orthogonal, Angles or Quaternion parameters."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1056
+msgid "In other words, a non-Orthogonal Hub moved away from its parameter-defined orientation, may not give reliable results for Heading/Yaw or ``resetYaw()``, even after the robot has returned to its original defined orientation."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1061
+msgid "*An exception, or loophole, is that “reset” Heading/Yaw values might still be valid if the Hub is actually mounted in an incorrectly described Orthogonal orientation, and the robot remains level. This may benefit a rookie team that overlooked the IMU Parameters or moved the Hub to a different Orthogonal position, still relying only on Heading. This* ``resetYaw()`` *exception does*\\  **not**\\  *apply to angular velocity for Yaw (Z-axis).*"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1069
+msgid "Here’s the official Javadocs description for ``resetYaw()``:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "Resets the robot’s yaw angle to 0. After calling this method, the reported"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "orientation will be relative to the robot’s position when this method is"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "called, as if the robot was perfectly level right now. That is to say, the"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "pitch and yaw will be ignored when this method is called."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1076
+msgid "*The Javadocs’ statement ‘resets to 0’ should be read in the context of the previous discussion. In certain off-axis Hub orientations, a reset Yaw value might not actually display as zero.*"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1080
+msgid "If ``resetYaw()`` does not meet your needs, other code-based choices (possibly less effective) include:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1083
+msgid "‘Save & Subtract’ to establish the current Heading as a new “zero” baseline for further navigation"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1085
+msgid "use the original Heading for the entire match, using only absolute (global) targets"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1089
+msgid "*For all choices, be aware of “gyro drift”. Most electronic IMUs give slowly shifting Z-angle results over time, for various reasons. Although the Pitch and Roll axes can use*\\  **gravity’s direction**\\  *to correct for drift, Yaw (Heading or Z-angle) cannot.*"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1095
+msgid "Sample OpModes"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1097
+msgid "SDK 8.1 and newer contains Sample OpModes demonstrating the above."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1104
+msgid "In Blocks, a simple example is called ``SensorIMU``."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+#: programming_resources/imu/imu.rst:1111
+msgid "Blocks IMU Sample"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1113
+msgid "Here’s an :download:`image <images/360-SensorIMU.png>` and the :download:`Blocks file <opmodes/SensorIMU.blk>` of this Sample OpMode."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1119
+msgid "In Java, three Sample OpModes demonstrate the new universal IMU interface:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "ConceptExploringIMUOrientation.java"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1124
+msgid "Provides a tool to experiment with setting your Hub orientation on the robot"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1126
+msgid ":download:`ConceptExploringIMUOrientation.java <opmodes/ConceptExploringIMUOrientation.java>`"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "SensorIMUOrthogonal.java"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1133
+msgid "Shows how to define your Hub orientation on the robot, for simple orthogonal (90 degree) mounting"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1135
+msgid ":download:`SensorIMUOrthogonal.java <opmodes/SensorIMUOrthogonal.java>`"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:0
+msgid "SensorIMUNonOrthogonal.java"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1142
+msgid "Shows how to define (with the Angles method) your Hub orientation on the robot for a non-orthogonal orientation"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1144
+msgid ":download:`SensorIMUNonOrthogonal.java <opmodes/SensorIMUNonOrthogonal.java>`"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1149
+msgid "These three Java samples include extensive comments describing the IMU interface, consistent with this tutorial. In particular, ``SensorIMUNonOrthogonal.java`` describes three helpful examples."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1154
+msgid "SDK Resources"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1156
+msgid "Advanced programmers are invited to browse the `Javadocs documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__ (API), particularly in:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1160
+msgid "``com.qualcomm.robotcore.hardware``"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1161
+msgid "``org.firstinspires.ftc.robotcore.external.navigation``"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1163
+msgid "The new universal IMU classes for SDK 8.1 are:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1165
+msgid "``IMU``"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1166
+msgid "``ImuOrientationOnRobot``"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1167
+msgid "``YawPitchRollAngles``"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1168
+msgid "``RevHubOrientationOnRobot``"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1170
+msgid "The Javadocs describe other IMU methods and variables not covered in this basic tutorial."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1174
+msgid "Summary"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1176
+msgid "The SDK 8.1 provides a universal interface that supports both the BHI260AP and BNO055 IMU. This basic tutorial introduced some new features:"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1182
+msgid "new Blocks and Java methods to read data from both IMU types"
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1184
+msgid "Teams using the new Control Hub IMU must use at least SDK 8.1 AND must update to at least Control Hub OS 1.1.3."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1187
+msgid "However **all teams** are encouraged to begin using the universal IMU classes and methods for **new** Blocks and Java code, and consider migrating **existing** code."
+msgstr ""
+
+#: programming_resources/imu/imu.rst:1191
+msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
+msgstr ""

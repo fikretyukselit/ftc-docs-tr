@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:2
+msgid "Using Your Android Device"
+msgstr ""
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:4
+msgid "Before you get started with your control system, it is helpful if you familiarize yourself with the basic operation of your Android device."
+msgstr ""
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:8
+msgid "Unlocking Your Screen"
+msgstr ""
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:10
+msgid "When you first power on an Android phone, it usually starts off with the screen in a \"locked\" state. For the Motorola smartphones that are used in the *FIRST* Tech Challenge, you must touch the locked screen and then slide your finger upwards along the screen to unlock the phone. Note that different devices might require a slightly different procedure to unlock the screen."
+msgstr ""
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:22
+msgid "Depending on your security settings, you might be challenged for a pass code or PIN number. Use the touch screen to enter in the pass code or PIN value and tap on the check mark to log into the device."
+msgstr ""
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:32
+msgid "Navigating in Android"
+msgstr ""
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:34
+msgid "Your phone should display its home screen if you just powered it on and unlocked it. Note that the actual screens on your smartphone might differ slightly from the screens depicted in this tutorial."
+msgstr ""
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:48
+msgid "At the bottom of the screen there should be some buttons that you can use to navigate the screens on your Android device."
+msgstr ""
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:56
+msgid "The leftmost button (see image above) is the \"Back\" button. You can use this button to return to the previous screen on your Android device."
+msgstr ""
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:59
+msgid "The center button is the \"Home\" button. Pressing this button should take you back to the home or opening screen of your Android device."
+msgstr ""
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:62
+msgid "The rightmost button is the \"Recent Apps\" button. If you click on this button it will display the apps that were recently run and are dormant in the background. You can close a recent app by tapping the \"X\" button on the app's listing."
+msgstr ""
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:72
+msgid "Note that some Android smartphones have an auto-hide feature which automatically hides the bottom navigation buttons. If your smartphone has this feature, you might need to swipe up from the bottom of the screen to display the navigation buttons."
+msgstr ""
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:78
+msgid "Displaying Available Apps on your Android Phone"
+msgstr ""
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:81
+msgid "Android Marshmallow Users"
+msgstr ""
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:83
+msgid "If you are using a device with Android Marshmallow (6.x) or earlier, you can display the available apps using the *Android App Drawer* button that is available on the home screen."
+msgstr ""
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:87
+msgid "There should be another row of buttons visible above the \"Back\", \"Home\" and \"Recent Apps\" buttons. In the center of this row of buttons is a button that has an array of dots or squares."
+msgstr ""
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:96
+msgid "Tapping on this button will launch the *Android App Drawer*. The App Drawer displays a list of all of the apps that are available on your Android device. You can scroll through the App Drawer screens to find and launch an app."
+msgstr ""
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:107
+msgid "Android Nougat Users"
+msgstr ""
+
+#: programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:109
+msgid "If you are using a device with Android Nougat (7.x) or newer, you can display the available apps by simply swiping upwards from the bottom of the touchscreen. Newer versions of Android no longer have the *App Drawer* feature."
+msgstr ""

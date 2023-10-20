@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:2
+msgid "Example 2: Gain’s effect on TFOD"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:4
+msgid "Now we adjust only gain. We set Exposure to a fixed value of 15, selected because it was a poor performer in Example 1. **Can gain help?**"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:11
+msgid "Exp 15, Gain 000 -> 035"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:16
+msgid "Exp 15, Gain 040 -> 060"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:21
+msgid "Exp 15, Gain 070 -> 100"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:24
+msgid "Five fresh readings were taken at each gain setting."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:29
+msgid "Five readings at each gain level"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:31
+msgid "Higher gain does improve recognition, then performance declines. Then at higher levels, this TFOD model begins to “see” a Cube, not a Duck. The gain effect was similar to the exposure effect."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:35
+msgid "These two charts suggest that TFOD results are affected by, and can perhaps be optimized by, setting specific values for exposure and gain. A team should compare this with the default or automatic performance of their robot and webcam, in the full range of expected match conditions."
+msgstr ""

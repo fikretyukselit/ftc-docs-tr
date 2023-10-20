@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:2
+msgid "Design to Make Easy-To-Print Parts"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:4
+msgid "A major problem teams sometimes encounter is that their parts are difficult to print without extreme amounts of supports or precarious overhangs. This issue can and should be solved during the design process in a practice sometimes called DFAM (Designing for Additive Manufacturing). 3d Printers have limits, and these can be taken into account while initially creating a part, making those manufacturing limitations just as much of a consideration as what the function of the part you're creating is."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:11
+msgid "Printing Face"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:12
+msgid "When you first conceptualize a part you plan to print, immediately consider what face will lie on the built plate for it to print safely on. In general the more area touching the plate, the better, as it provides more adhesion. Always design with creating large flat surfaces for printing in mind."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:20
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:29
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:None
+msgid "A part on a slicer's bed view."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:20
+msgid "A part with a slightly concerning contact with the bed. This part could have been designed to rest another, larger face on the bed."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:29
+msgid "A part with much better contact with the bed. This part looks great to print."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:34
+msgid "Overhang Angles"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:36
+msgid "Supports should only be used if absolutely necessary. In almost all parts, you can find some way to create angles or adjust geometry to avoid support usage. Supports lengthen post-processing time, are generally difficult to tune, leave less clean surfaces, and are more prone to failure."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:46
+msgid "After you determine your printing face for a part, look at it closely and determine whether there's any areas with over a ~45 degree overhang. Then, try and mitigate those areas using chamfers, fillets, and adding material. If mitigation isn't possible, consider splitting the part into multiple pieces and securing them together with fasteners."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:51
+msgid "Overhang Angles Case Study #1"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:53
+msgid "The part you see below would have been very frustrating to print in any orientation without the use of supports, so it was opted to split it in two and use M3 screws to attach the pieces instead. This provided two very easy to print parts."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:None
+msgid "A part split in two for printability."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:64
+msgid "Overhang Angles Case Study #2"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:66
+msgid "The part you see below is an arm hardstop for a robot, eventually printed with no supports despite its complex geometry. In particular, pay attention to the second picture. The part could have been designed to stop at the red line but was extended to a 45 degree overhang to ensure the printer wasn't printing in midair."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:None
+#: manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:None
+msgid "A complex part printable without supports."
+msgstr ""

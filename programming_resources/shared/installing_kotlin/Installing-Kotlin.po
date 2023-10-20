@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:2
+msgid "Using the Kotlin Programming Language"
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:6
+msgid "What Is Kotlin?"
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:9
+msgid "The Kotlin programming language is a a modern alternative to the Java programing language that compiles and runs on the Java Virtual Machine (JVM) and can be used to develop Android applications. It was developed by JetBrains, the same company that developed the IntelliJ IDE (the basis for Android Studio)."
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:14
+msgid "https://kotlinlang.org/"
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:16
+msgid "Being based on Java, Kotlin shares many of the same features and syntax. However, it also adds many new features and syntax that can make it easier to write code and less prone to errors. Some of the features of Kotlin include:"
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:20
+msgid "Full interoperability with Java; you can use Java classes and libraries from Kotlin and vice versa."
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:21
+msgid "Dynamic typing; Kotlin allows you to use dynamic typing when needed, that is, you don't need to specify the type of a variable when it can be inferred from the context (``var myString = \"Hi!\"``)."
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:24
+msgid "No semicolons; Kotlin does not require semicolons to end statements."
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:25
+msgid "Data classes; Kotlin has a concise syntax for creating classes that are used to store data."
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:26
+msgid "Extension functions; Kotlin allows you to add functions to existing classes without having to modify the original class."
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:28
+msgid "Null safety; Kotlin has a type system that helps eliminate null pointer exceptions."
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:29
+msgid "Operator overloading; Kotlin allows you to define how operators such as ``+`` and ``*`` work with your own classes."
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:31
+msgid "Many more!"
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:33
+msgid "In addition, if you don't want to learn how to code in Kotlin from scratch, the Android Studio IDE has a tool to convert sections of code or an entire Java file to a Kotlin file. This is extremely useful to learn how certain Java code is written in Kotlin."
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:37
+msgid "Because Kotlin is fully interoperable, you can also use all your existing Java code in a Kotlin project without having to convert it."
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:42
+msgid "Using Kotlin in *FIRST* Tech Challenge"
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:45
+msgid "While there is no rule (as of the writing of this document) prohibiting Kotlin as a programming option in *FIRST* Tech Challenge, it is not one of the recommended tools as listed in **<RS02>** \"Recommended Programming Tools\" portion of the *FIRST* Tech Challenge :doc:`Game Manual Part 1 <../../../manuals/game_manuals/game_manuals>`. Teams that use Kotlin do so at their own risk and should expect that there will not be technical help/support available at events in the case of software issues."
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:54
+msgid "Installing Kotlin In Your Project"
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:57
+msgid "To use Kotlin in your Android project, you need to add the Kotlin plugin to your project. This is done by adding the following lines to the root ``build.gradle`` file in the ``buildscript`` section:"
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:78
+msgid "This file is located in the base folder of your project, not the one in the TeamCode module nor the one in the FtcRobotController module."
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:81
+msgid "The exact kotlin version can be changed/updated if desired per new releases. The latest version as of this writing is 1.8.20 but you should check the Kotlin website to see if a newer version (one that is compatible with the current Gradle version) is available (see table `here <https://kotlinlang.org/docs/gradle-configure-project.html#apply-the-plugin>`__)."
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:86
+msgid "Next you need to add the Kotlin plugin to the ``build.gradle`` file in the TeamCode module. Open the file and find the following section near the top of the file. Change it to look like this:"
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:97
+msgid "Finally, you need to run a Gradle sync to download the Kotlin plugin and any other dependencies. This is done by clicking on the ``Sync Now`` link in the upper right corner of the Android Studio window."
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:None
+msgid "Gradle Sync Icon"
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:107
+msgid "Make sure you are on a reliable internet connection when you do this!"
+msgstr ""
+
+#: programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:109
+msgid "If you get an error that says \"Kotlin not configured\" when you try to run a Gradle sync, you may need to install the Kotlin plugin. To do this, go to ``File -> Settings -> Plugins`` and search for \"Kotlin\". Click on the ``Install`` button to install the plugin."
+msgstr ""

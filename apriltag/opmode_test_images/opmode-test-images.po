@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:2
+msgid "*FIRST* Tech Challenge AprilTag Testing Samples"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:7
+msgid "In the 2023-2024 season, `FIRST Tech Challenge has introduced AprilTags <https://ftc-docs.firstinspires.org/apriltag-intro>`__ into the season-unique competition. AprilTags were developed by the April Robotics Laboratory at the University of Michigan and are a visual fiducial tagging system, built on a similar concept as QR codes, useful for a wide variety of tasks including augmented reality, robotics, and camera calibration. A properly calibrated camera and tag library can be used to detect AprilTags and provide information such as range and orientation information (also known as **pose** data) about the tags with respect to the camera. The *FIRST* Tech Challenge Software Development Kit (SDK) has been updated to add AprilTag detection APIs to help teams make use of this resource."
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:20
+msgid "This document contains examples of AprilTags that are intended to be used with the *FIRST* Tech Challenge AprilTag samples within the SDK. All AprilTags used in the 2023-2024 season are from the 36h11 tag family, which is a predetermined set of tags. The primary tag area is comprised of an 8x8 square matrix of black and white *pixels*. The size of the tag is measured based on the physical dimensions of the total black square portion of the tag – a 4 inch AprilTag has a black square portion that measures 4 inches on each side. Even though it is not used in measuring the size of an AprilTag, each tag also requires a white border one *pixel* thick surrounding the primary tag area (bringing the total tag size to 10x10 *pixels*). With the added white border, for example, a 4-inch AprilTag requires a footprint of 5 inches on each side."
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:39
+msgid "AprilTag Sizing"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:39
+msgid "Example sizing for 4-inch AprilTag"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:41
+msgid "The AprilTag API for *FIRST* Tech Challenge can handle multiple tag sizes; each individual tag can be sized independently, but there cannot be multiple sizes for an individual tag. Some pose information calculated for each tag, such as distance from camera to tag data, requires knowing the exact size of the tags being used. The default tag sizes used with the sample programs within the SDK are as follows:"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:49
+msgid "**Tag Description**"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:49
+msgid "**Size of Tag in Inches (millimeters)**"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:52
+msgid "Tag ID: 583 (AKA “Nemo”)"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:52
+#: apriltag/opmode_test_images/opmode-test-images.rst:54
+msgid "4 in (101.6 mm)"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:54
+msgid "Tag ID: 584 (AKA “Jonah”)"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:56
+msgid "Tag ID: 585 (AKA “Cousteau”)"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:56
+#: apriltag/opmode_test_images/opmode-test-images.rst:58
+msgid "6 in (152.4 mm)"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:58
+msgid "Tag ID: 586 (AKA “Ariel”)"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:61
+msgid "When printing out the :download:`PDF version of this document <files/FTCAprilTagSDK82SamplesExtended.pdf>`, or portions thereof, please set the Page Size settings to “Actual Size” to ensure that the tags are printed properly. Every printer is slightly different, so it’s also a good idea to measure the width and height of the black-square portion of the main tag area to verify that the page printed properly."
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:73
+msgid "Printing Document"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:73
+msgid "Example printing settings for printing PDF at Actual Size"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:75
+msgid "For more in-depth information about AprilTag detection values, and better understanding what they mean, please visit the following website:"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:78
+msgid "https://ftc-docs.firstinspires.org/apriltag-detection-values"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:79
+msgid ":download:`Download and print the official PDF <files/FTCAprilTagSDK82SamplesExtended.pdf>`"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:83
+msgid "AprilTags"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:85
+msgid "You can point your camera at these tags for recognition - ftc-docs does allow stretching of the image, so the image may not clearly and correctly be represented if the width of the display area is less than the width of the image. It is recommended to :download:`download and print the official PDF <files/FTCAprilTagSDK82SamplesExtended.pdf>`."
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:96
+msgid "Tag583_nemo"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:96
+msgid "Tag 583, \"Nemo\""
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:106
+msgid "Tag584_jonah"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:106
+msgid "Tag 584, \"Jonah\""
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:116
+msgid "Tag585_cousteau"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:116
+msgid "Tag 585, \"Cousteau\""
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:126
+msgid "Tag586_ariel"
+msgstr ""
+
+#: apriltag/opmode_test_images/opmode-test-images.rst:126
+msgid "Tag 586, \"Ariel\""
+msgstr ""

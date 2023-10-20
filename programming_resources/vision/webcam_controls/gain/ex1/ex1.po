@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:2
+msgid "Example 1: Exposure’s effect on TFOD"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:4
+msgid "We interrupt this tutorial to demonstrate the two webcam interfaces described so far: ExposureControl and GainControl."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:7
+msgid "These 2 examples assume you are already using TensorFlow Object Detection (TFOD) in the Freight Frenzy game. Namely you have a TFOD model and OpMode that are working reasonably well. The model may have been supplied with the SDK, or created with the **Machine Learning toolchain** `[forum] <https://ftc-community.firstinspires.org/>`__ :ref:`[manual] <ftc_ml/index:*first* machine learning toolchain>`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:14
+msgid "Here we will discuss only the Duck game element. **Can the exposure and/or gain controls improve the chance of a fast, accurate TFOD detection?**"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:18
+msgid "Another way to frame this effort is: can these controls simulate the lighting conditions used for TFOD model training? Namely, if the competition field has different lighting that affects recognition, can you achieve close to **your original (trained) TFOD performance**?"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:23
+msgid "We first try exposure alone. Setting gain to zero, we apply TFOD to webcam images at various exposure values."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:29
+msgid "Gain 0, Exp 0 -> 20"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:34
+msgid "Gain 0, Exp 23 - > 40"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:39
+msgid "Gain 0, Exp 45 -> 55"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:41
+msgid "**Five fresh readings** were taken at each exposure setting. Namely the test OpMode was opened (INIT) each time for a new TFOD initialization and webcam image processing."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:45
+msgid "This chart shows TFOD confidence levels; ‘instant’ is defined here as recognition within 1 second."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:52
+msgid "Five readings at each exposure level"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:54
+msgid "Higher exposure does improve recognition, then performance suddenly drops. Then at higher levels, this TFOD model begins to “see” a Cube, not a Duck. Not good!"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:58
+msgid "So, there does seem to be a range of exposure values that gives better results. Note the sharp drop-off at both ends of the range: below 25 and above 40. In engineering, a **robust** solution can withstand variation. Using a value in the middle of the improved range, can reduce the effects of unforeseen variation. But this range varies with ambient lighting conditions, which may be quite different at the tournament venue."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:66
+msgid "This data is the result of a very particular combination of: webcam model (Logitech C270), distance (12 inches), lookdown angle (30 degrees), TFOD model (SDK 7.0 default), ambient lighting, background, etc. **Your results will vary, perhaps significantly.**"
+msgstr ""

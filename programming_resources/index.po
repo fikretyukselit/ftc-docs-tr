@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/index.rst:23
+msgid "Tutorials"
+msgstr ""
+
+#: programming_resources/index.rst:53
+msgid "Supplemental"
+msgstr ""
+
+#: programming_resources/index.rst:74
+msgid "AprilTag Introduction"
+msgstr ""
+
+#: programming_resources/index.rst:74
+msgid "VisionPortal Overview"
+msgstr ""
+
+#: programming_resources/index.rst:74
+msgid "Webcams for VisionPortal"
+msgstr ""
+
+#: programming_resources/index.rst:74
+msgid "Understanding AprilTag Values"
+msgstr ""
+
+#: programming_resources/index.rst:74
+msgid "AprilTag Test Images"
+msgstr ""
+
+#: programming_resources/index.rst:106
+msgid "Camera Calibration"
+msgstr ""
+
+#: programming_resources/index.rst:1
+msgid "Programming Resources, FTC Docs"
+msgstr ""
+
+#: programming_resources/index.rst:1
+msgid "Official Programming Resources for FIRST Tech Challenge"
+msgstr ""
+
+#: programming_resources/index.rst:1
+msgid "Blocks, FTC, FIRST Tech Challenge, On Bot Java, Android Studios, Control Hub, Robot Controller, Driver Station, FTC Control System, Programming Resources"
+msgstr ""
+
+#: programming_resources/index.rst:7
+msgid "Programming Resources"
+msgstr ""
+
+#: programming_resources/index.rst:9
+msgid "This page contains programming tutorials and related Control System documentation useful for configuring and programming Control System components."
+msgstr ""
+
+#: programming_resources/index.rst:14
+msgid "Programming Tutorials"
+msgstr ""
+
+#: programming_resources/index.rst:16
+msgid "*FIRST* Tech Challenge Programming Tutorials"
+msgstr ""
+
+#: programming_resources/index.rst:18
+msgid ":doc:`Choosing a Programming Tool <shared/choosing_program_lang/choosing-program-lang>`"
+msgstr ""
+
+#: programming_resources/index.rst:19
+msgid ":doc:`Blocks Tutorial <blocks/Blocks-Tutorial>`"
+msgstr ""
+
+#: programming_resources/index.rst:20
+msgid ":doc:`Onbot Java Tutorial <onbot_java/OnBot-Java-Tutorial>`"
+msgstr ""
+
+#: programming_resources/index.rst:21
+msgid ":doc:`Android Studio Tutorial <android_studio_java/Android-Studio-Tutorial>`"
+msgstr ""
+
+#: programming_resources/index.rst:36
+msgid "Supporting Documentation"
+msgstr ""
+
+#: programming_resources/index.rst:38
+msgid "Control System Supporting Documentation"
+msgstr ""
+
+#: programming_resources/index.rst:40
+msgid ":doc:`Control System Introduction <shared/control_system_intro/The-FTC-Control-System>`"
+msgstr ""
+
+#: programming_resources/index.rst:41
+msgid ":doc:`Required Materials <shared/required_materials/Required-Materials>`"
+msgstr ""
+
+#: programming_resources/index.rst:42
+msgid ":doc:`Using Your Android Device <shared/using_android_device/Using-Your-Android-Device>`"
+msgstr ""
+
+#: programming_resources/index.rst:43
+msgid ":doc:`Phone Pairing <shared/phone_pairing/phone-pairing>`"
+msgstr ""
+
+#: programming_resources/index.rst:44
+msgid ":doc:`Configuring Your Android Devices <shared/configuring_android/Configuring-Your-Android-Devices>`"
+msgstr ""
+
+#: programming_resources/index.rst:45
+msgid ":doc:`Connecting Devices to a Control or Expansion Hub </hardware_and_software_configuration/connecting_devices/index>`"
+msgstr ""
+
+#: programming_resources/index.rst:46
+msgid ":doc:`Configuring Your Hardware </hardware_and_software_configuration/configuring/index>`"
+msgstr ""
+
+#: programming_resources/index.rst:47
+msgid ":doc:`Connecting a Laptop to a Program & Manage Wi-Fi Network <shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network>`"
+msgstr ""
+
+#: programming_resources/index.rst:48
+msgid ":doc:`Installing a Javascript Enabled Browser <shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser>`"
+msgstr ""
+
+#: programming_resources/index.rst:49
+msgid ":doc:`Managing a Control Hub <shared/managing_control_hub/Managing-a-Control-Hub>`"
+msgstr ""
+
+#: programming_resources/index.rst:50
+msgid ":doc:`Managing a Smartphone Driver Station (DS) <shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station>`"
+msgstr ""
+
+#: programming_resources/index.rst:51
+msgid ":doc:`Managing a Smartphone Robot Controller (RC) <shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller>`"
+msgstr ""
+
+#: programming_resources/index.rst:70
+msgid "AprilTag Programming"
+msgstr ""
+
+#: programming_resources/index.rst:72
+msgid "Topics for programming with AprilTags"
+msgstr ""
+
+#: programming_resources/index.rst:85
+msgid "TensorFlow Programming"
+msgstr ""
+
+#: programming_resources/index.rst:87
+msgid "Topics for programming with TensorFlow Object Detection (TFOD)"
+msgstr ""
+
+#: programming_resources/index.rst:102
+msgid "Vision Programming"
+msgstr ""
+
+#: programming_resources/index.rst:104
+msgid "Learning more about using vision"
+msgstr ""
+
+#: programming_resources/index.rst:115
+msgid "Advanced Topics"
+msgstr ""
+
+#: programming_resources/index.rst:117
+msgid "Advanced Topics for Programmers"
+msgstr ""
+
+#: programming_resources/index.rst:133
+msgid "Additional *FIRST* Website Resources"
+msgstr ""
+
+#: programming_resources/index.rst:135
+msgid "`FIRST Website Programming Resources Link <https://www.firstinspires.org/resource-library/ftc/technology-information-and-resources>`__"
+msgstr ""

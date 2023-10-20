@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/webcam_controls/exposure/samples/samples.rst:2
+msgid "Exposure Control Code Samples"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/samples/samples.rst:4
+msgid "Import the interface. This line is automatically added by OnBot Java when the interface is used (coded)."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/samples/samples.rst:7
+msgid "``import org.firstinspires.ftc.robotcore.external.hardware.camera.controls.ExposureControl;``"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/samples/samples.rst:9
+msgid "Declare the ExposureControl object, before ``runOpMode()``."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/samples/samples.rst:11
+msgid "``ExposureControl myExposureControl;``"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/samples/samples.rst:13
+msgid "Assign the Vuforia/TFOD video stream control to your control object, in ``runOpMode()``."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/samples/samples.rst:16
+msgid "``myExposureControl = vuforia.getCamera().getControl(ExposureControl.class);``"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/samples/samples.rst:18
+msgid "Set the mode to Manual, for direct control."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/samples/samples.rst:20
+msgid "``myExposureControl.setMode(ExposureControl.Mode.Manual);``"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/samples/samples.rst:22
+msgid "Set the exposure duration, in this case to 30 milliseconds."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/samples/samples.rst:24
+msgid "``myExposureControl.setExposure(30, TimeUnit.MILLISECONDS);``"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/samples/samples.rst:26
+msgid "See far below for these and other exposure controls illustrated in `Sample OpModes <#sample-opmodes>`__."
+msgstr ""

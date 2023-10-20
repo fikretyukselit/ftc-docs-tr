@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:2
+msgid "Managing a Smartphone Driver Station"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:5
+msgid "REV Driver Hub"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:7
+msgid "The `REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__ is preloaded with the Driver Station (DS) app. The procedures described below for a DS phone, also apply to a REV Driver Hub."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:12
+msgid "Changing the Name"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:14
+msgid "In order to comply with game manual rule <RS01>, the name of the Driver Station (DS) smartphone should be changed."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:17
+msgid "This can be done in the DS app, as described below."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:19
+msgid "As an alternate, :ref:`found here <programming_resources/shared/configuring_android/Configuring-Your-Android-Devices:Renaming Your Smartphones>` show how to rename a smartphone using the Android Settings activity of the phone."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:24
+msgid "Changing the Name of a Driver Station Instructions"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:26
+msgid "1. On the Driver Station phone, touch the three dots in the upper right hand corner to display a pop-up menu."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:34
+msgid "Select the *Settings* menu item from the pop-up menu."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:41
+msgid "3. Click on *Driver Station Name* on the *DRIVER STATION SETTINGS* page."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:49
+msgid "4. Specify the new Driver Station Name and press *OK* to accept the changes."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:59
+msgid "Updating the Driver Station App"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:61
+msgid "It is important to know how to update the Driver Station app that is installed on your smartphone. FIRST periodically releases new versions of this app, which contain improvements and fixes, as well as season-specific data and features."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:66
+msgid "Note that you can see the Driver Station app version number through the Driver Station user interface. Select the *About* menu option on the Driver Station and note the App Version number under the *ABOUT DRIVER STATION* section."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:76
+msgid "As of 2021, all apps (v 6.1 and higher) are no longer available on Google Play."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:79
+msgid "The `REV Hardware Client software <https://docs.revrobotics.com/rev-hardware-client/>`__ will allow you to download the apps to approved devices: REV Control Hub, REV Expansion Hub, REV Driver Hub, and approved Android devices. Here are some of the benefits:"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:84
+msgid "Connect a REV Control Hub via WiFi."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:85
+msgid "One Click update of all software on connected devices."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:86
+msgid "Pre-download software updates without a connected device."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:87
+msgid "Back up and restore user data from Control Hub."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:88
+msgid "Install and switch between DS and RC applications on Android Devices."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:89
+msgid "Access the Robot Control Console on the Control Hub."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:91
+msgid "All teams using Blocks, OnBot Java or Android Studio can use the REV Hardware Client to update the Driver Station (DS) app on a DS phone."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:94
+msgid "NOTE: it will take an estimated 7.5 minutes per device to complete this task."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:97
+msgid "As an alternate, the app releases are available on the `FTCRobotController Github <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__. Download the Driver Station APK file to a computer, transfer it to the DS phone's Downloads folder, then open that file to install the DS app. This process is called \"side-loading\"."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:103
+msgid "If you update the Driver Station (DS) app, you should also update the Robot Controller (RC) app to the same version number. That process is different for Android Studio teams; updating RC phones is described :ref:`found here <programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller:Updating the Robot Controller App>`"
+msgstr ""

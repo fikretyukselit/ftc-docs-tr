@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:2
+msgid "Budget Printers (Under $300 USD)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:4
+msgid "Just because you buy a budget printer doesn't mean you can't upgrade it later to be even better! (Take a look at Common Upgrades)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:10
+msgid "Creality Ender-3/Pro/V2 ($100-$250)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:12
+msgid "If you're looking for the most cost effective printer that will still do a great job, this is a great option. The Ender-3 series is an open source classic in the FTC and 3D printing community. It has a huge support network and despite it's low cost, has proven itself to be a very capable printer."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:17
+msgid "Ender 3 Features"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:18
+msgid "All Ender 3s have:"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:20
+msgid "A huge support network"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:21
+msgid "Tons of printable and purchasable upgrades"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:22
+msgid "Open Source Hardware"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:23
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:70
+msgid "220mm x 220mm x 250mm Print Volume"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:25
+msgid "The Ender 3 Pro has:"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:27
+msgid "A more stable Y axis"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:28
+msgid "A more powerful power supply"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:29
+msgid "A flexible bed"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:31
+msgid "The Ender 3 v2 has:"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:33
+msgid "A glass bed"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:34
+msgid "Built in belt tensioners"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:35
+msgid "The power supply and Y axis from the Pro"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:37
+msgid "The V2 and Pro can often be found on sale for the same price as the base model, making them very good options."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:40
+msgid "Ender 3 Drawbacks"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:41
+msgid "Technology is dated due to initial release in 2018 (Lack of Auto Bed Leveling)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:42
+msgid "PTFE Lined Hotend"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:43
+msgid "Bowden Style Extruder"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:44
+msgid "V-Roller Motion system and singular lead screw setup causes frame flexing."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:45
+msgid "Can take a bit of tweaking/upgrading to work consistently."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:52
+msgid "Picture of a Creality Ender 3"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:52
+msgid "Creality Ender 3 Base Model"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:57
+msgid "Sovol SV06 ($259)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:59
+msgid "If you're willing to spend just a little bit more money for more quality of life features out of the box, the Sovol SV06 is a good option. It maintains an Ender-like frame but adds in modern features that the Ender lacks which can save tinkering and maintenance time down the road."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:64
+msgid "SV06 Features"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:65
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:97
+msgid "Auto Bed Leveling"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:66
+msgid "Flexible Bed"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:67
+msgid "All-Metal Direct Drive Extruder"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:68
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:99
+msgid "Built in Belt Tensioners"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:69
+msgid "Dual Z-Axis"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:73
+msgid "SV06 Drawbacks"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:74
+msgid "Known Quality Control Issues from factory (X-Axis not flat)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:75
+msgid "Not many slicer profiles available (Slowly being solved)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:None
+msgid "Picture of a Sovol SV06"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:85
+msgid "Other Budget Printers/Ender Clones ($150-$300)"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:87
+msgid "If you're ok with forgoing the huge knowledge base behind the Ender-3 series in exchange for a few more features out of the box, some Ender-3 clones can be a good option. Notable ones include the Elegoo Neptune, Anycubic Vyper, and Voxelab Aquila. It's notable that while these are more or less \"Ender 3 Clones\", all three companies and printer models listed here are still established companies with community trust and acceptable customer service. These printers can be a great buy and are often cheaper but make sure to do research before purchasing."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:94
+msgid "Common Features"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:95
+msgid "Ender 3 Clones typically have at least a couple of the following..."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:98
+msgid "Upgraded Print Surface"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:100
+msgid "Colored Touchscreen"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:103
+msgid "Common Drawbacks"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:104
+msgid "Less troubleshooting help/knowledge base compared to the Ender 3"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:105
+msgid "Any drawbacks of the individual printer. Make sure you keep an eye out for things you want in a printer when researching."
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:112
+msgid "Picture of an Anycubic Viper"
+msgstr ""
+
+#: manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:112
+msgid "Anycubic's Viper"
+msgstr ""

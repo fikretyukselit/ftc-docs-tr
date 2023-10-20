@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: control_hard_compon/rc_components/motors/motors.rst:2
+msgid "Motors"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:11
+msgid "TETRIX 12V DC Motor"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:0
+msgid "W44260"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:22
+msgid "TETRIX 12V TorqueNADO DC Motor"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:28
+msgid "AndyMark 12V DC Motor"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:0
+msgid "am-3103AUS"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:39
+msgid "AndyMark NeveRest series 12V DC Motors"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:45
+msgid "MATRIX 12V DC Motors"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:0
+msgid "5202-0002-0014"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:56
+msgid "Modern Robotics/MATRIX 12V DC Motors"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:62
+#: control_hard_compon/rc_components/motors/motors.rst:79
+msgid "REV 12V DC Motor"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:0
+msgid "REV-41-1301"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:73
+msgid "REV Robotics HD Hex 12V DC Motor"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:0
+msgid "REV-41-1300"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:90
+msgid "REV Robotics Core Hex 12V DC Motor"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:92
+msgid "Motors are the primary drivers of a robot. All motors are 12v brushed DC motors and are enumerated in :ref:`Game Manual Part 1 <manuals/game_manuals/game_manuals:game manuals>`. They may only be controlled via a REV Expansion Hub, REV Control Hub, REV SPARKmini Motor Controller, or VEX Motor Controller 29. ``<RE09>``"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:98
+msgid "Additional Resources"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:100
+msgid ":ref:`Port Overview <control_hard_compon/rc_components/hub/ports/ch-ports:motor ports>`"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:101
+msgid ":ref:`Connecting Motors <hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor:connecting a motor to the hub>`"
+msgstr ""
+
+#: control_hard_compon/rc_components/motors/motors.rst:102
+msgid ":ref:`Configuring Motors <hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor:configuring a dc motor>`"
+msgstr ""

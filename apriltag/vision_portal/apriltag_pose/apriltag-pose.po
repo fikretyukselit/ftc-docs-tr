@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:2
+msgid "AprilTag Pose"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:4
+msgid "The SDK can evaluate a **flat AprilTag** (not curved) to estimate **pose**, the combination of:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:7
+msgid "relative position **from the camera lens center to the AprilTag center**, and"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:8
+msgid "orientation of the AprilTag **in the camera's reference frame**"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:10
+msgid "As described at the previous page **FTC Reference Frame**, position is expressed as (X, Y, Z).  Orientation is expressed as rotation about (X, Y, Z), called Pitch, Roll and Yaw respectively."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:14
+msgid "The tag must be in the Library, which ensures that tag size (with units) is defined.  Estimating pose requires knowing the tag size."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:17
+msgid "As demonstrated in the Sample OpModes, here are ways to retrieve the estimated pose values."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:0
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:0
+msgid "Blocks"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:0
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:29
+msgid "AprilTag Pose Blocks"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:31
+msgid "Use each of these green Blocks to pass a Pose value to a Telemetry Block, or to a Variable:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:0
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:0
+msgid "Java"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:36
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:74
+msgid "Use these `ftcPose` fields for Telemetry, or assign to a Variable:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:48
+msgid "*The SDK terms for Pitch, Roll and Yaw are* **not the same** *as the native AprilTag terms, due to the FTC reference frame.*"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:51
+msgid "Teams may find it helpful to use a **calculated extension** of the basic pose, with these terms:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:54
+msgid "**Range**, direct (point-to-point) distance to the tag center"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:55
+msgid "**Bearing**, the angle the camera must turn (left/right) to point directly at the tag center"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:56
+msgid "**Elevation**, the angle the camera must tilt (up/down) to point directly at the tag center"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:62
+msgid "Here each green Block assigns its value to a Variable:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:0
+msgid "AprilTag RBE Blocks"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:69
+msgid "AprilTag Range, Bearing, Elevation Blocks"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:83
+msgid "Here, the terms do agree with the SDK method names, because they are calculated within the SDK from the native AprilTag pose values shown above (XYZ distances and PRY rotations)."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:87
+msgid "As with tag ID code, pose data is usually retrieved inside a ``for() loop``, for immediate processing or stored for later use.  See the **Initialization** page for sample ``for() loop`` code."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:91
+msgid "Unlike tag ID code, a detected AprilTag might provide **no pose data** -- if it was not placed into the Library by default or with the custom Builder pattern. Namely, the tag might lack Metadata including **tag size**, required for pose estimation."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:96
+msgid "To avoid logic errors, an OpMode can check the Metadata for a **null** condition before attempting to process pose data.  This is illustrated in these Sample OpModes:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:100
+msgid "Blocks: `ConceptAprilTag`"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:101
+msgid "Java: `ConceptAprilTag.java`"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:103
+msgid "More discussion of AprilTag pose data is available here:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:105
+msgid "https://ftc-docs.firstinspires.org/apriltag-detection-values"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:109
+msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
+msgstr ""

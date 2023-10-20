@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/camera_calibration/camera-calibration.rst:2
+msgid "Camera Calibration for *FIRST* Tech Challenge"
+msgstr ""
+
+#: programming_resources/vision/camera_calibration/camera-calibration.rst:5
+msgid "What is a camera calibration and why is it needed?"
+msgstr ""
+
+#: programming_resources/vision/camera_calibration/camera-calibration.rst:7
+msgid "Cameras are composed of many different components that can introduce variability in the actual image that a camera ultimately \"sees\". Camera calibration is a process that mathematically models how a camera & lens combination ultimately sees the world, for example how wide the field of view is. Calibrating your camera is a must if you desire to use it for high-precision tasks, such as performing precision measurements using the camera or obtaining accurate 6DOF pose data from fiducial marker systems like AprilTags. It's important to note that calibrations are not only specific to the camera and lens, but also specific to the resolution used on a particular camera as well!"
+msgstr ""
+
+#: programming_resources/vision/camera_calibration/camera-calibration.rst:18
+msgid "Due to the differences in refractive index, calibrations performed in air and in liquids (for example, in water) are not transferrable. Calibrations must be performed within the medium that the camera will be operating in."
+msgstr ""
+
+#: programming_resources/vision/camera_calibration/camera-calibration.rst:23
+msgid "Camera Calibration Methods"
+msgstr ""
+
+#: programming_resources/vision/camera_calibration/camera-calibration.rst:25
+msgid "There are many methods to calibrate cameras, including OpenCV, MATLAB, MRCAL etc."
+msgstr ""
+
+#: programming_resources/vision/camera_calibration/camera-calibration.rst:28
+msgid "For advanced teams, using `MRCAL <http://mrcal.secretsauce.net/>`__ is likely the best option - it is a tool developed by NASA JPL that provides extensive data on how good your calibration is and what goes into the numerical optimization to arrive at the optimal parameters."
+msgstr ""
+
+#: programming_resources/vision/camera_calibration/camera-calibration.rst:32
+msgid "For the rest of us, here we explain how to calibrate your camera using `3DF Zephyr <https://www.3dflow.net/3df-zephyr-free/>`__, which is extremely easy to use and can provide reasonable results."
+msgstr ""
+
+#: programming_resources/vision/camera_calibration/camera-calibration.rst:37
+msgid "3DF Zephyr is a Microsoft Windows 64-bit application. It is not supported on 32-bit versions of Windows, nor is it supported on Mac or on Linux platforms."
+msgstr ""
+
+#: programming_resources/vision/camera_calibration/camera-calibration.rst:42
+msgid "Calibrating with 3DF Zephyr"
+msgstr ""
+
+#: programming_resources/vision/camera_calibration/camera-calibration.rst:44
+msgid "Download and install `3DF Zephyr Free Edition <https://www.3dflow.net/3df-zephyr-free/>`__."
+msgstr ""
+
+#: programming_resources/vision/camera_calibration/camera-calibration.rst:45
+msgid "Copy the sample ``UtilityCameraFrameCapture`` OpMode to your teamcode folder, and modify the parameters at the top according to your needs. It's important to note that this Sample is only written in Java."
+msgstr ""
+
+#: programming_resources/vision/camera_calibration/camera-calibration.rst:48
+msgid "In 3DF Zephyr, go to:"
+msgstr ""
+
+#: programming_resources/vision/camera_calibration/camera-calibration.rst:50
+msgid "Utilities --> Images --> Camera Calibration"
+msgstr ""
+
+#: programming_resources/vision/camera_calibration/camera-calibration.rst:52
+msgid "and follow the instructions. Use the frame capture OpMode to take the pictures."
+msgstr ""
+
+#: programming_resources/vision/camera_calibration/camera-calibration.rst:53
+msgid "Connect your Robot Controller device to your computer with a USB cable and copy the captured frames to your computer. They will be located in the root of the USB storage, with names prefixed by ``VisionPortal-``."
+msgstr ""
+
+#: programming_resources/vision/camera_calibration/camera-calibration.rst:56
+msgid "Press the *Add Images* button in 3DF Zephyr and point it to the images you just copied to your computer."
+msgstr ""
+
+#: programming_resources/vision/camera_calibration/camera-calibration.rst:58
+msgid "Run the calibration target analysis in 3DF Zephyr; when it is complete, it will provide you with ``fx, fy, cx, cy`` which are the needed calibration parameters to be applied to your ``AprilTagProcessor``."
+msgstr ""

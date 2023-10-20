@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: game_specific_resources/playing_field_resources/playing_field_resources.rst:2
+msgid "Playing Field Resources"
+msgstr ""
+
+#: game_specific_resources/playing_field_resources/playing_field_resources.rst:6
+msgid "Traditional Playing Field ~ CENTERSTAGE presented by RTX, 2023-2024"
+msgstr ""
+
+#: game_specific_resources/playing_field_resources/playing_field_resources.rst:9
+msgid "About the Playing Field"
+msgstr ""
+
+#: game_specific_resources/playing_field_resources/playing_field_resources.rst:10
+msgid "There are multiple configurations of the playing field that can be used. For traditional games, the playing field is a part of the Competition Area that includes the 12 ft. x 12 ft. (3.66 m x 3.66 m) field and all the elements described in the official field drawings. For remote games, the playing field is a part of the Competition Area that includes the 12 ft. x 8 ft. (3.66 m x 2.44 m) field and all the elements described in the official field drawings. The base field stays the same for all games but the game elements are subject to change as per :ref:`Game Manual Part 2<manuals/game_manuals/game_manuals:game manuals>`."
+msgstr ""
+
+#: game_specific_resources/playing_field_resources/playing_field_resources.rst:16
+msgid "Traditional Field Setup Guide"
+msgstr ""
+
+#: game_specific_resources/playing_field_resources/playing_field_resources.rst:18
+msgid "This document can be found here: `Traditional Field Setup Guide <https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/field-assembly-and-setup-guide.pdf>`__"
+msgstr ""
+
+#: game_specific_resources/playing_field_resources/playing_field_resources.rst:29
+msgid "Remote Field Setup Guide"
+msgstr ""
+
+#: game_specific_resources/playing_field_resources/playing_field_resources.rst:31
+msgid "No Remote Field Setup Guide released yet."
+msgstr ""

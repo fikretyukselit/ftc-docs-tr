@@ -1,0 +1,251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:2
+msgid "Updating Hub Firmware"
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:4
+msgid "Firmware is low-level software that controls a device’s circuit boards, or electronic **hardware**. This must sometimes be updated on the REV Expansion Hub and the REV Control Hub in order for the :doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>` to perform correctly."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:9
+msgid "Here are 5 methods:"
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:11
+msgid "REV Hardware Client (RHC)"
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:12
+msgid "Driver Station app"
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:13
+msgid "Robot Controller (RC) app - on RC phone"
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:14
+msgid "Manage page on computer"
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:15
+msgid "Manage page on Driver Station device (DS phone or Driver Hub)"
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:0
+msgid "Method 1 - REV Hardware Client (RHC) - Windows computers only"
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:19
+msgid "For REV Control Hub, apply 12V robot power. For REV Expansion Hub, 12V power is optional."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:22
+msgid "Plug the REV Hub directly into a computer running the REV Hardware Client, with a USB data cable (not charge-only). The Expansion Hub’s port is Mini USB (not micro). On the Control Hub, use only the USB-C port, not its Mini USB port."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:27
+msgid "Click the hub’s large icon/rectangle. Under “Expansion/Control Hub Firmware”, see the current/latest mismatch, if any (yellow oval, below)."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:0
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:36
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:0
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:45
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:0
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:78
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:0
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:125
+msgid "Updating Firmware"
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:38
+msgid "Here’s an example with Control Hub:"
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:47
+msgid "Confirm the Latest Version in the drop-down menu, then click the blue “Re-install” rectangle (green arrow, above). This is done quickly, since :doc:`in Updating the REV Hardware Client </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` the required update file was previously downloaded."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:53
+msgid "Done! The Hub’s firmware is now updated."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:55
+msgid "More info about using the RHC to update Hub firmware is `at REV Robotics’ excellent documentation site <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware>`__."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:0
+msgid "Method 2 - Driver Station app"
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:59
+msgid "This method applies to any DS app, running on a DS phone or a Driver Hub."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:62
+msgid "For REV Control Hub, apply 12V robot power. For REV Expansion Hub, connect directly to Robot Controller (RC) phone, open RC app, **and** apply 12V power. The Expansion Hub being updated must be **plugged directly** into the RC phone, with no intermediate Control Hub or other (primary) Expansion Hub. After updating you can return that Hub to its secondary position, if needed."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:69
+msgid "Connect/pair the DS app to the RC device, from a DS phone or Driver Hub. Select DS Settings, Advanced (Robot Controller) Settings, REV Hub Firmware Update."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:80
+msgid "Review the list of available Hub firmware, whether stored on the RC device and/or “bundled” in the app."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:83
+msgid "If the latest does **not** appear on the list, you can transfer the firmware file from a computer to the Robot Controller. Use a USB data cable (not a charge-only cable) to store the firmware file in the RC device’s subfolder called FIRST/updates/Expansion Hub Firmware."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:88
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:137
+msgid "Current and older firmware files can be found at the `REV Robotics website <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware/firmware-changelog>`__."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:91
+msgid "Then return to this list of available firmware."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:93
+msgid "Now select the latest firmware version and touch “Update Hub Firmware” (green arrow, above). Wait for the process to finish; do not unplug the Hub or restart the robot."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:97
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:154
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:210
+msgid "That’s it! The Hub’s firmware is now updated."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:0
+msgid "Method 3 - Robot Controller (RC) app - on RC phone"
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:101
+msgid "This method is **exactly the same** as Method #2 immediately above, since the DS app was simply providing a portal or window to the RC app."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:104
+msgid "It’s listed separately here, because it applies only to **Expansion Hub**, not Control Hub – which doesn’t use an RC phone. In other words, users do not normally interface directly with the RC app on a Control Hub."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:109
+msgid "Again, the Expansion Hub must be plugged **directly** into an RC phone, with no intermediate (primary) Expansion Hub. After updating you can return that Hub to its secondary position, if needed."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:0
+msgid "Method 4 - Manage page on computer"
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:115
+msgid "Connect the computer via Wi-Fi to the Control Hub or RC phone. In the Chrome browser, open the Manage interface."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:118
+msgid "Click on the Manage tab, scroll down to Update REV Hub Firmware."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:127
+msgid "See if the grey box (see green arrow, above) offers the latest firmware version, included or bundled with the RC app."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:130
+msgid "If not, click the “Select Firmware…” box. Navigate to the desired firmware file stored on the computer, and select it."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:133
+msgid "As part of the update process, that selected firmware file will be stored on the Control Hub or RC phone, in a subfolder called FIRST/updates/Expansion Hub Firmware."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:140
+msgid "Now click the box called “Update to…” or “Update using…” (see green arrow, above)."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:0
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:148
+msgid "Managing Firmware"
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:150
+msgid "At the confirmation prompt, click the blue box “Update Hub Firmware”. Wait for the process to finish; do not unplug the Hub or restart the robot."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:0
+msgid "Method 5 - Manage page on Driver Station device - DS phone or Driver Hub"
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:158
+msgid "Connect the DS app to the Control Hub or RC phone, from the DS app’s Settings menu (never with the Android device Wi-Fi settings)."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:161
+msgid "From the DS app’s menu, select “Program and Manage”. Then touch the 3 bars at top right, and select “Manage”."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:164
+msgid "This is the same Manage page that appears in a laptop browser. So the following instructions are similar to Method 4 above."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:167
+msgid "Scroll down to Update REV Hub Firmware."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:0
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:174
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:0
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:204
+msgid "Update Hub Firmware"
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:176
+msgid "See if the grey box “Update to…” offers the latest firmware version, included or bundled with the DS app."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:179
+msgid "If not, you can transfer the desired firmware file to the **Driver Station device**."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:182
+msgid "Yes, that’s correct: transfer to the DS device, not to the RC device. This Method 5 uses a local file on the DS device, while Methods 2 and 3 (above) use a local file on the RC device."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:186
+msgid "Use a USB data cable (not a charge-only cable) to store the firmware file in the DS device’s Downloads folder."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:189
+msgid "Current and older firmware files can be found at the REV Robotics website `here <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware/firmware-changelog>`__."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:193
+msgid "Then click the “Select Firmware…” box. Navigate to the DS device’s Downloads folder, and select the desired firmware file."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:196
+msgid "Now click the box called “Update to…” or “Update using…” (second green arrow, above)."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:206
+msgid "At the confirmation prompt, scroll down and click the blue box “Update Hub Firmware”. Wait for the process to finish; do not unplug the Hub or restart the robot."
+msgstr ""
+
+#: ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:212
+msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
+msgstr ""

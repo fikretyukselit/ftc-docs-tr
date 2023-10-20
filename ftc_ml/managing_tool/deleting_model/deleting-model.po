@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ftc_ml/managing_tool/deleting_model/deleting-model.rst:2
+msgid "Deleting a Model"
+msgstr ""
+
+#: ftc_ml/managing_tool/deleting_model/deleting-model.rst:4
+msgid "If one or more models is selected and those models' training is finished, the Delete Models button is enabled."
+msgstr ""
+
+#: ftc_ml/managing_tool/deleting_model/deleting-model.rst:10
+msgid "Figure 14: Deleting a model"
+msgstr ""
+
+#: ftc_ml/managing_tool/deleting_model/deleting-model.rst:12
+msgid "When the user clicks Delete Models, the system determines whether the selected models can be deleted. Models that have been used as a starting point for more training cannot be deleted until after the other model is deleted."
+msgstr ""
+
+#: ftc_ml/managing_tool/deleting_model/deleting-model.rst:17
+msgid "A confirmation dialog is shown after the delete button has been pressed. If the users clicks Yes, the selected models will be deleted. If the selected models cannot be deleted, a dialog explaining why is shown:"
+msgstr ""
+
+#: ftc_ml/managing_tool/deleting_model/deleting-model.rst:24
+msgid "Figure 15: Cannot delete model because of dependencies"
+msgstr ""

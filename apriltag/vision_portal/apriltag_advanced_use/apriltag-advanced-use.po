@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:2
+msgid "AprilTag Advanced Use"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:5
+msgid "Overview"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:7
+msgid "This page will offer tips for *FIRST* Tech Challenge teams seeking more info about specialized features of the new VisionPortal."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:11
+msgid "Optional Metadata"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:13
+msgid "An AprilTag Library tag can store two optional **Metadata** fields (of these Blocks/Java types):"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:16
+msgid "``fieldPosition``: tag location on the game field (``VectorF``)"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:17
+msgid "``fieldOrientation``: tag orientation on the game field (``Quaternion``)"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:19
+msgid "The reference frame is the *FIRST* Tech Challenge **Field Coordinate System**, provided here:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:22
+msgid ":ref:`Field Coordinate System <game_specific_resources/field_coordinate_system/field-coordinate-system:reference frame>`"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:24
+msgid "Here is a simple graphic showing the *FIRST* Tech Challenge global axes that apply to **every game, every season**:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:32
+msgid "Field Coordinates"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:32
+msgid "Image Credit: Phil Malone"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:34
+msgid "With a tag’s **field position** and **orientation** specified in advance as Metadata, the tag’s pose data could be used by an advanced OpMode to calculate the robot’s position on the field. This conversion math, an exercise for the reader, can allow a robot to use the tag’s pose data in real-time to navigate to the desired location on the field."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:41
+msgid "Raw Pose Values"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:43
+msgid "The frame of reference described at the **AprilTag Reference Frame** page is provided **by default** in the new 8.2 SDK."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:46
+msgid "Advanced teams may prefer to perform their own pose calculations, based on **raw values** from the AprilTag/EasyOpenCV pipeline."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:49
+msgid "Those raw values are available to Java and Blocks programmers. The Java version is shown here:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:68
+msgid "These raw values are converted by the SDK to the default interface, as follows:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:90
+msgid "Further discussion is provided here:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:92
+msgid "https://ftc-docs.firstinspires.org/apriltag-detection-values"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:95
+msgid "Advanced CPU Management"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:97
+msgid "This section continues from the **VisionPortal CPU and Bandwidth** page, which covered many basic tools for avoiding limits of CPU usage and USB bandwidth."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:100
+msgid "To evaluate multiple factors, changing at the same time, a customized Test OpMode can be very useful.  This section provides an example that allows **live gamepad control** to:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:104
+msgid "toggle AprilTag Processor on and off"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:105
+msgid "toggle TFOD Processor on and off"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:106
+msgid "toggle LiveView on and off"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:107
+msgid "toggle Streaming on and off"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:109
+msgid "Other features of this Test OpMode include:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:111
+msgid "All controls are independent, to explore the combinations and their effect on frame rate (FPS)."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:113
+msgid "The previews can be observed, and detections/recognitions can be monitored via annotations and Telemetry."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:115
+msgid "Frame rate is provided in LiveView and DS Telemetry."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:116
+msgid "The Telemetry functions include an alternate for getting **all** or **only fresh** detections/recognitions."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:119
+msgid "This Test OpMode can be downloaded for `FTC Blocks <https://gist.github.com/WestsideRobotics/ea7540175b11d07bf362cb9625a54042>`__ or `Java <https://gist.github.com/WestsideRobotics/8566a1148dee6572084a6dea2b0d5627>`__. The Blocks version is shown below; right-click to open in a new browser tab and zoom in."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:131
+msgid "VisionPortal Example Code"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:131
+msgid "VisionPortal Example OpMode"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:133
+msgid "The OpMode uses \"Webcam 1\", or change ``USE_WEBCAM`` for a built-in RC phone camera.  For Control Hub, set up an HDMI monitor or `scrcpy <https://github.com/Genymobile/scrcpy>`__.  Follow the DS gamepad button guide."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:137
+msgid "At that **VisionPortal CPU and Bandwidth** page, four tools mentioned were not discussed:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:140
+msgid "set decimation (down-sampling)"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:141
+msgid "select a pose solver algorithm"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:142
+msgid "get all or only fresh detections from the AprilTag Processor"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:143
+msgid "get all or only fresh recognitions from the TFOD Processor"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:145
+msgid "For now, these are left for interested Blocks and Java users to research and investigate.  In time, more information may be posted at this page."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:148
+msgid "All of the above features are easily found in the relevant **FTC Blocks** toolbox, or palette, under the Vision category."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:151
+msgid "**Java** users should review the VisionPortal interface at the `SDK Javadocs <https://javadoc.io/doc/org.firstinspires.ftc/Vision/latest/overview-summary.html>`__ site.  Click **FRAMES** for easy navigation."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:157
+msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
+msgstr ""

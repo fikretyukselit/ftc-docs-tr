@@ -1,0 +1,200 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: sponsors/software/software.rst:2
+msgid "FIRST Tech Challenge Team Complimentary Software"
+msgstr ""
+
+#: sponsors/software/software.rst:4
+msgid "As a benefit of being a *FIRST* Tech Challenge Team, some sponsors of *FIRST* programs have generously provided complimentary software, licenses, and/or support to teams.  These licenses are generally good for a period of one year and many must be renewed annually. Sometimes sponsored content require the use of a donation voucher provided in your FIRST Dashboard team account, sometimes sponsors merely require your Team number and contact information, and some software is simply provided free of charge with no proof of registration requirement. Read details below for each product for more information."
+msgstr ""
+
+#: sponsors/software/software.rst:0
+msgid "Autodesk"
+msgstr ""
+
+#: sponsors/software/software.rst:0
+msgid "Autodesk Logo"
+msgstr ""
+
+#: sponsors/software/software.rst:24
+#: sponsors/software/software.rst:50
+#: sponsors/software/software.rst:62
+#: sponsors/software/software.rst:79
+#: sponsors/software/software.rst:104
+#: sponsors/software/software.rst:116
+msgid "**What**:"
+msgstr ""
+
+#: sponsors/software/software.rst:26
+msgid "Autodesk CAD software (including Fusion 360, Inventor, 3ds Max, and more...)"
+msgstr ""
+
+#: sponsors/software/software.rst:28
+msgid "**Expires**: Contact Autodesk for exact details."
+msgstr ""
+
+#: sponsors/software/software.rst:30
+#: sponsors/software/software.rst:73
+#: sponsors/software/software.rst:90
+#: sponsors/software/software.rst:110
+#: sponsors/software/software.rst:126
+msgid "**Access Codes**: N/A"
+msgstr ""
+
+#: sponsors/software/software.rst:32
+msgid "**To Access**: Check out the :doc:`Autodesk page <../../cad_resources/autodesk/autodesk>` for details."
+msgstr ""
+
+#: sponsors/software/software.rst:0
+msgid "Dassault Systèmes"
+msgstr ""
+
+#: sponsors/software/software.rst:36
+msgid "Todo"
+msgstr ""
+
+#: sponsors/software/software.rst:37
+msgid "Once Solidworks updates their team software registration process, we need to add instructions on how to get the voucher code from the voucher system and provide that code to Solidworks for them to credit the team with the software license."
+msgstr ""
+
+#: sponsors/software/software.rst:0
+msgid "Dassault Logo"
+msgstr ""
+
+#: sponsors/software/software.rst:52
+msgid "Dassault Systèmes CAD software (including SOLIDWORKS and the **3D** EXPERIENCE Platform)"
+msgstr ""
+
+#: sponsors/software/software.rst:54
+msgid "**Expires**: Contact Dassault Systèmes for exact details."
+msgstr ""
+
+#: sponsors/software/software.rst:56
+msgid "**Access Codes**: [COMING SOON]"
+msgstr ""
+
+#: sponsors/software/software.rst:58
+msgid "**To Access**: Check out the :doc:`Dassault Systèmes page <../../cad_resources/solidworks/solidworks>` for details."
+msgstr ""
+
+#: sponsors/software/software.rst:0
+msgid "JIRA"
+msgstr ""
+
+#: sponsors/software/software.rst:64
+msgid "Atlassian JIRA is the #1 software development tool used by Agile teams"
+msgstr ""
+
+#: sponsors/software/software.rst:66
+msgid "Track, release, and manage world-class software"
+msgstr ""
+
+#: sponsors/software/software.rst:67
+msgid "Forever free for up to 10 users"
+msgstr ""
+
+#: sponsors/software/software.rst:68
+msgid "Get from \"due\" to \"done\""
+msgstr ""
+
+#: sponsors/software/software.rst:69
+msgid "Unlimited projects and boards"
+msgstr ""
+
+#: sponsors/software/software.rst:71
+#: sponsors/software/software.rst:88
+#: sponsors/software/software.rst:124
+msgid "**Expires**: N/A"
+msgstr ""
+
+#: sponsors/software/software.rst:75
+msgid "**To Access**: Create free account on `Atlassian.com <https://www.atlassian.com/software/jira?&adgroup=1307319456925659&campaign=272205760&creative=81707524366481&device=c&keyword=jira&ds_k=jira&matchtype=e&network=o&ds_kids=p33884559131&ds_e=MICROSOFT&ds_eid=700000001738795&ds_e1=MICROSOFT>`__"
+msgstr ""
+
+#: sponsors/software/software.rst:0
+msgid "Miro"
+msgstr ""
+
+#: sponsors/software/software.rst:81
+msgid "Miro visual platform for Project Management and Ideation"
+msgstr ""
+
+#: sponsors/software/software.rst:83
+msgid "3 editable boards"
+msgstr ""
+
+#: sponsors/software/software.rst:84
+msgid "Premade templates"
+msgstr ""
+
+#: sponsors/software/software.rst:85
+msgid "Core integrations"
+msgstr ""
+
+#: sponsors/software/software.rst:86
+msgid "Basic attention management"
+msgstr ""
+
+#: sponsors/software/software.rst:92
+msgid "**To Access**: Create free account on `Miro.com <https://miro.com>`__"
+msgstr ""
+
+#: sponsors/software/software.rst:0
+msgid "PTC"
+msgstr ""
+
+#: sponsors/software/software.rst:0
+msgid "PTC Logo"
+msgstr ""
+
+#: sponsors/software/software.rst:106
+msgid "PTC Software Access (including Creo, OnShape, etc...)"
+msgstr ""
+
+#: sponsors/software/software.rst:108
+msgid "**Expires**: Contact PTC for exact details."
+msgstr ""
+
+#: sponsors/software/software.rst:112
+msgid "**To Access**: Check out the :doc:`PTC page <../../cad_resources/ptc/ptc>` for details."
+msgstr ""
+
+#: sponsors/software/software.rst:0
+msgid "Trello"
+msgstr ""
+
+#: sponsors/software/software.rst:118
+msgid "Atlassian Trello brings all your tasks, teammates, and tools together"
+msgstr ""
+
+#: sponsors/software/software.rst:120
+msgid "Boards, Lists, and Cards help organize and keep team on task"
+msgstr ""
+
+#: sponsors/software/software.rst:121
+msgid "Free Workspaces can have 10 open boards"
+msgstr ""
+
+#: sponsors/software/software.rst:122
+msgid "Invite viewers to the boards"
+msgstr ""
+
+#: sponsors/software/software.rst:128
+msgid "**To Access**: Create free account on `trello.com <https://trello.com>`__"
+msgstr ""

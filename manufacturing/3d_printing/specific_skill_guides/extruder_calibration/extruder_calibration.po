@@ -1,0 +1,25 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: manufacturing/3d_printing/specific_skill_guides/extruder_calibration/extruder_calibration.rst:2
+msgid "Extruder Calibration (E-Steps)"
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/extruder_calibration/extruder_calibration.rst:4
+msgid "If you're noticing any issues with over/under extrusion or if you just got a new printer, it's highly advisable that you tune your e-steps. E-Steps dictate how many steps the extruder motor takes to extrude a certain amount of filament. This procedure is best covered in videos, so go take a look at `Thomas Sanladerer's video on the topic. <https://www.youtube.com/watch?v=YUPfBJz3I6Y>`_"
+msgstr ""

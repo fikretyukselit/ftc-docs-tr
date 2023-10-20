@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:2
+msgid "Bed Leveling"
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:4
+msgid "This guide is primarily for older printers that don't have automatic leveling. If you have a newer printer, this process is likely not needed or there is a more advanced process to follow. Research what processes are available for your printer."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:7
+msgid "If you have a bed thats adjustable by screws, bed leveling is by far the biggest factor for how well your prints stick across the whole bed. The only tool you should need is a 0.2mm thick piece of metal, a piece of cardstock, or an index card."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:None
+msgid "Tools usable for bed leveling."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:17
+msgid "Here's the steps you should follow to level your bed:"
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:19
+msgid "Ensure that your nozzle is clean and has no extra filament beneath it that would interfere with bed leveling precision."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:20
+msgid "Home the Z axis completely, and get it to Z coordinate 0 by using the printer's move commands"
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:21
+msgid "Move the nozzle to just above one of the screws using the printer's move commands (This is done with move commands to make sure that it replicates the movement that the printer will perform when under it's own control)"
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:22
+msgid "Adjust the screw up and down until the 0.2mm material can barely slide with slight friction underneath the nozzle."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:None
+msgid "Placement of a tool under a nozzle."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:30
+msgid "Repeat this process with the other screws available on the bed."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:31
+msgid "Move the nozzle to the center of the bed and check bed height using your 0.2mm material. If you leveled all of the screws properly, it should be roughly the same amount of friction."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:34
+msgid "Z-Offset"
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:36
+msgid "Once your printer is leveled between the screws, the bed is flat, but it's not always at exactly the right height. All printers should have a Z offset variable that lets you adjust the height of the nozzle during or before printing. If at the start of your print the bed is either located too high or too low, but remaining consistent (provided you bed leveled), use your printers Z offset feature (also called baby-stepping) to adjust it live while it lays down the first layer. Reference the images below for some good visualizations on how to make sure you're at the proper height!"
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:None
+#: manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:None
+msgid "Visual specifications on how high a nozzle should be."
+msgstr ""

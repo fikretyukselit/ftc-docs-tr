@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:2
+msgid "Print Adhesion"
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:4
+msgid "There's a lot of ways that print adhesion can go wrong, and it's one of the biggest things that people new to 3d printing struggle with. Bed Leveling is often the biggest, but if you just can't get that one part to stick even after a perfect bed level, try some of the things below depending on your build surface!"
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:9
+msgid "Increase Adhesion on Glass/Sticker/Powder Coated Bed Surfaces"
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:11
+msgid "If you're having bed adhesion issues with any of these surfaces, the easiest way to deal with it is PVA Glue. School glue and gluesticks contain a plastic called PVA that can help bed adhesion by providing a film for the part you're printing to hold onto."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:14
+msgid "**Gluestick**: If you use gluestick, spread a thin layer of it over the area you're printing on, heat it up, and wait for the gluestick to mainly become invisible before starting the print."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:16
+msgid "**School Glue**: If you choose to use school glue, mix it thoroughly 50/50 with tap water in a spray bottle, and spray a thin layer on the bed. Heat it up and begin your print."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:19
+msgid "If you are using a Glass bed, hairspray can also serve this function, but PVA glue is a more consistent surface and is more effective."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:21
+msgid "When using any form of glue on your bed, it's important to clean it every couple prints. Glue buildup can significantly change the height and properties of your printing surface, and sometimes even make it worse. Soapy Water or Isopropyl Alcohol will work well for these purposes."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:25
+msgid "Increase Adhesion on PEX/PEI Bed Surfaces"
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:26
+msgid "If you have a PEX or PEI build surface and can't get anything to stick, it is recommended to clean it off with isopropyl alcohol and then rough it up slightly with steel wool and then proceed using PVA glue of some sort (described above). This will provide slightly more texture for a print to grip onto."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:31
+msgid "Free Stuck Prints"
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:33
+msgid "While having too little bed adhesion is a pretty common problem, having too much can be bad as well, with prints sticking too well. If you encounter an issue like this, there's 2 easy ways to help prints get off the bed."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:36
+msgid "**Cooling**: Due to thermal expansion, letting the print cool completely will help it remove itself from the bed. If that wasn't quite enough, consider putting your entire printer bed in the fridge or freezer (or even just outside if it's winter) to contract the bed and part slightly more and possibly free them."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:38
+msgid "**Water**: It sounds crazy, but if you put a few drops of water or a light spray around the part on the bed, the surface tension of the water will help lift up the part slightly and remove it from the bed."
+msgstr ""

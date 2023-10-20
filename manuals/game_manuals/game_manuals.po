@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: manuals/game_manuals/game_manuals.rst:2
+msgid "Game Manuals"
+msgstr ""
+
+#: manuals/game_manuals/game_manuals.rst:4
+msgid "Game Manuals can be found on the `Game and Season Materials page <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__ on the *FIRST* Website. They are presented here for your convenience."
+msgstr ""
+
+#: manuals/game_manuals/game_manuals.rst:8
+msgid "To search all four PDFs at once, just perform a search within this webpage for the content you are looking for. Then simply scroll down to each PDF to see which PDFs contained the content you were looking for!"
+msgstr ""
+
+#: manuals/game_manuals/game_manuals.rst:11
+msgid "Game Manual Part 1 Traditional Events"
+msgstr ""
+
+#: manuals/game_manuals/game_manuals.rst:13
+msgid "`Game Manual Part 1 Traditional Events <https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/game-manual-part-1-traditional.pdf>`__"
+msgstr ""
+
+#: manuals/game_manuals/game_manuals.rst:24
+msgid "Game Manual Part 2 Traditional Events"
+msgstr ""
+
+#: manuals/game_manuals/game_manuals.rst:26
+msgid "`Game Manual Part 2 Traditional Events <https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/game-manual-part-2-traditional.pdf>`__"
+msgstr ""
+
+#: manuals/game_manuals/game_manuals.rst:37
+msgid "Game Manual Part 1 Remote Events"
+msgstr ""
+
+#: manuals/game_manuals/game_manuals.rst:39
+msgid "`Game Manual Part 1 Remote Events <https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/game-manual-part-1-remote.pdf>`__"
+msgstr ""
+
+#: manuals/game_manuals/game_manuals.rst:50
+msgid "Game Manual Part 2 Remote Events"
+msgstr ""
+
+#: manuals/game_manuals/game_manuals.rst:52
+msgid "`Game Manual Part 2 Remote Events <https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/game-manual-part-2-remote.pdf>`__"
+msgstr ""

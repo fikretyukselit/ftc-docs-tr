@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ftc_docs/pdf/pdf.rst:1
+#: ftc_docs/pdf/pdf.rst:7
+#: ftc_docs/pdf/pdf.rst:0
+msgid "FTC Docs PDF"
+msgstr ""
+
+#: ftc_docs/pdf/pdf.rst:1
+msgid "Offline PDF of FTC Docs"
+msgstr ""
+
+#: ftc_docs/pdf/pdf.rst:1
+msgid "FTC, PDF, Docs, Offline, FIRST Tech Challenge"
+msgstr ""
+
+#: ftc_docs/pdf/pdf.rst:0
+msgid "FTC Docs PDF Menu"
+msgstr ""
+
+#: ftc_docs/pdf/pdf.rst:21
+msgid "Though FTC Docs is available as a website in HTML it is also available as a PDF. This PDF can be acsessed by clicking the the FTC Docs menu in the bottom left corner of the page and selecting the PDF option."
+msgstr ""

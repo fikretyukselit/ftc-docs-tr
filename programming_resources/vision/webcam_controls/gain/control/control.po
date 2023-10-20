@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/webcam_controls/gain/control/control.rst:2
+msgid "Gain Control"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/control/control.rst:4
+msgid ":java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/control/control.rst:6
+msgid "Gain is a digital camera setting that controls the amplification of the signal from the webcam sensor. This amplifies the whole signal, including any associated background noise."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/control/control.rst:10
+msgid "Gain can be managed in coordination with exposure. Raising exposure and keeping gain low, can provide a bright image and low noise. On the other hand, longer exposure can cause motion blur, which may affect target tracking performance. In some cases, reducing exposure duration and increasing gain may provide a sharper image, although with more noise."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/control/control.rst:16
+msgid "The interface GainControl uses a single value to control gain. It’s used for amplification, and thus has no units – it’s just a number of type integer. Its methods are:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/control/control.rst:20
+msgid "setGain(int gain)"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/control/control.rst:21
+msgid "getGain()"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/control/control.rst:23
+msgid "As with exposure, the webcam may support minimum and maximum allowed values of gain. These can be retrieved with:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/control/control.rst:26
+msgid "getMinGain()"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/control/control.rst:27
+msgid "getMaxGain()"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/control/control.rst:29
+msgid "There are no ``set()`` methods for min and max gain; these are hard-coded in the webcam’s firmware. Note that firmware settings may vary among different versions of the same webcam model."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/control/control.rst:33
+msgid "These and other gain methods are called on a GainControl object, as described above for exposure."
+msgstr ""

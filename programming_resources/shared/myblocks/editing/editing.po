@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/shared/myblocks/editing/editing.rst:2
+msgid "Editing a myBlock"
+msgstr ""
+
+#: programming_resources/shared/myblocks/editing/editing.rst:4
+msgid "If you edit and re-Build a myBlock’s Java code, you might need to **replace** that myBlock in the Blocks OpMode. It depends on whether you change the myBlock’s visible or external features: annotation fields, input parameters or returned outputs."
+msgstr ""
+
+#: programming_resources/shared/myblocks/editing/editing.rst:9
+msgid "If your Java change does affect external features, its updated myBlock is available only from the Java Classes menu in Blocks. Any such myBlock **already placed in an OpMode** is obsolete and may generate a **Blocks warning**; replace it with the new myBlock. In some cases you may need to re-open the OpMode from the top-level Blocks listing."
+msgstr ""
+
+#: programming_resources/shared/myblocks/editing/editing.rst:17
+msgid "If your edit affects only the myBlock’s **internal** processing, it might update automatically after “Build Everything”, without needing a fresh replacement from the Java Classes menu. In some cases you might not even need to click Save OpMode in the Blocks screen – you could simply re-run the OpMode on the Driver Station with INIT and Start. This can allow very fast testing of minor/internal changes to the myBlock."
+msgstr ""
+
+#: programming_resources/shared/myblocks/editing/editing.rst:24
+msgid "In any case, consider adding **versions** to your myBlock names, such as myGreeting_v01. Copy and paste before editing, to keep all related myBlock methods in the **same Java class**. In Blocks, all uniquely named versions will be available in the Java Classes menu, under that single class name."
+msgstr ""
+
+#: programming_resources/shared/myblocks/editing/editing.rst:30
+msgid "Keep the class name **short and generic**, such as MyBlocks, SampleMyBlocks, Team8604MyBlocks, DrivingMyBlocks, etc. It will contain all or many related myBlocks, not just one myBlock per the simple examples above."
+msgstr ""
+
+#: programming_resources/shared/myblocks/editing/editing.rst:35
+msgid "In that single class, each myBlock method must appear after its own annotation ``@ExportToBlocks``. That class may contain other methods that are not myBlocks; omit the annotation before any non-myBlock methods. Such methods might be used to initialize variables, or might be (shared) submethods called by one or more myBlocks. An example is shown :ref:`here <programming_resources/shared/myblocks/method_example/method-example:example: non-myblock methods>`."
+msgstr ""
+
+#: programming_resources/shared/myblocks/editing/editing.rst:42
+msgid "This tutorial has covered these basic requirements so far: - create/store in **org.firstinspires.ftc.teamcode** folder/package - class **extends BlocksOpModeCompanion** - each myBlock method needs annotation **@ExportToBlocks** - method must be **public** and **static** (must not be abstract) - replace myBlocks after external edits"
+msgstr ""
+
+#: programming_resources/shared/myblocks/editing/editing.rst:49
+msgid "The rest of this tutorial gives **examples** that you can **re-type in OnBot Java** and **test in Blocks**. Try making changes and adding features!"
+msgstr ""

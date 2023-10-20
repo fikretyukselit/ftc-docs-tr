@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:2
+msgid "Evaluating Your Webcam"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:4
+msgid "The firmware of a specific webcam may or may not support certain features described here. The SDK provides some methods to query the webcam and/or return values that indicate whether a valid response was available."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:10
+msgid "Exposure Support"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:12
+msgid "Here are two methods to query exposure and a specific exposure mode:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:14
+msgid "isExposureSupported()"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:15
+msgid "isModeSupported(ExposureControl.Mode._mode_)"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:17
+msgid "for *mode*, enter the specific mode name you are testing"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:19
+msgid "For the following methods, a field called ``unknownExposure`` of type long is returned if exposure unavailable:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:22
+msgid "getExposure(TimeUnit.MILLISECONDS)"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:23
+msgid "getMinExposure(TimeUnit.MILLISECONDS)"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:24
+msgid "getMaxExposure(TimeUnit.MILLISECONDS)"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:26
+msgid "The methods that set the exposure and mode can also return a Boolean, presumably indicating whether the operation was successful or not. As optional examples:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:30
+msgid "``wasExposureSet =  setExposure(25);``"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:31
+msgid "``wasExposureModeSet = setMode(ExposureControl.Mode.Manual)``"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:33
+msgid "Likewise the AE Priority feature can return a Boolean. For example:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:35
+msgid "``wasAEPrioritySet =  setAePriority(true);``"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:38
+msgid "Gain Support"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:40
+msgid "The method that sets the gain can also return a Boolean indicating whether the operation was successful or not. As an optional example:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:43
+msgid "``wasGainSet =  setGain(25);``"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:46
+msgid "White Balance Support"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:48
+msgid "The methods that set temperature and mode can also return a Boolean, indicating whether the operation was successful or not. As optional examples:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:52
+msgid "``wasTemperatureSet = setWhiteBalanceTemperature(3000);``"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:53
+msgid "``wasWhiteBalanceModeSet = setMode(WhiteBalanceControl.Mode.MANUAL);``"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:56
+msgid "Focus Support"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:58
+msgid "Here are two methods to query focus and and a specific focus mode:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:60
+msgid "isFocusLengthSupported()"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:61
+msgid "isModeSupported(FocusControl.Mode._mode_)"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:63
+msgid "The following methods return a **negative value** if the requested focus value is unavailable. For example, -1 is returned by the Logitech C270 and the Microsoft LifeCam VX-5000. The Javadoc also mentions a field ``unknownFocusLength`` of type double."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:68
+msgid "getFocusLength()"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:69
+msgid "getMinFocusLength()"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:70
+msgid "getMaxFocusLength()"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:72
+msgid "The methods that set the focus length and mode can also return a Boolean, presumably indicating whether the operation was successful or not. As optional examples:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:76
+msgid "``wasFocusSet =  setFocusLength(25);``"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:77
+msgid "``wasFocusModeSet = setMode(FocusControl.Mode.Fixed)``"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:80
+msgid "PTZ Support"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:82
+msgid "The methods that set the pan/tilt pair and zoom value can also return a Boolean, presumably indicating whether the operation was successful or not. As optional examples:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:86
+msgid "``wasPanTiltSet =  setPanTilt(myHolder);``"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:87
+msgid "``wasZoomSet = setZoom(3)``"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:89
+msgid "For PTZ get() methods, some webcams simply **return zero** for unsupported values."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:93
+msgid "Some Caveats"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:95
+msgid "the SDK supports webcams conforming to the `UVC standard <https://en.wikipedia.org/wiki/USB_video_device_class>`__"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:98
+msgid "many non-UVC webcams work well in competition, despite lacking UVC certification"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:100
+msgid "some non-UVC webcams can be listed in Configure Robot, but crash the RC app at runtime"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:103
+msgid "webcams may retain an assigned Exposure Mode or Focus Mode, even if unplugged"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:106
+msgid "always verify the current mode"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:108
+msgid "for a given exposure value, one mode’s preview may look very different than another mode’s preview"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:110
+msgid "some webcams **accept** / ``set()`` and **confirm** / ``get()`` a **non-supported mode**"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:112
+msgid "Logitech C270 preview becomes **lighter** up to exposure 655, then rolls over to **dark** at 656"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:115
+msgid "this webcam’s Min is 0, Max is 1000."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:117
+msgid "Logitech V-UAX16 preview looks normal at exposure = 0, becomes **darker** up to 30-40"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:119
+msgid "Logitech C920 **gain** value (0-255) greatly influences preview quality, comparable to **exposure** (0-204)"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:121
+msgid "restarting the RC app is sometimes needed after a webcam OpMode crashes"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:123
+msgid "firmware versions may vary among webcams of the same model number"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/eval/eval.rst:125
+msgid "Lastly, some features here may be implemented or enhanced with the help of an external library such as `OpenCV <https://opencv.org/>`__ or `EasyOpenCV <https://github.com/OpenFTC/EasyOpenCV>`__. That potential is not covered in this basic tutorial. A separate tutorial covers the general use of `External Libraries <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/External-Libraries-in-OnBot-Java-and-Blocks>`__ in Blocks and OnBot Java."
+msgstr ""

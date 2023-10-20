@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/webcam_controls/exposure/mode/mode.rst:2
+msgid "Exposure Control Mode"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/mode/mode.rst:4
+msgid ":java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/mode/mode.rst:7
+msgid "A webcam may operate in one of various exposure modes."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/mode/mode.rst:9
+msgid "Many common webcams offer only some of these modes. To directly control the exposure, set the webcam to Manual mode."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/mode/mode.rst:12
+msgid "The SDK supports these values of ExposureControl.Mode:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/mode/mode.rst:14
+msgid "`AperturePriority`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/mode/mode.rst:15
+msgid "`Auto`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/mode/mode.rst:16
+msgid "`ContinuousAuto`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/mode/mode.rst:17
+msgid "`Manual`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/mode/mode.rst:18
+msgid "`ShutterPriority`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/mode/mode.rst:19
+msgid "`Unknown`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/mode/mode.rst:21
+msgid "Mode is managed with these ExposureControl methods:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/mode/mode.rst:23
+msgid "setMode(ExposureControl.Mode._mode_)"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/mode/mode.rst:24
+msgid "getMode()"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/mode/mode.rst:26
+msgid "The Logitech C920 and C270 models offer two exposure modes: AperturePriority and Manual."
+msgstr ""

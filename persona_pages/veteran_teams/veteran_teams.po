@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: persona_pages/veteran_teams/veteran_teams.rst:2
+msgid "Returning Teams"
+msgstr ""
+
+#: persona_pages/veteran_teams/veteran_teams.rst:4
+msgid "Welcome back to FIRST Tech Challenge returning teams! Resources have been organized by type to help your team stay organized and be successful throughout the season. These resources are tailored to teams with experience in robotics looking to elevate their skills.  The technical resources are a stepping stone towards industry standard certifications. Just click on the panel for the resource you want to explore!"
+msgstr ""
+
+#: persona_pages/veteran_teams/veteran_teams.rst:13
+msgid "**I AM A RETURNING TEAM**"
+msgstr ""
+
+#: persona_pages/veteran_teams/veteran_teams.rst:24
+msgid "Java and Android Studio"
+msgstr ""
+
+#: persona_pages/veteran_teams/veteran_teams.rst:28
+msgid "Look for Java programming resources here."
+msgstr ""
+
+#: persona_pages/veteran_teams/veteran_teams.rst:36
+msgid "CAD and Design"
+msgstr ""
+
+#: persona_pages/veteran_teams/veteran_teams.rst:40
+msgid "Look for our CAD sponsors here."
+msgstr ""
+
+#: persona_pages/veteran_teams/veteran_teams.rst:47
+msgid "Machine Learning Toolchain"
+msgstr ""
+
+#: persona_pages/veteran_teams/veteran_teams.rst:51
+msgid "Machine Learning (TensorFlow) Toolchain"
+msgstr ""
+
+#: persona_pages/veteran_teams/veteran_teams.rst:59
+msgid "FTC-ML"
+msgstr ""
+
+#: persona_pages/veteran_teams/veteran_teams.rst:69
+msgid "TensorFlow in CENTERSTAGE"
+msgstr ""
+
+#: persona_pages/veteran_teams/veteran_teams.rst:83
+msgid "Outreach"
+msgstr ""
+
+#: persona_pages/veteran_teams/veteran_teams.rst:87
+msgid "Links to marketing, community and industry outreach."
+msgstr ""
+
+#: persona_pages/veteran_teams/veteran_teams.rst:95
+msgid "Engineering Notebook"
+msgstr ""
+
+#: persona_pages/veteran_teams/veteran_teams.rst:99
+msgid "Examples and criteria for the engineering notebook and portfolio"
+msgstr ""
+
+#: persona_pages/veteran_teams/veteran_teams.rst:107
+msgid "Awards Criteria"
+msgstr ""
+
+#: persona_pages/veteran_teams/veteran_teams.rst:111
+msgid "Know the awards criteria before the event."
+msgstr ""

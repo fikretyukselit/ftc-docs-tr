@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:2
+msgid "Computer Vision Overview"
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:7
+msgid "The *FIRST* Tech Challenge control system software has built-in support for two computer vision technologies:"
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:10
+msgid "AprilTags - :doc:`AprilTags <../../../apriltag/vision_portal/apriltag_intro/apriltag-intro>` are fiducial markers similar in design to a QR code that can be used for identification and localization. AprilTags are used as reference points for autonomous navigation and for assisted navigation and identification of points of interest on a game field."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:17
+msgid "Each season, FIRST provides 2D image tagets that can be used as navigational reference points."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:19
+msgid "If the AprilTag system recognizes an AprilTag image, it provides very accurate pose information (assuming the camera used has calibration parameters for the working resolution) about the robot’s position relative to the target."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:23
+msgid "A robot can use this information to navigate autonomously on the field."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:26
+msgid "TensorFlow Lite - `TensorFlow Lite <https://www.tensorflow.org/lite/>`__ is a lightweight version of Google’s `TensorFlow <https://www.tensorflow.org>`__ *machine learning* technology that is designed to run on mobile devices such as an Android smartphone."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:32
+msgid "Each season FIRST creates a TensorFlow *inference model* that can be used to “look” for specific game elements."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:34
+msgid "If TensorFlow recognizes an object, it returns location info about the identified object."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:36
+msgid "A robot can use this location information to navigate to the recognized object."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:40
+msgid "TensorFlow vs AprilTags"
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:43
+msgid "AprilTag Advantages"
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:45
+msgid "Very efficient with a fast detection rate (estimated 15 to 20 detections per second, depending on decimation and target size)."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:47
+msgid "Provides accurate, relative pose information of camera to target in field coordinates."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:49
+msgid "Is less prone to fluctuating or varied lighting conditions on the field."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:56
+msgid "AprilTag can provide accurate pose information to target"
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:60
+msgid "AprilTag Disadvantages"
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:62
+msgid "The entire AprilTag must be in the camera view in order to be recognized, any occlusions render the object unprocessable."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:64
+msgid "AprilTags must be included in the tag library in order to process pose information for the tag (tag size and value must be known to the AprilTag system in advance)."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:67
+msgid "Cameras require calibration data for every resolution used in order to process correct pose information."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:74
+msgid "AprilTags not in Tag Library detected, but no pose data available"
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:77
+msgid "TensorFlow Advantages"
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:79
+msgid "TensorFlow learns how to recognize target objects, not just specific images."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:82
+msgid "Recognizes objects in spite of different backgrounds."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:83
+msgid "Recognizes objects in varied lighting conditions."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:84
+msgid "Recognizes objects even when objects are oriented in different positions."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:87
+msgid "TensorFlow can be taught how to distinguish between similar looking (but still distinct) objects, such as a Stone and a Skystone from the 2019-2020 challenge."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:92
+msgid "TensorFlow Disadvantages"
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:94
+msgid "Training a TensorFlow model can be daunting at first. It requires a lot of understanding of the TensorFlow training metrics and behaviors."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:96
+msgid "TensorFlow is computationally intensive and has a low detection rate (an estimated 1 to 2 detections per second)."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:98
+msgid "If TensorFlow recognizes an object in its field of view, it only returns location information on where the target object is within its field of view."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:106
+msgid "TensorFlow can recognize actual objects (and not just 2D image targets)."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:112
+msgid "TensorFlow can be taught to distinguish between similar looking objects."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:115
+msgid "Which Should I Use?"
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:117
+msgid "The choice of whether to use TensorFlow Lite or AprilTags will be influenced by factors such as distance-to-target, lighting, accuracy required, camera placement and etc.."
+msgstr ""
+
+#: programming_resources/vision/vision_overview/vision-overview.rst:121
+msgid "If the object and tag can always be guaranteed to be in a specific orientation and the tag fully visible, AprilTags are likely the best solution. However, if the object does not belong to you or a tag is not able to be physically placed on the object, TensorFlow can be a good solution."
+msgstr ""

@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:2
+msgid "AprilTag ID Codes"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:4
+msgid "After the AprilTag Processor and VisionPortal have been **initialized**, your OpMode can begin tag detection."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:7
+msgid "Let's start with the simple task of retrieving the **ID code** of a detected AprilTag.  For tag family 36h11, the numeric ID code ranges from 0 to 586. The FTC SDK can provide over 30 fields per detected AprilTag, if that tag's size was provided (thus eligible for pose estimation).  Otherwise only tag ID code is available."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:0
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:0
+msgid "Blocks"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:0
+msgid "AprilTag ID Code"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:22
+msgid "Highlighting blocks for getting AprilTag ID Code"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:0
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:0
+msgid "Java"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:27
+msgid "Example of retrieving AprilTag ID"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:34
+msgid "Since the camera might see multiple AprilTags at once, retrieving any field(s) is usually done with a **`for() loop`**.  The loop can process each detection, one at a time:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:0
+msgid "AprilTag FOR Loop"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:47
+msgid "All AprilTag Detections being read in a FOR Loop"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:49
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:79
+msgid "This code snippet assumes ``myAprilTagProcessor`` and VisionPortal have been initialized, as described at previous pages **Processor Initialization** and **VisionPortal Initialization**."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:56
+msgid "Example reading all detected AprilTags in a FOR Loop"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:83
+msgid "The OpMode should take the desired action for each AprilTag **inside** the ``for() loop``, or store information for later action.  In the above example, the variable ``myAprilTagIdCode`` receives the different values of each detection, ending with only the **last tag's value**."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:88
+msgid "By default, the FTC SDK recognizes the ID code of **any** 36h11 AprilTag, even if the OpMode did not place that tag in the AprilTag Library.  Some tags are placed in the Library automatically by the SDK: for example, ID codes 583-586 used by Sample OpModes."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:93
+msgid "An OpMode can also place other tags in a Library, to supplement or overwrite default tags.  This is covered further at the **Library** page."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:98
+msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
+msgstr ""

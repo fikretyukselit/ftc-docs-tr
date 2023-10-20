@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/webcam_controls/focus/mode/mode.rst:2
+msgid "Focus Control Mode"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/mode/mode.rst:4
+msgid ":java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.FocusControl.Mode`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/mode/mode.rst:6
+msgid "A webcam may operate in one of various focus modes. To directly control the focus length, set the webcam to Fixed mode."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/mode/mode.rst:9
+msgid "The SDK supports these values of FocusControl.Mode:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/mode/mode.rst:11
+msgid "`Auto`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/mode/mode.rst:12
+msgid "`ContinuousAuto`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/mode/mode.rst:13
+msgid "`Fixed`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/mode/mode.rst:14
+msgid "`Infinity`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/mode/mode.rst:15
+msgid "`Macro`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/mode/mode.rst:16
+msgid "`Unknown`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/mode/mode.rst:18
+msgid "Mode is managed with these FocusControl methods:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/mode/mode.rst:20
+msgid "setMode(ExposureControl.Mode._mode_)"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/mode/mode.rst:21
+msgid "getMode()"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/mode/mode.rst:23
+msgid "The Logitech C920 webcam offers two modes: ContinuousAuto and Fixed, which does respond to FocusControl methods. The Logitech C270 (older model) offers only Fixed mode, but does not allow programmed control."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/mode/mode.rst:27
+msgid "Full details are described in the `FocusControl Javadoc <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/FocusControl.html>`__."
+msgstr ""

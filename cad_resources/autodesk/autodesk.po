@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cad_resources/autodesk/autodesk.rst:2
+msgid "AUTODESK CAD Resources"
+msgstr ""
+
+#: cad_resources/autodesk/autodesk.rst:4
+msgid "Autodesk is dedicated to preparing the next generation of tinkerers, makers, designers, engineers, and revolutionizers to lead in the Future of Work. With advanced technologies and workflows accelerating change in industries and careers, we at Autodesk are excited to partner with you on your professional journey. We invest in students by offering our broad portfolio of cloud-based integrated CAD/CAM platform technologies because we believe your ideas and innovation have the power to make this world a better place for everyone. Lead the change and change the world."
+msgstr ""
+
+#: cad_resources/autodesk/autodesk.rst:14
+msgid "Obtaining AUTODESK Software"
+msgstr ""
+
+#: cad_resources/autodesk/autodesk.rst:16
+msgid "Autodesk makes software available to all *FIRST* teams via their *FIRST* `Education Community FIRST ROBOTICS COMPETITION Page. <https://www.autodesk.com/education/competitions/first>`__"
+msgstr ""
+
+#: cad_resources/autodesk/autodesk.rst:20
+msgid "Autodesk's desktop-based CAD and Animation tools are world-class and available for download. Users must first create an Educational Access account, verify your account, and then complete your profile to ensure eligibility. Once completed, you'll be provided with one-year education access (renewable). To get started, visit the `Autodesk Education Website <https://www.autodesk.com/education/edu-software/overview>`__."
+msgstr ""
+
+#: cad_resources/autodesk/autodesk.rst:27
+msgid "AUTODESK Training Videos"
+msgstr ""
+
+#: cad_resources/autodesk/autodesk.rst:29
+msgid "A few resources for training:"
+msgstr ""
+
+#: cad_resources/autodesk/autodesk.rst:31
+msgid "`Autodesk Fusion 360 Self-paced Learning Courses <https://help.autodesk.com/view/fusion360/ENU/courses/>`__"
+msgstr ""
+
+#: cad_resources/autodesk/autodesk.rst:32
+msgid "`Autodesk Inventor Self-paced Learning Courses <https://knowledge.autodesk.com/support/inventor/learn>`__"
+msgstr ""
+
+#: cad_resources/autodesk/autodesk.rst:33
+msgid "`Tinkercad Self-paced Learning Courses <https://www.tinkercad.com/learn>`__"
+msgstr ""
+
+#: cad_resources/autodesk/autodesk.rst:34
+msgid "`3ds Max Self-paced Learning Courses <https://knowledge.autodesk.com/support/3ds-max/learn>`__"
+msgstr ""

@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/shared/pidf_coefficients/pidf-coefficients.rst:2
+msgid "Changing PIDF Coefficients"
+msgstr ""
+
+#: programming_resources/shared/pidf_coefficients/pidf-coefficients.rst:4
+msgid "The REV Robotics Expansion Hub allows a user to change the PIDF coefficients used for closed loop motor control. The PIDF coefficients are specific to each channel (motor port) and to each RunMode."
+msgstr ""
+
+#: programming_resources/shared/pidf_coefficients/pidf-coefficients.rst:8
+msgid "The following sample OpMode uses an extended or enhanced DcMotor class (called “DcMotorEx”) to change the PIDF coefficients for the RUN_USING_ENCODER RunMode for a motor named “left_drive”. The OpMode uses the setPIDFCoefficients method of the DcMotorEx class to change the values. This method is not available with the standard DcMotor class."
+msgstr ""
+
+#: programming_resources/shared/pidf_coefficients/pidf-coefficients.rst:14
+msgid "Note that changes made to the PIDF coefficients do not persist if you power cycle the REV Robotics Expansion Hub. If you need your changes to persist, consider modifying your OpMode to store state information on the Android phone. The Android Developer website has a tutorial on how to save data from your app onto an Android device `here <https://developer.android.com/training/data-storage>`__"
+msgstr ""
+
+#: programming_resources/shared/pidf_coefficients/pidf-coefficients.rst:84
+msgid "Note that the actual change of the PIDF coefficients occurs **on the motor controller** that is controlling the selected motor. An alternate way to adjust the PIDF coefficients is to use the extended/enhanced **PIDF-related methods of the DcMotorControllerEx class**, as follows:"
+msgstr ""
+
+#: programming_resources/shared/pidf_coefficients/pidf-coefficients.rst:159
+msgid "Note 1: As of SDK 7.0, the former PID-only methods are still available, but deprecated."
+msgstr ""
+
+#: programming_resources/shared/pidf_coefficients/pidf-coefficients.rst:162
+msgid "Note 2: the deprecated Modern Robotics and Hitechnic DC motor controllers do not support adjustable PID or PIDF coefficients."
+msgstr ""

@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst:2
+msgid "Using Sensors :bdg-info:`OBJ`"
+msgstr ""
+
+#: programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst:5
+msgid "Color-Distance Sensor"
+msgstr ""
+
+#: programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst:7
+msgid "A sensor is a device that lets the Robot Controller get information about its environment. In this example, you will use a REV Robotics Color-Distance sensor to display range (distance from an object) info to the driver station."
+msgstr ""
+
+#: programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst:12
+msgid "The Color-Range sensor uses reflected light to determine the distance from the sensor to the target object. It can be used to measure close distances (up 5\" or more) with reasonable accuracy. Note that at the time this document was most recently edited, the REV Color-Range sensor saturates around 2\" (5cm). This means that for distances less than or equal to 2\", the sensor returns a measured distance equal to 2\" or so."
+msgstr ""
+
+#: programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst:19
+msgid "Modify your op mode to add a telemetry statement that will send the distance information (in centimeters) to the Driver Station."
+msgstr ""
+
+#: programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst:31
+msgid "After you have modified your op mode, push the build button, then run the op mode to verify that it now displays distance on your Driver Station. Note that if the distance reads \"NaN\" (short for \"Not a Number\") it probably means that your sensor is too far from the target (zero reflection). Also note that the sensor saturates at around 5 cm."
+msgstr ""
+
+#: programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst:38
+msgid "Touch Sensor"
+msgstr ""
+
+#: programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst:40
+msgid "The REV Robotics Touch Sensor can be connected to a digital port on the Expansion Hub. The Touch Sensor is HIGH (returns TRUE) when it is not pressed. It is pulled LOW (returns FALSE) when it is pressed."
+msgstr ""
+
+#: programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst:49
+msgid "The Expansion Hub digital ports contain two digital pins per port. When you use a 4-wire JST cable to connect a REV Robotics Touch sensor to an Expansion Hub digital port, the Touch Sensor is wired to the second of the two digital pins within the port. The first digital pin of the 4-wire cable remains disconnected."
+msgstr ""
+
+#: programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst:55
+msgid "For example, if you connect a Touch Sensor to the \"0,1\" digital port of the Expansion Hub, the Touch Sensor will be connected to the second pin (labeled \"1\") of the port. The first pin (labeled \"0\") will stay disconnected."
+msgstr ""
+
+#: programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst:60
+msgid "Modify the code in your op mode that occurs before the waitForStart command to set the digital channel for input mode."
+msgstr ""
+
+#: programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst:73
+msgid "Also, modify the code in your while loop to add an if-else statement that checks the state of the digital input channel. If the channel is LOW (false), the touch sensor button is pressed and being pulled LOW to ground. Otherwise, the touch sensor button is not pressed."
+msgstr ""
+
+#: programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst:92
+msgid "Rebuild your op mode, then reinitialize and restart your op mode. The op mode should now display the state of the button (\"PRESSED\" or \"NOT PRESSED\")."
+msgstr ""

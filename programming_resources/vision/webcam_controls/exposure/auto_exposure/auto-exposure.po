@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.rst:2
+msgid "AE Priority"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.rst:4
+msgid "Auto-Exposure Priority is a setting within the ExposureControl interface. It’s listed here at the end, not likely to be needed in since it it operates in very low lighting."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.rst:8
+msgid "What does it do? Imagine that the webcam is operating at its default frame rate, for example 30 frames per second (fps). *Note that frame rate is not covered in this basic tutorial.*"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.rst:12
+msgid "If the webcam’s built-in auto-exposure detects that the image is very dark, AE Priority **allows the frame rate to decrease**. This slowdown, or ‘undershoot’, allows more light per frame, which can ‘brighten’ the image."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.rst:17
+msgid "Its methods are:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.rst:19
+msgid "setAePriority(boolean priority)"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.rst:20
+msgid "getAePriority()"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.rst:22
+msgid "These AE Priority methods are called on an ExposureControl object, as described above."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.rst:28
+msgid "Two examples of AE Priority"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.rst:31
+msgid "Here are two pairs of previews, each with AE Priority off and on. In both pairs, the ambient light level is very low. These results are from a Logitech C270 webcam."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.rst:35
+msgid "The Exposure=0 recognition here was made before reducing exposure and gain. When testing ‘instant’ results, AE Priority could improve the chance of recognition."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.rst:39
+msgid "Again, this effect is triggered only in very low lighting, not expected in competition. If the building loses all power, Duck recognition becomes… less essential."
+msgstr ""

@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: sponsors/discounts/discounts.rst:2
+msgid "FIRST Tech Challenge Team Discounts"
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:4
+msgid "As a benefit of being a FIRST Tech Challenge Team, some vendors and sponsors of *FIRST* programs have generously provided discounts on products to teams. These discounts may be for specific categories of products, or may apply site-wide, and may require an application process or a season-specific or team-specific promo code. Read details below for each vendor for more information."
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:0
+msgid "Team Grant Opportunities"
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:0
+msgid "Onecolor Logo"
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:22
+#: sponsors/discounts/discounts.rst:44
+#: sponsors/discounts/discounts.rst:68
+#: sponsors/discounts/discounts.rst:90
+#: sponsors/discounts/discounts.rst:119
+msgid "**What**:"
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:24
+msgid "FIRST Tech Challenge Team Grants"
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:26
+msgid "**Expires**: See each individual grant opportunity."
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:28
+msgid "**To Apply**: Check out the `list of current Team Grants available <https://www.firstinspires.org/robotics/team-grants>`_ and see if you're eligible!"
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:0
+msgid "FIRST Storefront"
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:0
+msgid "FIRST Tech Challenge Logo Onecolor"
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:46
+msgid "All FIRST Tech Challenge Teams are eligible for discounts on control equipment, electronics, and starter kits."
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:48
+msgid "Teams are limited to one purchase per item per category each season."
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:50
+#: sponsors/discounts/discounts.rst:72
+#: sponsors/discounts/discounts.rst:94
+msgid "**Expires**: Good for the 2022-2023 FIRST Tech Challenge competition season."
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:52
+msgid "**Promo Code**: N/A"
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:54
+msgid "**To Use**: See the `Kit of Parts PDF <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/kit-of-parts.pdf>`_ for instructions on how to purchase discounted parts."
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:0
+msgid "Pitsco"
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:0
+msgid "Pitsco Tetrix Logo"
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:70
+msgid "Get 25% off spare parts on the Pitsco Education site using a promo code."
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:74
+msgid "**Promo Code**: Go to the `Pitsco FIRST Tech Challenge page <https://www.pitsco.com/Competitions-Clubs-and-Programs/FIRST-Tech-Challenge>`_, enter your team number, and get your promo code."
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:77
+msgid "**To Use**: Use the promo code at checkout on the `Pitsco Education Site <https://www.pitsco.com/Competitions-Clubs-and-Programs/FIRST-Tech-Challenge>`_."
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:0
+msgid "REV Robotics"
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:0
+msgid "REV Robotics Logo"
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:92
+msgid "Get 15% off select parts on the REV Robotics site using a promo code."
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:96
+msgid "**Promo Code**:  Team promo code can be obtained ONLY by Lead Coach 1 or 2 by selecting \"Passwords/Voucher Codes\" from the \"Payment & Product\" drop-down in the \"Team Options\" column of the team information in the `FIRST Dashboard <https://my.firstinspires.org/Dashboard/>`_. The REV Robotics promo code for the team will be listed under the \"REV Robotics\" section of the resulting webpage."
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:103
+msgid "**To Use**: Use the promo code at checkout on the `REV Robotics Website <https://www.revrobotics.com/competition/ftc/discounts/>`_ for a 15% discount on select parts. Be sure to always use the promo code, as discounts cannot be applied retroactively."
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:0
+msgid "ServoCity / Actobotics / goBILDA"
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:0
+msgid "ServoCity Logo"
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:121
+msgid "Get 25% off site-wide on ServoCity / Actobotics / goBILDA website."
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:123
+msgid "**Expires**: Contact vendor for more details."
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:125
+msgid "**Application Forms**:"
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:127
+msgid "Complete the `ServoCity / ActoBotics Team Discount application form <https://www.servocity.com/first_team_discounts/>`_"
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:128
+msgid "Complete the `goBILDA Team Discount application form <https://www.gobilda.com/ftc/>`_"
+msgstr ""
+
+#: sponsors/discounts/discounts.rst:130
+msgid "**To Use**: Once your application is accepted, your account on the vendor website will be activated to receive the discount automatically without the use of a promo code."
+msgstr ""

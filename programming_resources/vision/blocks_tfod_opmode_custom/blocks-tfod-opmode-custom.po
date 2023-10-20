@@ -1,0 +1,356 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:2
+msgid "Blocks Custom Model Sample OpMode for TFOD"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:7
+msgid "This tutorial uses an FTC Blocks Sample OpMode to load and recognize a **custom TensorFlow inference model**."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:10
+msgid "In this example, the “custom model” is actually the standard trained model of the 2023-2024 CENTERSTAGE game element called a **Pixel**. This does not affect the process described for a custom model."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:14
+msgid "For competition, teams would instead use their own custom models of **Team Props**, such as ``myTeamProp_Red`` and ``myTeamProp_Blue``, developed using the FIRST Machine Learning Toolchain here:"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:18
+msgid ":doc:`FIRST Machine Learning Toolchain <../../../ftc_ml/index>`."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:21
+msgid "Downloading the Model"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:23
+msgid "The Robot Controller allows you to load a trained inference model in the form of a TensorFlow Lite (``.tflite``) file."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:26
+msgid "Here we use the standard FTC ``.tflite`` file from CENTERSTAGE (2023-2024), available on GitHub at the following link:"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:29
+msgid "`CENTERSTAGE TFLite File <https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/tensorflow/CenterStage.tflite>`__"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:31
+msgid "For competition, teams can use the :doc:`FIRST Machine Learning Toolchain <../../../ftc_ml/index>` to train their own custom models of Team Props."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:36
+msgid "Very advanced teams could use Google's TensorFlow Object Detection API (https://github.com/tensorflow/models/tree/master/research/object_detection) to create their own custom inference model."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:40
+msgid "Click the “Download Raw File” button to download the ``CenterStage.tflite`` file from GitHub to your local device (e.g. laptop). See the green arrow."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:49
+msgid "Public Repo for CenterStage file"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:49
+msgid "Public repo for CenterStage tflite file"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:52
+msgid "Uploading to the Robot Controller"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:54
+msgid "After downloading the file to your laptop, you need to upload it to the Robot Controller. Connect your laptop to your Robot Controller’s wireless network and navigate to the FTC “Manage” page:"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:63
+msgid "Manage Page"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:63
+msgid "Example of the Manage Page"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:65
+msgid "Scroll down and click on “Manage TensorFlow Lite Models”."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:72
+msgid "Managing TFLITE Models"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:72
+msgid "Manage TFLITE Models Link"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:74
+msgid "Now click the “Upload Models” button."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:81
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:91
+msgid "Upload TFLITE Model"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:81
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:91
+msgid "Upload TFLITE Models Button"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:83
+msgid "Click “Choose Files”, and use the dialog box to find and select the downloaded ``CenterStage.tflite`` file."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:93
+msgid "Now the file will upload to the Robot Controller. The file will appear in the list of TensorFlow models available for use in OpModes."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:101
+msgid "Model Listed"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:101
+msgid "TFLITE Model Listed"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:104
+msgid "Creating the OpMode"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:106
+msgid "Click on the “Blocks” tab at the top of the screen to navigate to the Blocks Programming page. Click on the “Create New OpMode” button to display the Create New OpMode dialog box."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:110
+msgid "Specify a name for your new OpMode. Select “ConceptTensorFlowObjectDetectionCustomModel” as the Sample OpMode that will be the template for your new OpMode."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:114
+msgid "If no webcam is configured for your REV Control Hub, the dialog box will display a warning message (shown here). You can ignore this warning message if you will use the built-in camera of an Android RC phone. Click “OK” to create your new OpMode."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:124
+msgid "Create OpMode"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:124
+msgid "Create New OpMode"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:126
+msgid "The new OpMode should appear in edit mode in your browser."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:133
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:133
+msgid "Sample OpMode"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:135
+msgid "By default, the Sample OpMode assumes you are using a webcam, configured as “Webcam 1”. If you are using the built-in camera on your Android RC phone, change the USE_WEBCAM Boolean from ``true`` to ``false`` (green arrow above)."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:141
+msgid "Loading the Custom Model"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:143
+msgid "Scroll down in the OpMode, to the Blocks Function called “initTfod”."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:145
+msgid "In the Block with “.setModelFileName”, change the filename from “MyCustomModel.tflite” to ``CenterStage.tflite`` – or other filename that you uploaded to the Robot Controller. The filename must be an exact match. See green oval below."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:155
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:155
+msgid "Init TFOD Function"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:157
+msgid "When loading an inference model, you must specify a list of **labels** that describe the known objects in the model. This is done in the next Block, with “.setModelLabels”."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:161
+msgid "This Sample OpMode assumes a default model with two known objects, labeled “ball” and “cube”. The CENTERSTAGE model contains only one object, labeled “Pixel”."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:165
+msgid "For competition, the **Team Prop** label names might be ``myTeamProp_Red`` and/or ``myTeamProp_Blue``."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:168
+msgid "The number of labels can be changed by clicking the small blue gear icon for the “create list with” Block (see yellow arrow)."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:176
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:176
+msgid "Blue Gear Delete"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:178
+msgid "In the pop-up layout balloon, click on one of the list items to select it (green arrow above). Then remove it, by pressing Delete (on keyboard), or by dragging it to the balloon’s left-side grey zone."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:182
+msgid "After editing that purple “list” structure, click the blue gear icon again to close the layout balloon. Edit the remaining label to “Pixel”."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:185
+msgid "When complete, the edited Blocks should look like this:"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:192
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:192
+msgid "Adding Pixel Label"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:195
+msgid "Adjusting the Zoom Factor"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:197
+msgid "If the object to be recognized will be more than roughly 2 feet (61 cm) from the camera, you might want to set the digital zoom factor to a value greater than 1. This tells TensorFlow to use an artificially magnified portion of the image, which may offer more accurate recognitions at greater distances."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:208
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:208
+msgid "Set Zoom"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:210
+msgid "Pull out the **“setZoom” Block**, found in the toolbox or palette called “Vision”, under “TensorFlow” and “TfodProcessor” (see green oval above). Change the magnification value as desired (green arrow)."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:214
+msgid "On REV Control Hub, the “Vision” menu appears only when the active robot configuration contains a webcam, even if not plugged in."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:217
+msgid "Place this Block immediately after the Block ``set myTfodProcessor to call myTfodProcessorBuilder.build``. This Block is **not** part of the Processor Builder pattern, so the Zoom factor can be set to other values during the OpMode, if desired."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:222
+msgid "The “zoomed” region can be observed in the DS preview (Camera Stream) and the RC preview (LiveView), surrounded by a greyed-out area that is **not evaluated** by the TFOD Processor."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:227
+msgid "Testing the OpMode"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:229
+msgid "Click the “Save OpMode” button, then run the OpMode from the Driver Station. The Robot Controller should use the new CENTERSTAGE inference model to recognize and track the Pixel game element."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:233
+msgid "For a preview during the INIT phase, touch the Driver Station’s 3-dot menu and select **Camera Stream**."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:241
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:241
+msgid "DS Camera Stream"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:243
+msgid "Camera Stream is not live video; tap to refresh the image. Use the small white arrows at lower right to expand or revert the preview size. To close the preview, choose 3-dots and Camera Stream again."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:247
+msgid "After touching the DS START button, the OpMode displays Telemetry for any recognized Pixel(s):"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:255
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:255
+msgid "DS Telemetry"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:257
+msgid "The above Telemetry shows the label name, and TFOD confidence level. It also gives the **center location** and **size** (in pixels) of the Bounding Box, which is the colored rectangle surrounding the recognized object."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:262
+msgid "The pixel origin (0, 0) is at the top left corner of the image."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:264
+msgid "Before and after touching DS START, the Robot Controller provides a video preview called **LiveView**."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:272
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:272
+msgid "RC LiveView"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:274
+msgid "For Control Hub (with no built-in screen), plug in an HDMI monitor or learn about ``scrcpy`` (https://github.com/Genymobile/scrcpy). The above image is a LiveView screenshot via ``scrcpy``."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:278
+msgid "If you don’t have a physical Pixel on hand, try pointing the camera at this image:"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:286
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:286
+msgid "Sample Pixel"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:289
+msgid "Modifying the Sample"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:291
+msgid "In this Sample OpMode, the main loop ends only upon touching the DS Stop button. For competition, teams should **modify this code** in at least two ways:"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:295
+msgid "for a significant recognition, take action or store key information – inside the FOR loop"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:298
+msgid "end the main loop based on your criteria, to continue the OpMode"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:300
+msgid "As an example, you might set a Boolean variable ``isTeamPropDetected`` to ``true``, if a significant recognition has occurred."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:303
+msgid "You might also evaluate and store which randomized Spike Mark (red or blue tape stripe) holds the Team Prop."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:306
+msgid "Regarding the main loop, it could end after the camera views all three Spike Marks, or after your code provides a high-confidence result. If the camera’s view includes more than one Spike Mark position, perhaps the Team Prop’s **Bounding Box** size and location could be useful. Teams should consider how long to seek an acceptable recognition, and what to do otherwise."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:313
+msgid "In any case, the OpMode should exit the main loop and continue running, using any stored information."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:316
+msgid "Best of luck this season!"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom.rst:320
+msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
+msgstr ""

@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: robot_building/rev/PowerPlay/part1/battery/battery.rst:2
+msgid "Battery"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/battery/battery.rst:5
+msgid "Step 1: Add the Battery"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/battery/battery.rst:8
+msgid "Parts Needed:"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/battery/battery.rst:10
+msgid "REV-31-1302 – Slim Battery, 3000mAh (1)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/battery/battery.rst:12
+msgid "REV-41-1161 – Zip Tie, 160mm (2)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/battery/battery.rst:18
+msgid "*Figure 49- Unassembled view*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/battery/battery.rst:24
+msgid "*Figure 50- Assembled view*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/battery/battery.rst:27
+msgid "Step 2: Connect the Battery to the Switch"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/battery/battery.rst:33
+msgid "*Figure 51- Unconnected view*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/battery/battery.rst:39
+msgid "*Figure 52- Connected view*"
+msgstr ""

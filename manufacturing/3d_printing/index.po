@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: manufacturing/3d_printing/index.rst:23
+msgid "3D Printing Introduction"
+msgstr ""
+
+#: manufacturing/3d_printing/index.rst:23
+msgid "Example 3d Printed Parts"
+msgstr ""
+
+#: manufacturing/3d_printing/index.rst:23
+msgid "General Knowledge"
+msgstr ""
+
+#: manufacturing/3d_printing/index.rst:23
+msgid "Printer Choice"
+msgstr ""
+
+#: manufacturing/3d_printing/index.rst:23
+msgid "Filament Choice"
+msgstr ""
+
+#: manufacturing/3d_printing/index.rst:23
+msgid "Designing and Slicing"
+msgstr ""
+
+#: manufacturing/3d_printing/index.rst:23
+msgid "Specific Skill Guides"
+msgstr ""
+
+#: manufacturing/3d_printing/index.rst:23
+msgid "Troubleshooting Common Issues"
+msgstr ""
+
+#: manufacturing/3d_printing/index.rst:1
+#: manufacturing/3d_printing/index.rst:8
+msgid "3D Printing"
+msgstr ""
+
+#: manufacturing/3d_printing/index.rst:1
+msgid "3D Printing in the FIRST Tech Challenge."
+msgstr ""
+
+#: manufacturing/3d_printing/index.rst:1
+msgid "FIRST Tech Challenge, FTC Docs, Manufacturing, 3D Printing, Filaments"
+msgstr ""
+
+#: manufacturing/3d_printing/index.rst:11
+msgid "Many parts in FTC need to be a special/unique shape and size, one that isn't sold or available from a vendor. Sometimes, teams need a part that is impossible to machine or cut out, or needs to be lightweight. Other times, teams may want to test and iterate the design of a part rapidly and cheaply. 3D printing is a great solution to all of these problems."
+msgstr ""
+
+#: manufacturing/3d_printing/index.rst:16
+msgid "3D Printing is the process of creating a three dimensional object by laying down successive layers of material (typically plastic) from a digital model file. To do this, machines known as 3D Printers are employed which melt and place plastic in order to produce this model."
+msgstr ""
+
+#: manufacturing/3d_printing/index.rst:20
+msgid "In order to start 3D printing, teams need to understand how the technology works, what printers are available to buy, how to properly set up a part to be printed, and what materials are available to print with."
+msgstr ""
+
+#: manufacturing/3d_printing/index.rst:37
+msgid "Volunteer Special Thanks"
+msgstr ""
+
+#: manufacturing/3d_printing/index.rst:39
+msgid "The *FIRST* Tech Challenge staff would like to extend a special thanks to the following volunteers for their hard work and dedication toward this project:"
+msgstr ""
+
+#: manufacturing/3d_printing/index.rst:43
+msgid "Lucas Y., Team 16461"
+msgstr ""
+
+#: manufacturing/3d_printing/index.rst:45
+msgid "Davy Hallihan, Team 16461"
+msgstr ""
+
+#: manufacturing/3d_printing/index.rst:47
+msgid "Ryan Driemeyer, Team 1002"
+msgstr ""

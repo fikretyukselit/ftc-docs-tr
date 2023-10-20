@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: hardware_and_software_configuration/connecting_devices/index.rst:2
+msgid "Connecting Devices To a Control or Expansion Hub"
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/index.rst:4
+msgid "This section explains how to connect a motor, a servo, and some sensors to your REV Robotics Control Hub or REV Robotics Expansion Hub. While the Control Hub differs from the Expansion Hub because of its built in Android device, the layout of the external motor, servo, and sensor ports are identical for the Control Hub and Expansion Hub."
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/index.rst:10
+msgid "The images in this section use an Expansion Hub to demonstrate how to connect the devices. The process, however, is identical for a Control Hub."
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/index.rst:14
+msgid "When the instructions in this section use the word \"Hub\", they are referring to a Control Hub or Expansion Hub."
+msgstr ""

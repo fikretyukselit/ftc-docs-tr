@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: robot_building/rev/PowerPlay/part1/intro/intro.rst:2
+msgid "Introduction to this Guide"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/intro/intro.rst:5
+msgid "About this Guide"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/intro/intro.rst:7
+msgid "The Basic ‘Bot Guide was created as a resource for teams looking for a step-by-step instructional guide to learn how to build a basic chassis and structure. There are multiple versions of this guide, previously called the “Push Bot Guide”, this version the **Basic ‘Bot Guide for REV Part 1** has been created to use the new and differing parts in the 2020-2021 season’s REV kit of parts."
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/intro/intro.rst:15
+msgid "Parts"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/intro/intro.rst:17
+msgid "REV FTC Competition Set"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/intro/intro.rst:19
+msgid "Tools included with this kit"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/intro/intro.rst:21
+msgid "Electronics Modules and Sensors Set"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/intro/intro.rst:23
+msgid "Control & Communication Set 1 or 2"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/intro/intro.rst:25
+msgid "(Optional) A ruler is not needed to build this robot, but it is necessary to make sure that the robot is competition ready."
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/intro/intro.rst:29
+msgid "Tips and Tricks"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/intro/intro.rst:31
+msgid "Secure the screws/nuts just enough, so parts do not slide/move relative to each other. Overtightening the screws will damage the aluminum extrusions."
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/intro/intro.rst:35
+msgid "Make sure that set screws are installed in every axle hub, motor hub, and axle collar."
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/intro/intro.rst:38
+msgid "Refer to the legend provided in the Kit of Parts, if any parts are unfamiliar."
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/intro/intro.rst:41
+msgid "Make sure that all assemblies are square. It is hard to drive a crooked robot straight!"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/intro/intro.rst:44
+msgid "The drive wheels are powered by two DC motors, which are relatively heavy. The drive wheels are on the back of the robot, because that is where the most weight is. This weight is needed to help the wheels grip the surface better."
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/intro/intro.rst:49
+msgid "Omni wheels are on the front of the robot, which allows the robot to turn more easily. The omni wheels can slide sideways with very little friction due to the rollers."
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/intro/intro.rst:53
+msgid "Unless otherwise noted, the top image in each step shows the necessary parts; the lower image shows the completed assembly."
+msgstr ""

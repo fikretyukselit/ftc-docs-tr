@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:2
+msgid "AprilTag Reference Frame"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:7
+msgid "Before discussing AprilTag **pose** (at the next page), the **FTC axes** or reference frame must be described.  Pose data is based on the **camera's point of view**, and requires a **flat AprilTag**."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:11
+msgid "Here are the axis designations in the new SDK:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:13
+msgid "Y axis points **straight outward** from the camera lens center"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:14
+msgid "X axis points **to the right** (looking outward), perpendicular to the Y axis"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:15
+msgid "Z axis points **upward**, perpendicular to Y and X"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:18
+msgid "Note 1: If the camera is upright and pointing \"forward\" on the robot, these axes are consistent with the Robot Coordinate System used for :ref:`IMU navigation <programming_resources/imu/imu:axes definition>`"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:23
+msgid "Note 2: these axes are different than the official `AprilTag definitions <https://github.com/AprilRobotics/apriltag/wiki/AprilTag-User-Guide#coordinate-system>`__, even from the camera's frame of reference."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:28
+msgid "Translation Offset"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:30
+msgid "If the AprilTag is detected within the camera's field of view, the tag's center is described in that reference frame as (X, Y, Z) position, also called displacement or translation."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:34
+msgid "This is illustrated with a camera preview image, called LiveView, from a Robot Controller device (Control Hub or RC phone)."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:42
+msgid "LiveView Offsets"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:42
+msgid "Image depicting LiveView offsets"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:44
+msgid "Imagine a laser beam pointing straight outward from the center of the camera lens.  Its 3-dimensional path appears (to the camera) as a single point, located at the **green star**.  You can see that the center of the AprilTag (**yellow star**) is offset from that \"laser beam\"."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:49
+msgid "That **translation offset** can break down into three traditional components (X, Y and Z distances), along axes at 90 degrees to each other:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:52
+msgid "X distance (horizontal orange line) is from the center, to the right"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:53
+msgid "Y distance (not shown) is from the lens center, outwards"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:54
+msgid "Z distance (vertical orange line) is from the center, upwards"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:56
+msgid "The SDK provides these distances **in the real world**, not just reporting how many pixels on the screen.  The **distance units** are specified in each tag's Metadata (default is **inches**)."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:60
+msgid "Think of the Y distance as the length of the \"laser beam\", when the tip of the horizontal orange line touches the yellow star **on the tag**."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:63
+msgid "If the tag is exactly in front of the camera, X and Z are zero, while Y represents the positive distance to the tag."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:67
+msgid "Rotation Offset"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:69
+msgid "You can also see that the AprilTag's flat face is not parallel to the plane of the camera.  That **rotation offset** can break down into three angles about the X, Y and Z axes."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:73
+msgid "Any off-axis pointing or tilting of the AprilTag is reported by the SDK as rotation about axes X, Y or Z.  Here are some examples:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:76
+msgid "If that tag is parallel to the camera but tilted, say, clockwise, this is expressed as positive angular rotation (Roll) about the Y axis."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:79
+msgid "If a tag appears to the left side of the camera's view, this has an X-axis displacement or translation.  It's a negative translation, since X points to the right."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:83
+msgid "If that left-displaced tag is also angled, say, to face the camera, this is expressed as angular rotation about the vertical Z axis.    It's a positive Yaw angle, according to the **right-hand rule**: with the thumb pointing along the positive axis, the fingers curl in the direction of positive rotation."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:89
+msgid "If a detected tag is angled or pointing, say, slightly upward to the ceiling, this is expressed as rotation about X.  Use the right-hand rule to confirm this would be a negative Pitch angle, since X points to the right.   This example assumes the camera is pointing parallel to the ground/mat."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:95
+msgid "Related Info"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:97
+msgid "More discussion of the AprilTag reference frame is available here:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:99
+msgid "https://ftc-docs.firstinspires.org/apriltag-detection-values"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:101
+msgid "This section described the SDK's default AprilTag reference frame.  Teams are welcome to make other calculations, such as the pose of the camera (or robot) relative to the AprilTag, or **relative to the game field**.  Such advanced efforts can be useful and a good learning exercise, beyond the scope of the SDK and this guide."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:109
+msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
+msgstr ""

@@ -1,0 +1,514 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:2
+msgid "AprilTag Introduction"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:7
+msgid "A popular camera-based technology is **AprilTag**, a scanned image similar to a QR Code. Its effectiveness and quick set-up on custom Signal Sleeves led to **wide adoption** in POWERPLAY (2022-2023) by *FIRST* Tech Challenge teams, especially those programming in Java."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:17
+msgid "Dual Detection"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:17
+msgid "Photo Credit: Mike Silversides"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:19
+msgid "Those POWERPLAY teams, including those using FTC Blocks, learned how to use several resources:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:22
+msgid "AprilTag: an open-source technology for evaluating formatted images"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:24
+msgid "EasyOpenCV: a *FIRST* Tech Challenge-optimized interface with OpenCV, an image processing library"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:26
+msgid "myBlocks: custom Blocks created in OnBot Java (OBJ)"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:28
+msgid "Now these three areas are provided, or bundled, in the new *FIRST* **Tech Challenge Software Development Kit (SDK), version 8.2**."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:31
+msgid "Namely, key capabilities of **AprilTag** and **EasyOpenCV** are available to the Robot Controller (RC) and Driver Station (DS) apps, without special downloads. And AprilTag features are included in **FTC Blocks**, without needing custom myBlocks."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:36
+msgid "The AprilTag features work on Android RC phone cameras, and on webcams. A single OpMode can use AprilTag and TensorFlow Object Detection (TFOD)."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:39
+msgid "In *FIRST* Tech Challenge, AprilTag is ready for the spotlight!"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:42
+msgid "What is AprilTag?"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:44
+msgid "Developed at the `University of Michigan <https://april.eecs.umich.edu/software/apriltag>`__, AprilTag is like a 2D barcode or a simplified QR Code. It contains a numeric **ID code** and can be used for **location and orientation**."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:54
+msgid "AprilTag Robots"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:54
+msgid "AprilTags on Robots. Photo Credit: University of Michigan"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:56
+msgid "AprilTag is a type of **visual fiducial**, or fiducial marker, containing information and designed for easy recognition."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:64
+msgid "Tag Families"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:64
+msgid "A sample of different AprilTag families"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:66
+msgid "The above samples represent different formats, or **families**. A project typically uses a single AprilTag family."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:69
+msgid "This year, *FIRST* Tech Challenge nuses a common family called **36h11**. A PDF showing the numbers 0 through 20 from the 36h11 family can be downloaded here:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:72
+msgid ":download:`AprilTag PDF 0-20 <files/AprilTag_0-20_family36h11.pdf>`"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:74
+msgid "Each number is the ID code of that tag."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:76
+msgid "Here’s an AprilTag representing **ID code 2**. The SDK software recognizes and overlays the ID code onto the image (small blue rectangle **ID 02**)."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:85
+msgid "Tag02 Preview"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:85
+msgid "Stream output showing the detected tag ID 02"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:87
+msgid "The above image shows a camera preview image, called LiveView, from a Robot Controller device (Control Hub or RC phone)."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:90
+msgid "The AprilTag family 36h11 has a capacity of 587 ID codes. To see them all, follow this link:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:93
+msgid "https://github.com/rgov/apriltag-pdfs/tree/main/tag36h11/us_letter/100mm"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:95
+msgid "The square AprilTag pattern contains smaller black and white squares, each called a **pixel**. A 36h11 tag contains 10 x 10 pixels, including an outer border of **all white pixels** and an inner border of **all black pixels**."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:100
+msgid "**Tag size** is measured across the outside edge of the **inner border** which comprises the black pixels for 36h11."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:108
+msgid "Tag Size"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:108
+msgid "Figure demonstrating the tag size measurement"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:110
+msgid "The above image shows a complete AprilTag with outer white border. From the 36h11 family, its ID code is 42."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:114
+msgid "AprilTag Pose"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:116
+msgid "Beyond ID code, the new SDK also provides **pose** data, namely position and orientation (rotation) from the **camera’s point of view**.  This requires a **flat AprilTag**, which was not possible with curved POWERPLAY Signal Sleeves."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:121
+msgid "Let’s look again at the camera preview image, called LiveView, from a Robot Controller device (Control Hub or RC phone)."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:129
+msgid "LiveView Image"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:129
+msgid "LiveView Image with additional markings for explanation purposes"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:131
+msgid "Imagine a laser beam pointing straight outward from the center of the camera lens. Its 3-dimensional path appears (to the camera) as a single point, indicated by the **green star**. You can see that the center of the AprilTag (**yellow star**) is offset from that “laser beam”."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:136
+msgid "That **translation offset** can break down into three traditional components (X, Y and Z distances), along axes at 90 degrees to each other:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:139
+msgid "X distance (horizontal orange line) is from the center, to the right"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:140
+msgid "Y distance (not shown) is from the lens center, outwards"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:141
+msgid "Z distance (vertical orange line) is from the center, upwards"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:143
+msgid "The SDK provides these distances **in the real world**, not just reporting how many pixels on the screen. Very useful!"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:146
+msgid "You can also see that the AprilTag’s flat face is not parallel to the plane of the camera. That **rotation offset** can break down into three angles about the X, Y and Z axes. This is discussed further in the section below, called **AprilTag Axes**."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:151
+msgid "In summary, the SDK evaluates the AprilTag image and performs **“pose estimation”**, providing an estimated X, Y and Z **distance** between the tag and the camera, along with an estimated **angle** of rotation around those axes. A closer or larger AprilTag can yield a more accurate estimate of pose."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:156
+msgid "To provide good pose estimates, each RC phone camera or webcam requires **calibration data**, for a specific resolution. The SDK contains such data for a limited number of webcams and resolutions. Teams can generate their own data, called **lens intrinsics**, using a provided procedure."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:162
+msgid "Navigation"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:164
+msgid "OpModes use AprilTag pose to achieve **navigation**: evaluating inputs and driving to a destination."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:167
+msgid "An OpMode can use pose data to drive towards the tag, or drive to a target position and orientation **relative to the tag**. (The new SDK provides Java **Sample OpModes** ``RobotAutoDriveToAprilTagOmni.java`` and ``RobotAutoDriveToAprilTagTank.java``.) Another navigation possibility is mentioned below under **Advanced Use**."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:173
+msgid "Navigation is best done with **continuous** pose estimates, if the AprilTag remains within the camera’s field of view. Namely, an OpMode “**while() loop**” should regularly read the updated pose data, to guide the robot’s driving actions."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:178
+msgid "The new SDK supports **multiple cameras**, switchable or simultaneous.  This can help if the robot changes direction, or you wish to navigate using another AprilTag (or TensorFlow object)."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:182
+msgid "Other sensors can also be used for navigation, such as drive motor encoders, REV Hub IMU, deadwheel encoders, color/distance sensors, ultrasonic sensors, and more."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:186
+msgid "It’s also possible to evaluate **non-AprilTag images** from the same camera and/or a second camera. For example, the SDK can estimate the horizontal angle (or Bearing) of an object detected with **TensorFlow**, another vision technology employed in *FIRST* Tech Challenge. Advanced teams might consider active camera pointing control, to keep an AprilTag or other object in view."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:193
+msgid "Annotations"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:195
+msgid "In the preview (RC phone screen or DS Camera Stream), an official recognized AprilTag will display a **colored border** and its numeric **ID code**. These **annotations** allow easy visual confirmation of recognition:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:204
+msgid "Simple Annotations"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:204
+msgid "Two AprilTags with different metadata being detected and annotations displayed"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:206
+msgid "In the above :ref:`DS Camera Stream <hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam:image preview>` preview, the left-side AprilTag was recognized from a tag **Library** (default or customized). A Library tag has pre-loaded information (called **Metadata**) including its tag size, which allows **pose estimation**. These are annotated by default with a **colored border**."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:212
+msgid "The right-side AprilTag was not in a tag Library. It has no Metadata, so the SDK can provide only its numeric **ID code**, shown here as **ID 03**. Such tags are **not** annotated by default with a colored border."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:216
+msgid "Note: **Camera Stream** displays a snapshot of the camera’s view, on the Driver Station device. It’s available only during the INIT phase of an OpMode, and also shows any AprilTag (or TFOD) annotations. Instructions are posted here:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:220
+msgid ":ref:`Camera Stream Image Preview Documentation <hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam:image preview>`"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:222
+msgid "Optional annotations include **colored axes** at the tag center, and a **colored box** projecting from the tag image:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:230
+msgid "Optional Annotations"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:230
+msgid "LiveView with additional annotations enabled"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:232
+msgid "The above image shows a preview (called LiveView) on an Android Robot Controller (RC) phone. The REV Control Hub does generate an RC preview, which can be seen with an HDMI external monitor, or with ``scrcpy`` which can be found here:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:237
+msgid "https://github.com/Genymobile/scrcpy"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:240
+msgid "AprilTag Axes"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:242
+msgid "The SDK now provides the underlying pose data as follows:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:244
+msgid "Position is based on X, Y and Z distance **from the camera lens to the AprilTag**."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:246
+msgid "Orientation is based on rotation about those axes, using the right-hand rule."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:249
+msgid "Note: the optional red-green-blue annotated axes represent the **tag’s frame of reference**, unrelated to SDK pose data. That annotation indicates only a successful AprilTag recognition."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:253
+msgid "Here are the axis designations in the new SDK:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:255
+msgid "Y axis points **straight outward** from the camera lens center"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:256
+msgid "X axis points **to the right**, perpendicular to the Y axis"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:257
+msgid "Z axis points **upward**, perpendicular to Y and X"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:259
+msgid "If the camera is upright and pointing forward on the robot, these axes are consistent with the Robot Coordinate System used for :ref:`IMU navigation <programming_resources/imu/imu:axes definition>`."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:263
+msgid "Note: these axes are different than the official AprilTag `definitions <https://github.com/AprilRobotics/apriltag/wiki/AprilTag-User-Guide#coordinate-system>`__, even from the camera’s frame of reference."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:267
+msgid "The SDK provides AprilTag **rotation** data as follows:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:269
+msgid "**Pitch** is the measure of rotation about the X axis"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:270
+msgid "**Roll** is the measure of rotation about the Y axis"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:271
+msgid "Heading, or **Yaw**, is the measure of rotation about the Z axis"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:273
+msgid "Rotation follows the traditional right-hand rule: with the thumb pointing along the positive axis, the fingers curl in the direction of positive rotation."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:277
+msgid "Further discussion is provided here:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:279
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:376
+msgid "https://ftc-docs.firstinspires.org/apriltag-detection-values"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:281
+msgid "Note: This article does not discuss the *FIRST* Tech Challenge :ref:`Field Coordinate System <game_specific_resources/field_coordinate_system/field-coordinate-system:scope>`."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:284
+msgid "Your OpModes might relate robot orientation to the overall field or :download:`‘global coordinates’ <files/FTC-Global-Coordinates.png>` for navigation, but that’s beyond this AprilTag introduction."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:289
+msgid "Advanced Use"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:291
+msgid "**Option 1**"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:293
+msgid "If a tag’s position and orientation **on the game field** are specified in advance, the tag’s pose data could be used by an advanced OpMode to calculate the robot’s position on the field. This conversion math, an exercise for the reader, can allow a robot to use the tag’s pose data in real-time to navigate to the desired location on the field."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:299
+msgid "**Option 2**"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:301
+msgid "Vision processing can consume significant **CPU resources** and USB communications **bandwidth**. *FIRST* Tech Challenge teams may balance the benefits of higher resolution and speed (frames-per-second) against the risk of overloading CPU and bandwidth resources. The 8.2 SDK provides numerous tools to manage this balance:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:307
+msgid "select the camera resolution"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:308
+msgid "disable and enable the RC preview (called LiveView)"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:309
+msgid "disable and enable the AprilTag (or TFOD) processor"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:310
+msgid "close the camera stream"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:311
+msgid "select a compressed video streaming format"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:312
+msgid "measure frames-per-second"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:313
+msgid "set decimation (down-sampling)"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:314
+msgid "select a pose solver algorithm"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:316
+msgid "**Option 3**"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:318
+msgid "Clearer camera images can improve AprilTag (and TFOD) vision processing. The SDK offers powerful **webcam controls** (Exposure, Gain, Focus, and more), now available in FTC Blocks! These controls can be applied under various lighting conditions."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:323
+msgid "Exposure and Gain are adjusted together. The new SDK offers Java Sample OpMode ``ConceptAprilTagOptimizeExposure.java``."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:326
+msgid "**Option 4**"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:328
+msgid "The frame of reference described above in **AprilTag Axes** is calculated and provided by default in the new 8.2 SDK. Advanced teams may prefer to perform their own pose calculations, based on **raw values** from the AprilTag/EasyOpenCV pipeline."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:333
+msgid "Those raw values are available to Java and Blocks programmers. The Java version is shown here:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:352
+msgid "These raw values are converted by the SDK to the default interface, as follows:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:374
+msgid "Again, further discussion is provided here:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:379
+msgid "Summary"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:381
+msgid "AprilTag is a popular camera-based technology, using a scanned image similar to a QR Code."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:384
+msgid "The new SDK version 8.2 now includes key capabilities of AprilTag and EasyOpenCV, a *FIRST* Tech Challenge-optimized interface with OpenCV for image processing. These methods are packaged for convenient use by **Java and Blocks programmers**."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:389
+msgid "By default, the SDK can detect the ID code for any AprilTag in the 36h11 family."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:392
+msgid "For AprilTags in a default or custom tag Library, the interface provides calculated **pose** estimates (position and rotation) from the **camera’s frame of reference**. The source data is also available for advanced teams."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:397
+msgid "The AprilTag features work on Android RC phone cameras, and on webcams. Each camera requires **calibration data**, for a specific resolution, to provide good pose estimates."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:401
+msgid "Multiple cameras are supported, and a single OpMode can use AprilTag and TensorFlow Object Detection (TFOD). AprilTag detection is improved with webcam Camera Controls, now available also in FTC Blocks."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:405
+msgid "**In** *FIRST* **Tech Challenge, AprilTag is ready to take CENTERSTAGE!**"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:409
+msgid "Much credit to:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:411
+msgid "EasyOpenCV developer `@Windwoes <https://github.com/Windwoes>`__"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:412
+msgid "FTC Blocks developer `@lizlooney <https://github.com/lizlooney>`__"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:413
+msgid "FTC navigation expert `@gearsincorg <https://github.com/gearsincorg>`__"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:414
+msgid "and the smart people at `UMich/AprilTag <https://april.eecs.umich.edu/software/apriltag>`__."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:416
+msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
+msgstr ""

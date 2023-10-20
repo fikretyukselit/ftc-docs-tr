@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst:2
+msgid "Installing a Javascript Enabled Browser"
+msgstr ""
+
+#: programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst:4
+msgid "In order to be able to program your Robot Controller using the Blocks Programming Tool or the OnBot Java Programming tool, your laptop will need a Javascript-enabled browser. Both tools are Javascript applications that are served up by the Program and Manage server of the Robot Controller."
+msgstr ""
+
+#: programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst:10
+msgid "The Blocks Programming Tool and the OnBot Java Programming Tool should work with most modern web browsers. However, *FIRST* strongly recommends the use of Google Chrome with these tools. If you would like to use Google Chrome as your browser, you can download it for free from the Google Chrome website."
+msgstr ""
+
+#: programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst:16
+msgid "Note that it will take an estimated 15 minutes (depending on the speed of your Internet connection) to download and install the Javascript-enabled browser."
+msgstr ""
+
+#: programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst:22
+msgid "Installing a Javascript-Enabled Browser Instructions"
+msgstr ""
+
+#: programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst:24
+msgid "Visit the `Google Chrome Browser website <https://www.google.com/chrome>`__ (using your computer's existing browser) and follow onscreen instructions to download and install Chrome."
+msgstr ""
+
+#: programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst:31
+msgid "`Chrome Browser Website Link <https://www.google.com/chrome>`__"
+msgstr ""
+
+#: programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst:33
+msgid "2. Note that your computer might prompt you with a security warning during the installation process. If you are prompted with this warning, click on the \"Run\" button to continue with the installation."
+msgstr ""

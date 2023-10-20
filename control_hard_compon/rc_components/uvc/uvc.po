@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: control_hard_compon/rc_components/uvc/uvc.rst:2
+msgid "UVC Webcam"
+msgstr ""
+
+#: control_hard_compon/rc_components/uvc/uvc.rst:11
+#: control_hard_compon/rc_components/uvc/uvc.rst:22
+msgid "Logitech C270"
+msgstr ""
+
+#: control_hard_compon/rc_components/uvc/uvc.rst:0
+msgid "C270"
+msgstr ""
+
+#: control_hard_compon/rc_components/uvc/uvc.rst:28
+#: control_hard_compon/rc_components/uvc/uvc.rst:39
+msgid "Logitech C920"
+msgstr ""
+
+#: control_hard_compon/rc_components/uvc/uvc.rst:0
+msgid "C920"
+msgstr ""
+
+#: control_hard_compon/rc_components/uvc/uvc.rst:41
+msgid "A webcam is a device that provides visual images of the surrounding environment. For use as part of *FIRST* Tech Challenge teams must use a COTS `UVC <https://www.usb.org/document-library/video-class-v15-document-set>`_ (USB Video Class) Compatible Camera. This device can be connected directly to the REV Control Hub or to the Robot Control system via a powered USB hub ``<RE14>``. This device is intended to be used in vision related tasks. An example use case of a webcam is reading the state of the barcode after randomization, a vision task in *Freight Frenzy*, 2021-2022."
+msgstr ""
+
+#: control_hard_compon/rc_components/uvc/uvc.rst:51
+msgid "Additional Resources"
+msgstr ""
+
+#: control_hard_compon/rc_components/uvc/uvc.rst:53
+msgid ":ref:`Connecting UVC Camera via Powered USB Hub <hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera:configuring an external uvc camera and a powered usb hub>`"
+msgstr ""
+
+#: control_hard_compon/rc_components/uvc/uvc.rst:54
+msgid ":ref:`Connecting UVC Camera directly to REV Control Hub <hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam:configuring an external webcam with a control hub>`"
+msgstr ""
+
+#: control_hard_compon/rc_components/uvc/uvc.rst:55
+msgid ":ref:`USB Port Overview <control_hard_compon/rc_components/hub/ports/ch-ports:USB-A Ports>`"
+msgstr ""
+
+#: control_hard_compon/rc_components/uvc/uvc.rst:56
+msgid ":ref:`Vision in FIRST Tech Challenge <programming_resources/index:vision programming>`"
+msgstr ""

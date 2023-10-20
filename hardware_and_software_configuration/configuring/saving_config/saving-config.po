@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: hardware_and_software_configuration/configuring/saving_config/saving-config.rst:2
+msgid "Saving the Configuration Information"
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/saving_config/saving-config.rst:3
+msgid "Once you have configured your hardware, you must save the information to the configuration file. If you do not save this information, it will be lost and the robot controller will be unable to communicate with your hardware."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/saving_config/saving-config.rst:9
+msgid "Saving the Configuration Information Instructions"
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/saving_config/saving-config.rst:11
+msgid "1. Press the **Done** button to go up one level in the configuration screens."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/saving_config/saving-config.rst:19
+msgid "2. Press the **Done** button again to return to the highest level in the configuration screens."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/saving_config/saving-config.rst:27
+msgid "Press the **Save** button."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/saving_config/saving-config.rst:34
+msgid "4. When prompted, specify a configuration file name using the touchscreen's keypad (use \"TestConfig\" for this example)."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/saving_config/saving-config.rst:42
+msgid "5. Press the **OK** button to save your configuration information using that file name."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/saving_config/saving-config.rst:50
+msgid "6. After the configuration file has been saved, touch the Android back-arrow button to return to the main screen of the app."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/saving_config/saving-config.rst:58
+msgid "7. Verify that the configuration file is the active configuration file on the main Driver Station screen."
+msgstr ""

@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:2
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:0
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:35
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:0
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:58
+msgid "Updating the Control Hub OS"
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:4
+msgid "An Operating System (OS) is software that supports a computer’s basic functions, such as scheduling tasks, executing applications, and controlling peripherals. This must sometimes be updated on the **REV Control Hub**. While this OS update is not specifically part of the :doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`, the SDK requires these updates for the Control Hub in order to perform correctly."
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:11
+msgid "Here are two methods for updating the Control Hub OS:"
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:13
+msgid "REV Hardware Client (RHC)"
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:14
+msgid "Manage page on computer"
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:16
+msgid "More info about updating the Control Hub OS is `at REV Robotics’ excellent documentation site <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-operating-system>`__."
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:0
+msgid "Method 1 - REV Hardware Client (RHC) - Windows computers only"
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:21
+msgid "Apply 12V robot power to the REV Control Hub."
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:23
+msgid "Plug the Control Hub directly into a computer running the REV Hardware Client, with a USB-C data cable."
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:26
+msgid "Click the hub’s large icon/rectangle. Under “Control Hub Operating System”, see the current/latest mismatch, if any (yellow oval, below)."
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:37
+msgid "Confirm the Latest Version in the drop-down menu, then click the blue “Update” rectangle (green arrow, above). The speed of this update is improved, since    :doc:`in Updating the REV Hardware Client </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` the required update file was previously downloaded."
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:43
+msgid "Done! The Control Hub’s OS is now updated."
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:0
+msgid "Method 2 - Manage page on computer"
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:47
+msgid "Connect the computer via Wi-Fi to the Control Hub. In the Chrome browser, open the *FIRST* Tech Challenge interface."
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:50
+msgid "Click on the Manage tab, scroll down to Update Control Hub Operating System."
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:60
+msgid "If needed, download the latest OS file from the REV Robotics `Control Hub OS web page <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-operating-system#using-the-robot-controller-console>`__. Do not extract or “un-zip” this file."
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:65
+msgid "At the Manage page, click “Select Update File…” and navigate to the computer’s folder where you downloaded the OS file."
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:68
+msgid "Select that file, and click “Update & Reboot” (green arrow, above)."
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:70
+msgid "That’s it! The Control Hub’s OS is now updated."
+msgstr ""
+
+#: ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:72
+msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
+msgstr ""

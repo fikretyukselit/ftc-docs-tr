@@ -1,0 +1,353 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:2
+msgid "AprilTag Library"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:4
+msgid "For a *FIRST* Tech Challenge match, your OpMode has a known set of AprilTags to detect.  They are preloaded by default or specified by you, with or without custom tags."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:8
+msgid "These tags form an **AprilTag Library**. Each Library tag has a set of 4 to 6 properties, described at the **Metadata** page."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:11
+msgid "This page shows many ways to create an AprilTag Library. The **Initialization** page explained this is the optional **Step 1** of preparing to use AprilTags in an OpMode."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:15
+msgid "**Try these examples in order**, to master the use of AprilTag Libraries."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:19
+msgid "The Easy Way"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:21
+msgid "Let’s start with… no Library! If your OpMode will use only the current season defaults, no Library action is needed."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:24
+msgid "Simply create the AprilTagProcessor as follows:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+msgid "Blocks"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:35
+msgid "Simple AprilTag Processor"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+msgid "Java"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:47
+msgid "Specifying a Library is needed for creating an AprilTag Processor. Even this “Easy Way” does specify the default Library, behind the scenes."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:51
+msgid "Default Libraries"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:53
+msgid "The SDK uses two core Libraries of predefined AprilTags:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:55
+msgid "tags used only in Sample OpModes"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:56
+msgid "tags used only in the Robot Game (competition)"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:58
+msgid "The first Library, called ``SampleTagLibrary``, is available now with SDK 8.2. Its basic Metadata values are:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:61
+msgid "``583, Nemo, 4, DistanceUnit.INCH``"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:62
+msgid "``584, Jonah, 4, DistanceUnit.INCH``"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:63
+msgid "``585, Cousteau, 6, DistanceUnit.INCH``"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:64
+msgid "``586, Ariel, 6, DistanceUnit.INCH``"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:66
+msgid "The second Library, called ``CenterStageTagLibrary``, is planned for future competition only. It’s available now in SDK 8.2, but currently holding three “placeholder” tags:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:70
+msgid "``0, MEOW, 0.166, DistanceUnit.METER``"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:71
+msgid "``1, WOOF, 0.166, DistanceUnit.METER``"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:72
+msgid "``2, OINK, 0.166, DistanceUnit.METER``"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:74
+msgid "After Kickoff in September 2023, these will be replaced (in SDK 9.0) by the **real tags** for CENTERSTAGE."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:77
+msgid "For convenience, a third Library contains **both** of these core Libraries, and nothing else. This is the default, called ``CurrentGameTagLibrary``."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:82
+msgid "AprilTag Processor"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:84
+msgid "Specifying **any aspect** of a Processor is done with a **Processor Builder**, requiring at least 2 commands:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:87
+msgid "create the Builder, using the Java keyword ``new``"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:89
+msgid "after specifying/adding features, finalize with a call to the ``.build()`` method"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:92
+msgid "In between these actions, your OpMode will add one of the three Libraries directly to the Processor Builder. It’s easiest to use the default ``CurrentGameTagLibrary``, containing all of the predefined tags."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:101
+msgid "First create this expression, drawing the first component from the ``AprilTagProcessor.Builder`` toolbox (or palette), and drawing the second component from the ``AprilTagLibrary`` toolbox."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+msgid "Set Current Game Tag Library"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:110
+msgid "Setting Current Game Tag Library"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:112
+msgid "**Around this** (before and after), place one Block to **create** the Processor Builder, and another Block to **finalize** the process with ``.build()``."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:121
+msgid "Completing Builder"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:123
+msgid "These are the first and last Blocks in the ``AprilTagProcessor.Builder`` toolbox. The remaining Blocks are used to set optional features of the Processor. Here we are setting only the Library."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:147
+msgid "Library Variable"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:149
+msgid "As an alternate, you could first store the Library in your own Variable name. Then specify that name for the AprilTag Processor. Here we use ``myAprilTagLibrary`` (any other name is fine)."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:157
+msgid "First create this expression, drawing the first component from the ``AprilTagLibrary`` toolbox, and drawing the second component from the ``AprilTagProcessor.Builder`` toolbox."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+msgid "Set Tag Library"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:166
+msgid "Set the Tag Library"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:168
+msgid "As before, **around this** (before and after), place one Block to **create** the Processor Builder, and another Block to **finalize** the process with ``.build()``."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:177
+msgid "Build the AprilTag Processor"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:202
+msgid "Library Builder, with Defaults"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:204
+msgid "Next we try the Builder pattern, to create a Library containing only predefined AprilTags. It’s not needed (nothing new to Build!), but it’s an easy introduction."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:212
+msgid "Create a Library Builder, not the same as a Processor Builder."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:213
+msgid "Then use the ``addTags`` Block – note the plural “tags”, not “tag”."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:215
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:232
+msgid "Finalize the process with the ``.build`` command."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:217
+msgid "The built Library is assigned or saved to your Variable, here called ``myAprilTagLibrary``."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:225
+msgid "Build the Tag Library"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:227
+msgid "Next comes the familiar steps:"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:229
+msgid "Create a Processor Builder."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:230
+msgid "Then set, or add, the Library built and saved in the previous sequence."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:239
+msgid "Build the Tag Processor"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:241
+msgid "The final result is the same as the previous examples, but now you see how to use a Library Builder."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:275
+msgid "Custom Tag - Direct"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:277
+msgid "Finally, we are ready to add custom tags to a Library."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:279
+msgid "Each tag needs Metadata. You can enter Metadata values directly to a new tag, as follows."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:286
+msgid "The third Block adds the custom tag to the Library. All other Blocks are the same as the previous example."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+msgid "Custom Tag Library"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:294
+msgid "Add custom tags to Tag Library"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:299
+msgid "The custom tag is added with **one new line** of code, otherwise the same as the previous example."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:333
+msgid "Custom Tag - Variable"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:335
+msgid "As an alternate, you can assign Metadata to a Variable, then use that Variable to create a new AprilTag."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:342
+msgid "These two Blocks could replace the single new Block in the previous example."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:0
+msgid "Variable Metadata"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:350
+msgid "Setting Metadata with Variable"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:352
+msgid "These Blocks are separated, to illustrate that the Metadata Variable can be initialized/assigned anywhere before being added with the Library Builder. It doesn’t have to appear immediately before use."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:359
+msgid "The custom tag is added with **two lines** of code, replacing the **one new line** in the previous example."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:395
+msgid "For Blocks or Java, multiple tags could be added with multiple (shorter!) Variable names, such as ``myTag1``, ``myTag2``, etc."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:399
+msgid "Overwriting"
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:401
+msgid "You might create a custom AprilTag with the **same ID code** as a tag already in the Library. This is **overwriting**, which you can allow or not allow."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:405
+msgid "If ``setAllowOverwrite()`` is set to ``false`` (the default) and overwrite is attempted, the OpMode will crash with a suitable error message."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:409
+msgid "If set to ``true``, the custom tag will replace the existing tag."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:411
+msgid "Why might you do this? Suppose a tag size is not quite correct. You could enter a new tag with the same Metadata, but with a corrected tag size."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:415
+msgid "Or you might prefer to use your own tag names, or distance units."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:417
+msgid "Advanced users might want to specify the **location** of a predefined tag **on the game field**. This can be done with the optional Vector and Quaternion fields."
+msgstr ""
+
+#: apriltag/vision_portal/apriltag_library/apriltag-library.rst:423
+msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
+msgstr ""

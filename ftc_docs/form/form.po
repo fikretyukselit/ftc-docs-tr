@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ftc_docs/form/form.rst:2
+msgid "Site Feedback Form"
+msgstr ""
+
+#: ftc_docs/form/form.rst:4
+msgid "We would love to hear your feedback on this site (*FIRST* Tech Challenge Docs). Please fill out the form below and we will try our best to incorporate your feedback into the documentation."
+msgstr ""
+
+#: ftc_docs/form/form.rst:9
+msgid "If you're not able to see the form below, check your browser extensions for messages regarding blocked content. Some extensions such as `Privacy Badger <https://privacybadger.org/>`_ may require site exceptions for \"Microsoft Forms\" in order to correctly load the feedback form content."
+msgstr ""
+
+#: ftc_docs/form/form.rst:21
+msgid "`Feedback Form <https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v8Pzh9Ft7ES9j5nk5iLvhAgmZzMhzQVAmDwiemnaV_BURUdFOTk2NEwxSUJHM0FYUTlIR0JVMzkzUi4u>`_"
+msgstr ""

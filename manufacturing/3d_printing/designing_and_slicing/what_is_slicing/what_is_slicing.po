@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: manufacturing/3d_printing/designing_and_slicing/what_is_slicing/what_is_slicing.rst:2
+msgid "What is Slicing?"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/what_is_slicing/what_is_slicing.rst:4
+msgid "One of the most important steps of 3D printing is turning your CAD files into instructions for the printer can carry out and read. This is done in a software called a slicer, which turns CAD files, into machine-readable, G-Code Files."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/what_is_slicing/what_is_slicing.rst:None
+msgid "A graphic showing the steps of creating a 3d printable file."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/what_is_slicing/what_is_slicing.rst:14
+msgid "The basis of this software is that it takes a mesh file, normally an STL file, and splits it into layers and lines that the 3d printer can digest. You get to select various parameters about how it will instruct the printer to follow this data, such as the speed, thickness of lines, temperatures, thickness of the slices, amount of walls, the patterns on the inside of the part, and even more. Most slicers will have over 200 options available to you if fine-tuning is something you're interested in, but there's only about 10-20 settings that you absolutely have to be concerned with."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/what_is_slicing/what_is_slicing.rst:20
+msgid "G-Code files are also notably just compilations of G-Code commands. G-Code commands tell the printer how to move, where to move, and what to turn on and off. These G-Code commands can be useful to learn if your printer has a command line or you want to eventually write start-up or shut-down scripts for your prints."
+msgstr ""

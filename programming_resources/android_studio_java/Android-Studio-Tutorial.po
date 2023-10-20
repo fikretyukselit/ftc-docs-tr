@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/android_studio_java/Android-Studio-Tutorial.rst:2
+msgid "Android Studio Programming Tutorial"
+msgstr ""
+
+#: programming_resources/android_studio_java/Android-Studio-Tutorial.rst:9
+msgid "This tutorial will take you step-by-step through the process of configuring, programming, and operating your Control System. This tutorial uses Android Studio to help you get started programming your robot."
+msgstr ""
+
+#: programming_resources/android_studio_java/Android-Studio-Tutorial.rst:14
+msgid "Android Studio is an advanced integrated development environment for creating Android apps. This tool is the same tool that professional Android app developers use. Android Studio is only recommended for **advanced users** who have **extensive Java programming experience**."
+msgstr ""
+
+#: programming_resources/android_studio_java/Android-Studio-Tutorial.rst:25
+msgid ":bdg-success:`AS` indicates that the content is specific to Android Studio Programming"
+msgstr ""

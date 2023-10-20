@@ -1,0 +1,329 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:2
+msgid "Blocks Sample OpMode for TFOD"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:7
+msgid "This tutorial describes the FTC Blocks Sample OpMode for TensorFlow Object Detection (TFOD). This Sample, called “ConceptTensorFlowObjectDetection”, can recognize one or more official game elements and provide their visible size and position."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:12
+msgid "For the 2023-2024 game CENTERSTAGE, the game element is a hexagonal white **Pixel**. The FTC SDK software contains a TFOD model of this object, ready for recognition. That model was created with the :doc:`Machine Learning Toolchain <../../../ftc_ml/index>`."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:17
+msgid "For extra points, teams may instead use their own custom TFOD models of **Team Props**. That option is described here:"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:20
+msgid ":doc:`Blocks Custom Model Sample OpMode for TFOD <../blocks_tfod_opmode_custom/blocks-tfod-opmode-custom>`"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:23
+msgid "Creating the OpMode"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:25
+msgid "At the FTC Blocks browser interface, click on the “Create New OpMode” button to display the Create New OpMode dialog box."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:28
+msgid "Specify a name for your new OpMode. Select “ConceptTensorFlowObjectDetection” as the Sample OpMode that will be the template for your new OpMode."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:32
+msgid "If no webcam is configured for your REV Control Hub, the dialog box will display a warning message (shown here). You can ignore this warning message if you will use the built-in camera of an Android RC phone. Click “OK” to create your new OpMode."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:42
+msgid "Creating a new OpMode"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:42
+msgid "Creating a New OpMode"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:44
+msgid "The new OpMode should appear in edit mode in your browser."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:51
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:51
+msgid "Sample OpMode"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:53
+msgid "By default, the Sample OpMode assumes you are using a webcam, configured as “Webcam 1”. If you are using the built-in camera on your Android RC phone, change the USE_WEBCAM Boolean from ``true`` to ``false`` (green arrow above)."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:59
+msgid "Adjusting the Zoom Factor"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:61
+msgid "If the object to be recognized will be more than roughly 2 feet (61 cm) from the camera, you might want to set the digital zoom factor to a value greater than 1. This tells TensorFlow to use an artificially magnified portion of the image, which may offer more accurate recognitions at greater distances."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:72
+msgid "Setting Zoom"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:72
+msgid "Setting the Zoom Factor"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:74
+msgid "Pull out the **``setZoom``** Block, found in the toolbox or palette called “Vision”, under “TensorFlow” and “TfodProcessor” (see green oval above). Change the magnification value as desired (green arrow)."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:78
+msgid "On REV Control Hub, the “Vision” menu appears only when the active robot configuration contains a webcam, even if not plugged in."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:81
+msgid "This ``setZoom`` Block can be placed in the INIT section of your OpMode,"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:83
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:131
+msgid "immediately after the call to the ``initTfod`` Function, or"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:84
+msgid "as the very last Block inside the ``initTfod`` Function."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:86
+msgid "This Block is **not** part of the Processor Builder pattern, so the Zoom factor can be set to other values during the OpMode, if desired."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:89
+msgid "The “zoomed” region can be observed in the DS preview (Camera Stream) and the RC preview (LiveView), surrounded by a greyed-out area that is **not evaluated** by the TFOD Processor."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:94
+msgid "Other Adjustments"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:96
+msgid "The Sample OpMode uses a default **minimum confidence** level of 75%. The TensorFlow Processor needs to have a confidence level of 75% or higher, to consider an object as “recognized” in its field of view."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:100
+msgid "You can see the object name and actual confidence (as a **decimal**, e.g. 0.75) near the Bounding Box, in the Driver Station preview (Camera Stream) and Robot Controller preview (Liveview)."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:109
+msgid "Setting Minimum Confidence"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:109
+msgid "Setting the Minimum Confidence"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:111
+msgid "Pull out the **``setMinResultConfidence``** Block, found in the toolbox or palette called “Vision”, under “TensorFlow” and “TfodProcessor”. Adjust this parameter to a higher value if you would like the processor to be more selective in identifying an object."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:116
+msgid "Another option is to define, or clip, a **custom area for TFOD evaluation**, unlike ``setZoom`` which is always centered."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:124
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:124
+msgid "Setting Clipping Margins"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:126
+msgid "From the same Blocks palette, pull out the **``setClippingMargins``** Block. Adjust the four margins as desired, in units of pixels."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:129
+msgid "These Blocks can be placed in the INIT section of your OpMode,"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:132
+msgid "as the very last Blocks inside the ``initTfod`` Function."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:134
+msgid "As with ``setZoom``, these Blocks are **not** part of the Processor Builder pattern, so they can be set to other values during the OpMode, if desired."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:139
+msgid "Command Flow in this Sample"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:141
+msgid "After the ``waitForStart`` Block, this OpMode contains the main program loop:"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:149
+msgid "Main Loop"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:149
+msgid "OpMode Main Loop"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:151
+msgid "This loop repeatedly calls a Blocks Function called **``telemetryTfod``**. That Function is the heart of the OpMode, seeking and evaluating recognized TFOD objects, and displaying DS Telemetry about those objects. It will be discussed below, in the next section."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:156
+msgid "The main loop also allows the user to press the ``Dpad Down`` button on the gamepad, to temporarily stop the streaming session. This ``.stopStreaming`` Block pauses the flow and processing of camera frames, thus **conserving CPU resources**."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:161
+msgid "Pressing the ``Dpad Up`` button (``.resumeStreaming``) allows the processing to continue. The on-and-off actions can be observed in the RC preview (LiveView), described further below."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:165
+msgid "These two commands appear here in this Sample OpMode, to spread awareness of one tool for managing CPU and bandwidth resources. The FTC VisionPortal offers over 10 such controls, :ref:`described here <apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth:visionportal cpu and bandwidth>`."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:171
+msgid "Processing TFOD Recognitions"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:173
+msgid "The Function called **``telemetryTfod``** is the heart of the OpMode, seeking and evaluating recognized TFOD objects, and displaying DS Telemetry about those objects."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:182
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:182
+msgid "Telemetry TFOD"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:184
+msgid "The first Block uses the TFOD Processor to gather and store all recognitions in a List, called ``myTfodRecognitions``."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:187
+msgid "The green “FOR Loop” iterates through that List, handling each item, one at a time. Here the “handling” is simply displaying certain TFOD fields to DS Telemetry."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:191
+msgid "For competition, you want to do more than display Telemetry, and you want to exit the main loop at some point. These code modifications are discussed in another section below."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:196
+msgid "Testing the OpMode"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:198
+msgid "Click the “Save OpMode” button, then run the OpMode from the Driver Station. The Robot Controller should use the CENTERSTAGE TFOD model to recognize and track the white Pixel."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:202
+msgid "For a preview during the INIT phase, touch the Driver Station’s 3-dot menu and select **Camera Stream**."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:210
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:210
+msgid "Sample DS Camera Stream"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:212
+msgid "Camera Stream is not live video; tap to refresh the image. Use the small white arrows at lower right to expand or revert the preview size. To close the preview, choose 3-dots and Camera Stream again."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:216
+msgid "After touching the DS START button, the OpMode displays Telemetry for any recognized Pixel(s):"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:224
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:224
+msgid "Sample DS Telemetry"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:226
+msgid "The above Telemetry shows the label name, and TFOD confidence level. It also gives the **center location** and **size** (in pixels) of the Bounding Box, which is the colored rectangle surrounding the recognized object."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:231
+msgid "The pixel origin (0, 0) is at the top left corner of the image."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:233
+msgid "Before and after touching DS START, the Robot Controller provides a video preview called **LiveView**."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:241
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:241
+msgid "Sample RC LiveView"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:243
+msgid "For Control Hub (with no built-in screen), plug in an HDMI monitor or learn about ``scrcpy`` (https://github.com/Genymobile/scrcpy). The above image is a LiveView screenshot via ``scrcpy``."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:247
+msgid "If you don’t have a physical Pixel on hand, try pointing the camera at this image:"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:255
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:255
+msgid "Sample Pixel"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:258
+msgid "Modifying the Sample"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:260
+msgid "In this Sample OpMode, the main loop ends only upon touching the DS Stop button. For competition, teams should **modify this code** in at least two ways:"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:264
+msgid "for a significant recognition, take action or store key information – inside the FOR loop"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:267
+msgid "end the main loop based on your criteria, to continue the OpMode"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:269
+msgid "As an example, you might set a Boolean variable ``isPixelDetected`` to ``true``, if a significant recognition has occurred."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:272
+msgid "You might also evaluate and store which randomized Spike Mark (red or blue tape stripe) holds the white Pixel."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:275
+msgid "Regarding the main loop, it could end after the camera views all three Spike Marks, or after your code provides a high-confidence result. If the camera’s view includes more than one Spike Mark position, perhaps the white Pixel’s **Bounding Box** size and location could be useful. Teams should consider how long to seek an acceptable recognition, and what to do otherwise."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:282
+msgid "In any case, the OpMode should exit the main loop and continue running, using any stored information."
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:285
+msgid "Best of luck this season!"
+msgstr ""
+
+#: programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode.rst:289
+msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
+msgstr ""

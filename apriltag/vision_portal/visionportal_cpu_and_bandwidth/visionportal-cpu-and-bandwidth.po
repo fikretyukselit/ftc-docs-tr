@@ -1,0 +1,571 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:2
+msgid "VisionPortal CPU and Bandwidth"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:7
+msgid "Vision processing can consume significant **CPU resources** and USB communications **bandwidth**.  Reaching such limits may affect previews, and cause an OpMode or Robot Controller to slow down, or freeze, or crash."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:11
+msgid "Teams can balance the benefits of higher resolution and speed (frames-per-second) against the risk of overloading CPU and bandwidth resources."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:15
+msgid "The 8.2 SDK provides numerous tools to manage this balance:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:17
+msgid "disable and enable the RC preview (called LiveView) - \"Level 1\""
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:18
+msgid "disable and enable the AprilTag (or TFOD) processor - \"Level 2\""
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:19
+msgid "stop and resume the camera stream - \"Level 3\""
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:20
+msgid "close VisionPortal - \"Level 4\""
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:21
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:332
+msgid "monitor frames-per-second (FPS)"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:22
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:333
+msgid "select a compressed video streaming format"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:23
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:334
+msgid "select the camera resolution"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:24
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:335
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:446
+msgid "set decimation (down-sampling)"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:25
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:336
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:447
+msgid "select a pose solver algorithm"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:26
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:337
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:448
+msgid "get all or only fresh detections from the AprilTag Processor"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:27
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:338
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:449
+msgid "get all or only fresh recognitions from the TFOD Processor"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:29
+msgid "The first four actions are informally rated for benefit and response:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:31
+msgid "**LiveView** \"Level 1\": some reduction of resources used, resumes very quickly after stopping"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:32
+msgid "**Processor(s)** \"Level 2\": more reduction of resources used, resumes quickly after stopping"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:33
+msgid "**Camera Stream** \"Level 3\": high reduction of resources used, resumes less quickly after stopping"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:34
+msgid "**VisionPortal** \"Level 4\": maximum reduction of resources used, do not resume after stopping"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:37
+msgid "Camera Status"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:39
+msgid "Before discussing the tools to manage vision processing resources, we should review again the available **camera states**.  This may help you monitor, evaluate and troubleshoot your optimization efforts."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:43
+msgid "Repeated from the **Camera Controls** page, these camera states are now available:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:45
+msgid "OPENING_CAMERA_DEVICE - No vision processing is happening."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:46
+msgid "CAMERA_DEVICE_READY - Camera is open.  No processing is happening, including background processing from EOCV (i.e. pulling frames and performing color conversion). Ready to call ``resumeStreaming()``."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:49
+msgid "STARTING_STREAM - No processing is happening."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:50
+msgid "STREAMING - Frames are available for processing (AprilTag and/or TFOD recognitions) and preview (LiveView RC preview and DS Camera Stream)."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:52
+msgid "STOPPING_STREAM - Processing may or may not be happening.  This status is followed by ``CAMERA_DEVICE_READY``."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:54
+msgid "CLOSING_CAMERA_DEVICE - No processing is happening."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:55
+msgid "CAMERA_DEVICE_CLOSED - Nothing is running, USB comms are closed.  Once closed, don't open camera again during this OpMode."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:57
+msgid "ERROR"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:59
+msgid "These **enums** are listed in sequence, as if opening a camera (fresh build), then starting or resuming streaming, then stopping streaming, then closing the VisionPortal."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:63
+msgid "All of the above is completely separate from the AprilTag and/or TFOD processor status.  Those can be enabled or disabled at any time, but naturally require ``STREAMING`` status to actually process camera images."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:68
+msgid "About Previews"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:70
+msgid "As noted at the **Previews** page, LiveView refers only to the **Robot Controller** preview.  It's completely separate from the Driver Station (DS) **Camera Stream**, which still operates normally even if LiveView is stopped (manually or automatically)."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:75
+msgid "DS Camera Stream uses its own frame collection process, which naturally still requires the camera/pipeline status to be ``STREAMING``."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:78
+msgid "Instructions for viewing DS Camera Stream are shown at :ref:`ftc-docs <hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam:image preview>`."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:81
+msgid "DS Camera Stream can display only one camera's image, even under the new MultiPortal feature.  Teams can create specialty OpModes to see one camera's image or the other camera's image, if needed for match set-up."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:85
+msgid "Side Note: For SDK 8.2, \"LiveView\" became the new universal name for the RC preview. There remain two instances of old names:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:88
+msgid "``myVisionPortalBuilder.enableCameraMonitoring(true);``, discussed below"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:89
+msgid "``VIEWPORT`` appears in the preview status window, when stopped"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:92
+msgid "Pause LiveView - Direct"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:94
+msgid "One way to conserve CPU resources (\"Level 1\") is **directly pausing** LiveView, while running an OpMode.  The CPU continues processing camera images for AprilTag and/or TFOD recognitions, but does not actually generate an RC preview image (video)."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:0
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:0
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:0
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:0
+msgid "Blocks"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:103
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:180
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:219
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:255
+msgid "These are found in the ``VisionPortal`` toolbox, or palette, under the ``Vision`` category."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:0
+msgid "Toggle LiveView"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:111
+msgid "Examples of Toggling LiveView"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:0
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:0
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:0
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:0
+msgid "Java"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:124
+msgid "Your OpMode will **not** need to work with camera status **enums** here, since these \"stop\" and \"resume\" actions happen quickly."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:127
+msgid "The above commands toggle only LiveView; the DS Camera Stream preview (touch to refresh) remains available."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:131
+msgid "Pause LiveView - Indirect"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:133
+msgid "The SDK also offers an **indirect** control of LiveView, available in Blocks and Java:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:140
+msgid "This setting causes LiveView to stop **automatically** if both processors (AprilTag and TFOD) are disabled.  Being part of the Builder pattern, this feature cannot be directly toggled ``true`` and ``false`` during the OpMode."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:144
+msgid "This setting is triggered when **both** processors are disabled.  When set to ``false``, by default, the monitor continues showing the camera's view without annotations.  If set to ``true``, the monitor is Auto Paused, showing a solid orange screen if no processors are enabled.  Thus the preview **can** effectively be toggled off and on, using this AutoPause feature."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:150
+msgid "When one or both processors are re-enabled, LiveView resumes.  This setting affects only LiveView; the Driver Station Camera Stream preview remains available."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:155
+msgid "Disable LiveView"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:157
+msgid "The SDK also contains a different Builder setting that allows (or disallows) LiveView **in general**, available in Blocks and Java:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:164
+msgid "Sample OpModes set this Builder field to ``true`` by default."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:166
+msgid "This could be set to ``false``, if the OpMode will not need the LiveView preview at all.  Being part of the Builder pattern, this feature cannot be directly toggled ``true`` and ``false`` during the OpMode."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:171
+msgid "Toggle Processors"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:173
+msgid "Another way to conserve CPU resources (\"Level 2\") is **disabling an AprilTag or TFOD Processor**, while running an OpMode."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:0
+msgid "Toggle Processor"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:188
+msgid "Examples of Toggling Processors"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:201
+msgid "Disabling a Processor does not close LiveView, with its own controls described above.  Any annotations will stop appearing in the preview."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:204
+msgid "Disabling and re-enabling processors is very fast, and saves CPU resources. But EOCV frame pulling and color conversion continue running in the background."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:208
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:0
+msgid "Toggle Camera Stream"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:210
+msgid "A more active way to conserve CPU resources (\"Level 3\") is **stopping the camera stream**, while running an OpMode.  Naturally this also achieves Levels 1 and 2: stopping LiveView and preventing operation of the AprilTag and TFOD Processors. DS Camera Stream provides no new snapshots."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:227
+msgid "Examples of Toggling Camera Stream"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:241
+msgid "Stopping (and later resuming) the stream is slightly risky, can take about 1 second, and stops all background processing.  This is what happens when switching cameras, in the Sample OpModes called ``SwitchableCameras``.  One stream stops, and the other stream starts."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:247
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:0
+msgid "Close VisionPortal"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:249
+msgid "Closing the portal with ``close()`` stops all background processing permanently (\"Level 4\"), and closes USB communication with the camera."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:263
+msgid "Close VisionPortal Example"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:274
+msgid "The ``close()`` process is a \"teardown\" of all camera processing.  It is not recommended to \"re-open\" the camera within the same OpMode, by building another VisionPortal.  This is risky and might take several seconds."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:278
+msgid "Accordingly, the SDK offers no corresponding ``reopen()`` or ``resume()`` method."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:281
+msgid "The ``close()`` process happens automatically at the end of any OpMode."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:283
+msgid "Calling ``stopStreaming()`` before calling ``close()`` is allowed (for clarity), but not required, since ``close()`` internally calls ``stopStreaming()`` if applicable."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:288
+msgid "Rapid Toggling"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:290
+msgid "Your OpMode (or manual testing) should avoid or handle rapid stacking of the \"on\" and \"off\" actions described above."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:293
+msgid "It's legal to call ``resumeStreaming()`` while the status is ``STOPPING_STREAM``. But the program will be **blocked** until the stopping operation is done."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:296
+msgid "**Blocking** means the latest function doesn't return immediately.  So the code is temporarily \"stuck\" there, as if executing a ``sleep()`` command."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:299
+msgid "The same applies if calling ``stopStreaming()`` while the status is ``STARTING_STREAM``.  It's allowed, but your code may have to wait."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:302
+msgid "To avoid blocking, it's best to check the relevant **status enum** to make sure the previous operation is complete.  This can be done with an empty ``while()`` loop, in a linear OpMode."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:307
+msgid "CPU Management Choices"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:309
+msgid "So far, there are **10 possible configurations** to evaluate CPU performance, using only the vision process controls discussed above:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:312
+msgid "VisionPortal closed"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:313
+msgid "VisionPortal open, Streaming off"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:315
+msgid "Then 4 with Streaming on, Preview off:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:317
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:324
+msgid "only AprilTag processor enabled"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:318
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:325
+msgid "only TFOD processor enabled"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:319
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:326
+msgid "both enabled"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:320
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:327
+msgid "both disabled"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:322
+msgid "Then 4 with Streaming on, Preview on:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:329
+msgid "This gives Teams ample opportunity to evaluate and manage CPU performance and USB Bandwidth.  Many other tools remain:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:341
+msgid "Frame Rate"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:343
+msgid "The VisionPortal **automatically optimizes** for maximum frame rate, the number of processed frames per second (FPS).  Presuming this optimization is based on **CPU resources**, measuring effects on **frame rate** could indirectly reflect CPU resource status/consumption/capacity."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:348
+msgid "Frame rate is reported visually in the LiveView status window.  It's also available for your OpMode to track, record and evaluate, in Blocks and Java:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:355
+msgid "Teams can collect FPS data to illustrate the general effects of, for example, (a) resolution and (b) processors running, on CPU performance. Results will depend on many team-specific factors such as webcams, codebase (other processing), vision targets (number, type, distance), etc."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:360
+msgid "Learn more about such studies at this `Datalogging tutorial <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Datalogging>`__."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:364
+msgid "Dual Webcams"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:366
+msgid "Before discussing Streaming Formats, we should mention that **USB Bandwidth** can be a concern for **dual webcams**."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:370
+msgid "Internal phone cameras have an independent high-speed interconnect (not USB), unaffected by an added USB webcam."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:373
+msgid "The two webcams do *not* need to use the same format or resolution."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:375
+msgid "For dual webcams **plugged directly into the Control Hub**, the USB 2.0 and USB 3.0 ports are on different buses.  This reduces the concern about bandwidth capacity, although higher resolution can cause the auto-optimized frame rate to reduce."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:380
+msgid "Using the Control Hub's two USB ports, the choice of stream format has little impact.  But the USB 2.0 bus also carries the Control Hub's **WiFi radio**; adding a webcam may affect its reliability."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:384
+msgid "On the other hand, both webcams on an **external USB Hub** (plugged into the CH 3.0 port) can reach **bandwidth limits**, causing preview failures and OpMode crashes.  This can be managed by factors discussed already, and by the choice of **streaming format**."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:390
+msgid "Streaming Formats"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:392
+msgid "Under the legacy **YUY2 format**, one webcam or the other (on a shared hub) may stop streaming above roughly 640x360 resolution.  This is **below the default** resolution of 640x480."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:396
+msgid "Bandwidth problems are often indicated by **no detections**, and a blue screen in LiveView.  A team using default resolutions may quickly conclude (incorrectly) that dual webcams **does not work**."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:400
+msgid "The SDK now offers a compressed **MJPEG format**.  This can significantly reduce USB bandwidth issues, but must be evaluated also for speed and quality of recognitions."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:404
+msgid "Under the MJPEG format, resolutions under roughly 432x240 may degrade the image to prevent AprilTag detection on at least 1 webcam, while higher resolutions may occasionally stop the RC app or crash the Control Hub."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:408
+msgid "For both formats, higher resolution can reduce frame rate."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:410
+msgid "These factors offer much opportunity for experimentation and Datalogging, to help optimize your VisionPortal performance."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:414
+msgid "Camera Resolution"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:416
+msgid "Some teams believe \"higher resolution is better\", when purchasing webcams and specifying resolution for AprilTag and TFOD use."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:419
+msgid "As indicated in the previous sections here, it's more useful to consider a \"suitable resolution\" that satisfies multiple goals and challenges:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:422
+msgid "quick and reliable AprilTag detections"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:423
+msgid "quick and reliable TFOD recognitions, including object tracking"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:424
+msgid "accurate AprilTag pose estimates"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:425
+msgid "smooth, accurate navigation while driving (higher FPS)"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:426
+msgid "avoid CPU overload"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:427
+msgid "avoid USB bandwidth limits"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:428
+msgid "resolution (or aspect ratio) for which calibration values exist"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:429
+msgid "accommodates lighting conditions and any Camera Controls applied"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:431
+msgid "You might end up preferring the **lowest resolution** that meets your needs."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:433
+msgid "It's easy to find out which resolutions are supported by your camera. Just try to run any VisionPortal OpMode with an **incorrect (fake) resolution**; the error message will tell you the supported resolutions. Write these down for future reference."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:439
+msgid "Other Tools"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:441
+msgid "This topic continues at the **AprilTag Advanced Use** page, to discuss advanced tools for managing CPU usage. It includes a Test OpMode in Blocks and Java."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:444
+msgid "For now, these are left for interested users to research and investigate:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:451
+msgid "All of the above features are easily found in the **FTC Blocks** toolboxes, or palettes, under Vision category."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:454
+msgid "**Java** users should review the VisionPortal interface at the SDK `Javadocs <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/overview-summary.html>`__ site.  Click **FRAMES** for easy navigation."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:460
+msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
+msgstr ""

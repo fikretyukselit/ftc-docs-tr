@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/webcam_controls/overview/overview.rst:2
+msgid "Software Overview"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/overview/overview.rst:4
+msgid "The SDK contains a superinterface called CameraControl, which contains 5 interfaces:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/overview/overview.rst:7
+msgid ":doc:`ExposureControl </programming_resources/vision/webcam_controls/exposure/index>`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/overview/overview.rst:8
+msgid ":doc:`GainControl </programming_resources/vision/webcam_controls/gain/index>`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/overview/overview.rst:9
+msgid ":doc:`WhiteBalanceControl </programming_resources/vision/webcam_controls/white_balance/index>` (new for SDK 7.1)"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/overview/overview.rst:10
+msgid ":doc:`FocusControl </programming_resources/vision/webcam_controls/focus/index>`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/overview/overview.rst:11
+msgid ":doc:`PtzControl </programming_resources/vision/webcam_controls/ptz/index>`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/overview/overview.rst:13
+msgid "Similar to Java classes, Java interfaces provide methods. A webcam can be controlled using methods of these 5 interfaces."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/overview/overview.rst:16
+msgid "PtzControl allows control of 3 related features: virtual pan, tilt and zoom. ExposureControl also contains a feature called auto-exposure priority, or AE Priority. Together there are **8 webcam controls** discussed in this tutorial."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/overview/overview.rst:21
+msgid "The official documentation is found in the `Javadocs <https://javadoc.io/doc/org.firstinspires.ftc>`__. Click the link for **RobotCore**, then click the **CameraControl** link in the left column."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/overview/overview.rst:28
+msgid "RobotCore Javadoc API"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/overview/overview.rst:30
+msgid "That page provides links to the 5 interfaces listed above."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/overview/overview.rst:32
+msgid "The methods described here can be used in Android Studio or OnBot Java. They can also be provided to Blocks programmers by creating myBlocks, covered in a separate :ref:`Blocks programming Tutorial <programming_resources/blocks/blocks-tutorial:blocks programming tutorial>`."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/overview/overview.rst:36
+msgid "You will see Vuforia mentioned here, and in the `sample OpModes <#sample-opmodes>`__ below. **Why Vuforia?** The *FIRST* Tech Challenge implementation of Google’s TensorFlow Lite receives camera images from a Vuforia video stream. The SDK already includes and uses Vuforia for navigation, so it’s a convenient tool for passing camera streams to TFOD."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/overview/overview.rst:42
+msgid "These CameraControl interfaces allow some control of the webcam, within requirements or settings of Vuforia for its own performance. Such settings include resolution and frame rate, not covered here."
+msgstr ""

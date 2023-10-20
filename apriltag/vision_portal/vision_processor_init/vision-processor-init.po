@@ -1,0 +1,236 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:2
+msgid "Vision Processor Initialization"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:5
+msgid "Processor Initialization - Overview"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:7
+msgid "Your OpMode must **first prepare** for using AprilTag and/or TensorFlow Object Detection (TFOD) commands, or methods."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:10
+msgid "In the INIT portion of your Java or Blocks code, before ``waitForStart()``, use these steps:"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:13
+msgid "**Step 1.** *Optional:*"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:15
+msgid "Supplement the default **AprilTag Library** with additional tags. This task is not shown in the Sample OpModes, and is covered at the **Library** page (not here)."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:19
+msgid "**Step 2.** *Required:*"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:21
+msgid "Create the **AprilTag Processor** (or the **TFOD Processor**), to analyze frames streaming in from the camera. \"Under the hood\", the Apriltag Processor is attached to an EOCV **pipeline**, which performs various steps, in order, to each stream frame. The stream is the input to the pipeline. A similar process happens for TFOD."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:27
+msgid "**Step 3.** *Required:*"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:29
+msgid "Create the FTC **VisionPortal**, to manage the overall pipeline. Here you specify that the Portal includes the AprilTag and/or TFOD Processor(s) from Step 2. The two Processors evaluate camera frames independently."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:34
+msgid "This page describes Step 2 in more detail, for both Processors.  The :doc:`VisionPortal Init <../visionportal_init/visionportal-init>` page covers Step 3, **VisionPortal Initialization**."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:37
+msgid "AprilTag Initialization - Easy"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:39
+msgid "**Step 2** is creating the **AprilTag Processor**, software that evaluates frames streaming in from the camera."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:41
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:150
+msgid "The SDK provides an \"easy\" way to create the processor, using only **defaults** and not mentioning a \"Builder\":"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:0
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:0
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:0
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:0
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:0
+msgid "Blocks"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:0
+msgid "Easy AprilTag Initialization"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:52
+msgid "Easy AprilTag Processor Initialization without a Builder"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:0
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:0
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:0
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:0
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:0
+msgid "Java"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:57
+msgid "Example of Easy AprilTag Processor Initialization without a Builder"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:67
+msgid "AprilTag Initialization - Builder"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:69
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:179
+msgid "The SDK also provides the \"Builder\" way to create the processor, allowing **custom settings**."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:72
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:182
+msgid "**Builder** is a Java pattern or structure for adding features or parameters, finalized with the ``.build()`` command.  Such features are **not** modified later during an OpMode."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:76
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:186
+msgid "*Inside the SDK, even the \"easy\" process uses the Builder pattern to set the default parameters.*"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:0
+msgid "AprilTag Initialization with a Builder"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:88
+msgid "AprilTag Processor Initialization with a Builder"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:114
+msgid "This example shows only 4 AprilTag Processor Builder features; others are available."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:117
+msgid "As seen above, Step 2 must specify any custom (non-default) Library from the optional Step 1 - otherwise the Processor will include only the default Library."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:122
+msgid "AprilTag Java Builder Chain"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:124
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:226
+msgid "The Builder pattern can be implemented in a streamlined manner, using Java.  The following code is equivalent to the above individual method calls."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:126
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:228
+msgid "Comments are omitted here, to clearly illustrate the chaining."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:140
+msgid "Here the object ``myAprilTagProcessorBuilder`` was not created; the build was performed directly on ``myAprilTagProcessor``.  The Builder pattern allows the \"dot\" methods to be chained in a single Java statement ending with ``.build()``."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:145
+msgid "TensorFlow Initialization - Easy"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:147
+msgid "**Step 2** is similar for creating the **TensorFlow TFOD Processor**, software that evaluates frames streaming in from the camera."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:0
+msgid "Easy TFOD Initialization"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:162
+msgid "Easy TensorFlow TFOD Processor Initialization without a Builder"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:167
+msgid "Example of TensorFlow TFOD Processor Initialization without a Builder"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:177
+msgid "TensorFlow Initialization - Builder"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:0
+msgid "TFOD Initialization with Builder"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:197
+msgid "TensorFlow TFOD Processor Initialization with a Builder"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:219
+msgid "This example shows only 4 TFOD Processor Builder features; others are available.  Most others relate to custom TFOD Models, beyond this scope of this VisionPortal Guide."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:224
+msgid "TensorFlow Java Builder Chain"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:241
+msgid "Here the object ``myTfodProcessorBuilder`` was not created; the build was performed directly on ``myTfodProcessor``.  The Builder pattern allows the \"dot\" methods to be chained in a single Java statement ending with ``.build()``."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:246
+msgid "Enabling and Disabling Processors"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:248
+msgid "For a Processor created here at Step 2, an OpMode does **not need** to enable that Processor at the following Step 3, **VisionPortal Initialization**."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:251
+msgid "The ``setProcessorEnabled()`` command is **not** part of the Builder pattern."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:253
+msgid "Use ``setProcessorEnabled(   , true)`` only to **re-enable** the processor, after **disabling** (by setting to ``false``).  This topic is covered further at the **Managing CPU and Bandwidth** page."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:257
+msgid "At the following page's Step 3, the ``addProcessor()`` command **automatically enables** the specified processor. Thus OpModes **do not initialize** with this, after Step 2:"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:0
+msgid "Enable or Disable Processor"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:270
+msgid "Enable or Disable AprilTag Processor"
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:272
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:283
+msgid "Again, use this only to **re-enable** the processor, after **disabling** (by setting to `false`)."
+msgstr ""
+
+#: apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:288
+msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
+msgstr ""

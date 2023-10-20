@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ftc_ml/managing_tool/cont_training_models/cont-training-models.rst:2
+msgid "Continuing Training on Models"
+msgstr ""
+
+#: ftc_ml/managing_tool/cont_training_models/cont-training-models.rst:4
+msgid "Once a model has been created, and its training and evaluation metrics have been analyzed, it’s possible to use that model as a basis for continued training. You must continue to use the same dataset(s) that the model was originally trained with, but it’s possible to add datasets if they are completely label identical. If this is the case, additional checkboxes will appear in the “More Training” pop-up to allow you to add datasets for training. There are benefits to NOT adding more datasets – you now have a good estimation of how long your model takes to perform minimal training, and perhaps you can accurately determine training efficiency."
+msgstr ""
+
+#: ftc_ml/managing_tool/cont_training_models/cont-training-models.rst:15
+msgid "To continue training a model, select the Models tab, select the model you wish to continue training for, and click the “More Training” action button. A pop-up will allow you to specify the number of Training Steps to continue with, the Maximum Training Time, additional datasets if any are compatible, and a new Description for the new model."
+msgstr ""
+
+#: ftc_ml/managing_tool/cont_training_models/cont-training-models.rst:24
+msgid "Figure 10: Example of continuing training and adding additional datasets"
+msgstr ""
+
+#: ftc_ml/managing_tool/cont_training_models/cont-training-models.rst:26
+msgid "Note: Models share a parent/child relationship, much like Datasets and Models. You cannot delete a dataset that a model used (without deleting the model first) just in case the model wants to continue training, and you cannot delete a parent model without deleting its children first."
+msgstr ""

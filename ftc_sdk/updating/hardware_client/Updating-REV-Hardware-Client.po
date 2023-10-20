@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:2
+msgid "Installing and Updating the REV Hardware Client"
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:4
+msgid "The REV Hardware Client is a desktop app, or software tool, that simplifies updating software on devices used in *FIRST* Tech Challenge. Unfortunately the REV Hardware Client is currently Windows-only, Apple/Mac users must use alternate methods of updating software. In this tutorial, some steps ask to download software and updates - doing this is not required, but will save time during updates."
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:11
+msgid "To install, use the following steps on a **64-bit** PC or laptop running Windows 7 or newer."
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:14
+msgid "**Apple/Mac users should skip these steps.**"
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:17
+msgid "Not sure about 64-bit? In Windows Explorer, right-click “Computer” (Win 7) or “This PC” (Win 10), choose Properties, see “System type”."
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:21
+msgid "Installing the RHC"
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:23
+msgid "Connect the computer to the internet, and download RHC `from the REV RHC download page <https://docs.revrobotics.com/rev-hardware-client/>`__. Just click the orange Download button and choose your computer’s Downloads folder to store the file."
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:0
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:33
+msgid "Downloading REV Hardware Client"
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:37
+msgid "See the downloaded file shown at lower left (green arrow). Click that filename to begin installing the RHC app; then follow the prompts. When that’s complete, the RHC icon will appear on your computer’s desktop."
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:42
+msgid "If the computer is **not** 64-bit, RHC installation will fail with an appropriate error message."
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:46
+msgid "Downloading Initial Updates"
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:48
+msgid "Open the RHC app. This is a good time to **pre-download** various pieces of software you might need soon."
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:51
+msgid "Why download now? Later, this computer might be connected via Wi-Fi to a Robot Controller, not to the internet. Or a good internet connection might not be available when urgently needed (Murphy’s Law)."
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:55
+msgid "Click on the Downloads tab (top left). Under “Available Files” is a list of software for *FIRST* Tech Challenge and other software for a different program called *FIRST* Robotics Competition."
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:64
+msgid "Available Files"
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:64
+msgid "REV Hardware Client Available Files"
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:68
+msgid "Click the orange Download button, only for the 5 *FIRST* Tech Challenge items (yellow rectangles). This may take a few minutes; the OS files are large."
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:71
+msgid "You don’t need to track where these files are stored; they will be available to the RHC app when needed for device update."
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:74
+msgid "When complete, these 5 items will appear under the heading “Downloaded Files”."
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:78
+msgid "Updating the REV Hardware Client"
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:80
+msgid "On a Windows computer connected to the internet, open the REV Hardware Client."
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:88
+msgid "Updating Updates"
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:88
+msgid "REV Hardware Client Available Updates"
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:92
+msgid "Click the \"About\" tab, then click \"Check for Updates\" (green arrow, above). If a new version is available, click to update."
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:95
+msgid "That’s all for now! You will use these files later, when updating various devices. More info about the RHC is `at REV Robotics’ excellent documentation site. <https://docs.revrobotics.com/rev-hardware-client/>`__"
+msgstr ""
+
+#: ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:99
+msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
+msgstr ""

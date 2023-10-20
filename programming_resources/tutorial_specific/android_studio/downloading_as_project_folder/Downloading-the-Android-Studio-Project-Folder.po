@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:2
+msgid "Downloading the Android Studio Project Folder :bdg-success:`AS` :bdg-warning:`Legacy`"
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:4
+msgid "The SDK can be downloaded from a GitHub repository. GitHub is a web-based version control company that lets individuals and organizations host content online. In order to access the Android Studio software, you will need to have a GitHub account. You can create one for free by visiting the GitHub website:"
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:9
+msgid "https://github.com/"
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:11
+msgid "The software is stored in a repository called \"FtcRobotController\" under the *FIRST-Tech-Challenge* GitHub organization:"
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:14
+msgid "https://github.com/FIRST-Tech-Challenge/FtcRobotController"
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:16
+msgid "**Advanced GitHub Users** - this tutorial assumes that the user is a novice with respect to using GitHub and the git version control software. If you are a GitHub power user, you can use git to *clone* a local copy of the public GitHub repository. This document, however, does not explain how to use git to access the repository. It provides instructions on downloading the repository as a .ZIP file instead."
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:29
+msgid "From the main repository web page, click on the “releases” link to jump to the Releases page for the repository. The Releases page should list the available software releases for the repository. The latest release should be displayed near the top of the page."
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:39
+msgid "Each software release should include an **Assets** section that you can use to download the software that you will need to program your robot. Note that you might have to click on the triangular symbol to expand this **Assets** section."
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:49
+msgid "Click on the Source code (zip) link to download the compressed Android Studio project folder."
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:53
+msgid "Extracting the Contents of the Archived Project File"
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:55
+msgid "Once you have downloaded the archived (.ZIP) project file you can move this file to the location of your choice."
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:63
+msgid "Before you can import the project into Android Studio, you must first extract the contents of the archived project file. For Windows users, right mouse click on the file and select \"Extract All\" from the pop up menu. Windows should prompt you to select a destination for the extracted project folder. The dialog that appears should look similar to the one show in the figure below."
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:75
+msgid "Highlight the suggested name for the destination folder (in the figure above, the suggested name is \"FtcRobotController-6.0\") and change the destination folder name into something more user friendly. In this example, we will change the name of the destination folder to \"mycopy\"."
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:85
+msgid "After you have renamed the destination folder, extract the contents of the archive to the folder. After the extraction process is complete, verify that the project folder was successfully extracted to its target destination."
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:95
+msgid "Once you have successfully extracted the contents of the archived file, you are ready to import the project into Android Studio."
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:99
+msgid "Importing the Project into Android Studio"
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:101
+msgid "In order to import the Project, you will need to launch the Android Studio software on your computer. On the main Android Studio Welcome screen, select the option to \"Import project (Gradle, Eclipse, ADT, etc.)\" to begin the import process."
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:111
+msgid "Android Studio should prompt you to select the project folder that you would like to import. Use the file browser in the pop up dialog box to locate and then select the folder that you extracted in an earlier section of this document. Make sure you select the extracted project folder (and not the .ZIP file which might have a similar name to the extracted folder). Hit the \"OK\" button to import the selected project into Android Studio."
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst:124
+msgid "In the figure above the project folder called “FtcRobotController-6.0” is selected to be imported into Android Studio. It might take Android Studio several minutes to import the project. Once the project has been successfully imported, the screen should look similar to the one depicted in the image below."
+msgstr ""

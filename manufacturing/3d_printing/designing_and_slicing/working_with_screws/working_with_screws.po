@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:2
+msgid "Working With Screws"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:4
+msgid "3D printed parts typically interact quite often with your hardware and screws. A lot of teams simply use locknuts to secure 3D printed parts but while they are strong, they may not always fit or work for your application. Thankfully, there a quite a few other ways to secure 3D printed parts without much effort:"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:None
+msgid "An image showing various screw interactions with 3d prints."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:16
+msgid "Plastic Threading"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:17
+msgid "For low strength, simple, and aesthetic applications you can simply thread a screw directly into an undersized 3D printed hole. An M4 screw could be threaded into a 3.3mm hole for example, and hold rather well. Specialized thread forming screws, similar in look to wood or concrete screws, make this process a lot easier and increase holding strength."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:21
+msgid "While simple to implement, threading directly into plastic should not be used for parts that need to be removed. When plastic threads are commonly screwed/unscrewed, they lose their strength extremely quickly. This method is best for combining parts that are never expected to be separated for maintenance or repairs."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:26
+msgid "Embedded Nuts"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:27
+msgid "Nuts and Locknuts can be embedded into prints, removing the need for a wrench when tightening a screw. Simply inset the shape and size of the nut into a print and drop it in when attaching the part. These should hold very well, especially if placed in mid-print (pausing the print midway through to place a nut embedded inside)"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:None
+msgid "An exterior embedded nut on a 3d print."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:39
+msgid "Heat Set Inserts"
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:41
+msgid "An increasingly common solution to securing screws to 3d printed parts, heat set inserts are small brass components that can be melted into a 3d printed part using a soldering iron. There are custom soldering iron tips specifically for this purpose. There's lots of sizes available for whatever purpose you need (Amazon, Aliexpress, whatever storefront you prefer), but keep in mind that inserts with a \"chamfer\" will be a lot easier to put in."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:45
+msgid "A very important best practice when using heat set inserts is to place them on the print where when the screw is tightened, they will be pulled farther into the print instead of out. This increases longevity."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:53
+msgid "Pictured proper heat set insert use."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:53
+msgid "This part uses heat set inserts as described above, where tightening the screw pulls them farther into the part."
+msgstr ""
+
+#: manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:57
+msgid "If you'd like a more in-depth guide on using heat set inserts or are considering doing so for your team, go read through `Markforged's article on the topic. <https://markforged.com/resources/blog/heat-set-inserts>`_."
+msgstr ""

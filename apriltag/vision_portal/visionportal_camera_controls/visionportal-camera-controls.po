@@ -1,0 +1,374 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:2
+msgid "VisionPortal Camera Controls"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:4
+msgid "Clearer camera images can improve AprilTag (and TFOD) vision processing.  The SDK offers powerful **webcam controls** (Exposure, Gain, Focus, and more), now available in Blocks! These controls can be applied under various lighting conditions."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:9
+msgid "The SDK documentation already provides a :ref:`Camera Controls tutorial <programming_resources/vision/webcam_controls/index:webcam controls>`. You are encouraged to learn more there."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:13
+msgid "Note that Exposure and Gain are adjusted together. The new SDK offers Java Sample OpMode ``ConceptAprilTagOptimizeExposure.java``, which can be constructed also in FTC Blocks."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:18
+msgid "Webcam States"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:20
+msgid "Camera Controls cannot be used until the webcam has reached the state ``CAMERA_DEVICE_READY``."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:23
+msgid "Under the new FTC VisionPortal these camera states are now available:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:25
+msgid "OPENING_CAMERA_DEVICE"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:26
+msgid "CAMERA_DEVICE_READY"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:27
+msgid "STARTING_STREAM"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:28
+msgid "STREAMING"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:29
+msgid "STOPPING_STREAM"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:30
+msgid "CLOSING_CAMERA_DEVICE"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:31
+msgid "CAMERA_DEVICE_CLOSED"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:32
+msgid "ERROR"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:34
+msgid "These **enums** are listed in sequence, as if opening a camera (fresh build), then starting or resuming streaming, then stopping streaming, then closing the camera."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:39
+msgid "Notes and Guidelines for Enums"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:41
+msgid "``OPENING_CAMERA_DEVICE`` - no vision processing is happening"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:43
+msgid "``CAMERA_DEVICE_READY`` - Camera is open. No processing is happening, including background processing from EOCV (i.e. pulling frames and performing color conversion). Ready to call ``resumeStreaming()``"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:47
+msgid "``STARTING_STREAM`` - no processing is happening"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:49
+msgid "``STREAMING`` - Frames are available for processing (AprilTag and/or TFOD recognitions) and preview (RC preview and DS Camera Stream)"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:52
+msgid "``STOPPING_STREAM`` - processing may or may not be happening. This status is followed by ``CAMERA_DEVICE_READY``."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:55
+msgid "``CLOSING_CAMERA_DEVICE`` - no processing is happening"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:57
+msgid "``CAMERA_DEVICE_CLOSED`` - nothing is running, USB comms are closed. Once closed, don’t open camera again during this OpMode."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:61
+msgid "Observing Controls"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:63
+msgid "Teams wanting to optimize AprilTag or TFOD recognitions with Camera Controls should consider using ``scrcpy`` here:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:66
+msgid "https://github.com/Genymobile/scrcpy"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:68
+msgid "or an HDMI monitor. Optimizing via DS Camera Stream will be less effective and less efficient."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:71
+msgid "DS Camera Stream shows the same images as ``scrcpy``, namely with Exposure and Gain affecting recognitions. But the image is a snapshot only, and adjustments cannot be made in real time, with gamepads disabled during Camera Stream."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:76
+msgid "Control Ranges"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:78
+msgid "Each webcam model has its own level of support for Camera Controls."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:80
+msgid "The Logitech C920 supports all the control features offered by the SDK; many webcams don’t. More info is at :ref:`ftc-docs Webcam Controls <programming_resources/vision/webcam_controls/index:webcam controls>`."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:84
+msgid "For example, here are control ranges reported by the Logitech C920:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:86
+msgid "Exposure 0 to 204 ms"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:87
+msgid "Gain 0 to 255"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:88
+msgid "White Balance 2000 to 6500 (often defaults to 2000)"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:89
+msgid "Focus 0 to 250, usual default 0 (infinite)"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:90
+msgid "Pan and Tilt +/- 36,000, default (0,0)"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:91
+msgid "Zoom 100 to 500, but no effect after about 250"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:93
+msgid "Note that Camera Control Zoom affects both AprilTag and TFOD, while TFOD Zoom affects only TFOD recognitions."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:96
+msgid "Camera Control zoom (PTZ) will affect the camera calibration, thus significantly affecting the **pose estimation**. TFOD zoom will not affect pose."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:100
+msgid "Also:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:102
+msgid "AprilTag detections are not affected by camera or object orientation"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:103
+msgid "TFOD recognitions are affected by camera or object orientation"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:106
+msgid "Setter Blocks"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:108
+msgid "The **setter Blocks** under Webcam Controls can now change/toggle, when choosing “use return value” or “ignore return value” from each Block’s context (right-click) menu."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:117
+msgid "Blocks Setters"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:117
+msgid "Examples of Setter Blocks with togglable return values"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:119
+msgid "In either form, the setting task **is performed**."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:121
+msgid "The “non-return” version comment is:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:123
+msgid "*Set the gain. Right-click, “use return value” for a Boolean indicating success or completion.*"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:126
+msgid "The “plug” version comment is:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:128
+msgid "*Set the gain, and return a Boolean indicating success or completion. Or right-click, “ignore return value”.*"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:132
+msgid "Gain and Exposure"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:134
+msgid "Autoexposure mode manages both gain and exposure."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:136
+msgid "Gain can be adjusted only if ExposureControl Mode is set to MANUAL (not the default)."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:139
+msgid "The old `Camera Controls tutorial <programming_resources/vision/webcam_controls/index:webcam controls>` says:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:142
+msgid "*Gain can be managed in coordination with exposure.*"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:144
+msgid "Actually, in the SDK, Gain **must** be managed with Exposure."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:147
+msgid "Shared Blocks"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:149
+msgid "FTC Blocks offers an arrangement where 3 similar Blocks use a pull-down list to share a common structure (and common comment):"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:None
+msgid "Blocks Dropdown"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:162
+msgid "Blocks Exposure"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:162
+msgid "Examples of Exposure Blocks with pull-down lists"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:165
+msgid "This is used six places in the Webcam Controls section."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:168
+msgid "Pan-Tilt Holder"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:170
+msgid "See this Block with the NEW operator (green oval):"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:177
+msgid "PanTiltHolder"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:177
+msgid "Examples of Pan/Tilt Blocks"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:179
+msgid "It’s **not needed** if the OpMode will call ``getPanTilt()`` and assign it to the variable, as shown above (yellow arrow)."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:182
+msgid "It **is needed** if instead the OpMode will next try to get (or set) that variable’s pan and/or tilt values, or try to pass that variable to ``setPanTiltHolder()``. The values will be zero."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:187
+msgid "Gain and Exposure Test OpMode"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:189
+msgid "The SDK offers a built-in test OpMode to optimize Gain and Exposure. See the Sample Java Sample called ``ConceptAprilTagOptimizeExposure.java``."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:193
+msgid "From its introduction notes:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:195
+msgid "*This OpMode determines the best Exposure for minimizing image motion-blur on a webcam. Note that it is not possible to control the exposure for a Phone Camera, so if you are using a Phone for the Robot Controller this OpMode/Feature only applies to an externally connected Webcam.*"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:201
+msgid "*The goal is to determine the smallest (shortest) Exposure value that still provides reliable Tag Detection. Starting with the minimum Exposure and maximum Gain, the exposure is slowly increased until the Tag is detected reliably from the likely operational distance.*"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:206
+msgid "*The best way to run this optimization is to view the camera preview screen while changing the exposure and gain.*"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:209
+msgid "*To do this, you need to view the RobotController screen directly (not from Driver Station) This can be done directly from a RC phone screen (if you are using an external Webcam), but for a Control Hub you must either plug an HDMI monitor into the Control Hub HDMI port, or use an external viewer program like scrcpy (https://scrcpy.org/)*"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:216
+msgid "Other Test OpModes"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:218
+msgid "As an alternate, Camera Controls can be tested using these Blocks OpModes:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:221
+msgid "`Exposure & Gain <https://gist.github.com/WestsideRobotics/a8e32dc2ce31cfc408be65c92bb81826>`__"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:223
+msgid "`Focus <https://gist.github.com/WestsideRobotics/d17d06c9e2f152f80a9563109873cb39>`__"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:224
+msgid "`Pan, Tilt, Zoom (PTZ) <https://gist.github.com/WestsideRobotics/977ba5cfdedf88f7348fbcdad7c8a909>`__"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:226
+msgid "`White Balance <https://gist.github.com/WestsideRobotics/0cf4f5f9913266be93cb366f54045a24>`__"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:229
+msgid "For Java versions, click ``Export to Java`` at the Blocks editing interface."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:232
+msgid "Another test OpMode is posted `here <https://gist.github.com/WestsideRobotics/41c004c097ecbf8f96c4e722b8336bd6>`__ and shown below. It uses 7 of the 11 Exposure Control Blocks, omitting 4 unlikely to be used."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:237
+msgid "The gamepad can raise and lower the webcam’s **Exposure value**, while observing the **live effect** on previews and TFOD recognitions. This allows a team to quickly find their preferred Exposure value in that environment."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:247
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:247
+msgid "Blocks Exposure OpMode Example"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:251
+msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
+msgstr ""

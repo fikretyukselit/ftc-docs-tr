@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:2
+msgid "Zoom"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:4
+msgid "Virtual zoom is described with a single dimensionless value of type integer. Similar to the interfaces described above, virtual zoom can be managed with these methods:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:8
+msgid "setZoom(int zoom)"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:9
+msgid "getZoom()"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:10
+msgid "getMinZoom()"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:11
+msgid "getMaxZoom()"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:13
+msgid "The Logitech C920 allows zoom values ranging from 100 to 500, although values higher than 250-280 have no further effect on the preview image (influenced by Vuforia)."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:17
+msgid "These zoom methods are called on a PtzControl object, as described above for exposure."
+msgstr ""

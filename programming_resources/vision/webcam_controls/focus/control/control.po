@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/webcam_controls/focus/control/control.rst:2
+msgid "Focus Control"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/control/control.rst:4
+msgid ":java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.FocusControl`"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/control/control.rst:6
+msgid "At a distance called “focus length”, a subject’s image (light rays) converge from the lens to form a clear image on the webcam sensor."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/control/control.rst:9
+msgid "If supported by the webcam, focus can be managed with these FocusControl methods:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/control/control.rst:12
+msgid "setFocusLength(double focusLength)"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/control/control.rst:13
+msgid "getFocusLength()"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/control/control.rst:15
+msgid "Distance units are not specified here; they may be undimensioned values within an allowed range. For example, the Logitech C920 allows values from 0 to 250, with **higher** values focusing on **closer** objects."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/control/control.rst:19
+msgid "The webcam may support minimum and maximum allowed values of focus length. These can be retrieved with:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/control/control.rst:22
+msgid "getMinFocusLength()"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/control/control.rst:23
+msgid "getMaxFocusLength()"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/control/control.rst:25
+msgid "There are no ``set()`` methods for min and max focus length; these are hard-coded in the webcam’s firmware. Note that firmware settings may vary among different versions of the same webcam model."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/focus/control/control.rst:29
+msgid "These and other focus methods are called on a FocusControl object, as described above for exposure."
+msgstr ""

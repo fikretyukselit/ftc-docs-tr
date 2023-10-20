@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: control_hard_compon/rc_components/hub/hub.rst:2
+msgid "REV Hubs"
+msgstr ""
+
+#: control_hard_compon/rc_components/hub/hub.rst:4
+msgid "The REV Hubs are the core control units of a *FIRST* Tech Challenge robot."
+msgstr ""
+
+#: control_hard_compon/rc_components/hub/hub.rst:7
+msgid "Control Hub"
+msgstr ""
+
+#: control_hard_compon/rc_components/hub/hub.rst:19
+msgid "REV-31-1595"
+msgstr ""
+
+#: control_hard_compon/rc_components/hub/hub.rst:19
+msgid "REV Control Hub (REV-31-1595)"
+msgstr ""
+
+#: control_hard_compon/rc_components/hub/hub.rst:21
+msgid "A REV Control Hub combines a REV Expansion Hub with an embedded Android daughterboard connected to it.  This means it is able to control all of the hardware components of your robot and also run your actual robot software.  This is in contrast to the REV Expansion Hub which was only able to control hardware devices but is not able to to interpret and run the SDK."
+msgstr ""
+
+#: control_hard_compon/rc_components/hub/hub.rst:28
+msgid "Expansion Hub"
+msgstr ""
+
+#: control_hard_compon/rc_components/hub/hub.rst:40
+msgid "REV-31-1153"
+msgstr ""
+
+#: control_hard_compon/rc_components/hub/hub.rst:40
+msgid "REV Expansion Hub (REV-31-1153)"
+msgstr ""
+
+#: control_hard_compon/rc_components/hub/hub.rst:42
+msgid "A REV Expansion Hub is a hub that is used to control all of the hardware components of your robot. It takes the commands your Android Device sends and actually makes it happen. If you want to move a motor, an Expansion Hub is what takes the instruction of moving the motor and actually sends power to the motor in the correct manner. It however does not know when to do this which is where the Android Device comes into play. This device can either be a traditional Android Phone connected via USB or just the embedded device in a Control Hub. When using more than one hub, these hubs can be connected via ``RS485`` or USB. More information can be found :ref:`here <hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs:using two expansion hubs>`."
+msgstr ""

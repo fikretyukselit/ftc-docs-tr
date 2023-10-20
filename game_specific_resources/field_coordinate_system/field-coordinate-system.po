@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:2
+msgid "*FIRST* Tech Challenge Field “Coordinate System\" Definition"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:5
+msgid "Scope"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:7
+msgid "This document defines the “standard” Coordinate System (orthogonal axes) definition for a *FIRST* Tech Challenge playing field. This definition can be used for consistent field-centric navigation, target localization and path planning."
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:13
+msgid "Reference frame"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:15
+msgid "The reference frame for this definition is the field perimeter wall, adjacent to the RED Alliance Station (known here as the: RED WALL).  The definition is from the perspective of a person, standing outside the field, in the center of RED WALL, looking towards the center of the field."
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:20
+msgid "Caveat: If the Red Alliance Station is ever adjacent to two perimeter walls, the RED WALL will be the one with *most* contact with the Alliance Station. If the red Alliance Station is ever adjacent to two perimeter walls EQUALLY, then the most clockwise of the two walls will be considered to be the RED WALL."
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:26
+msgid "Origin"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:28
+msgid "The 0,0,0 origin of the *FIRST* Tech Challenge coordinate system is the point in the center of the field, equidistant from all 4 perimeter walls (where the four center tiles meet). The origin point rests on the top surface of the floor mat."
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:34
+msgid "X Axis"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:36
+msgid "Looking at the origin from the RED WALL, the X axis extends through the origin point and runs to the right and left, parallel with the RED WALL. The X axis values increase to the right."
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:41
+msgid "Y Axis"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:43
+msgid "Looking at the origin from the RED WALL, the Y axis extends through the origin point and runs out and in, perpendicular to the RED WALL.  Increasing Y values run out (away) from the RED WALL."
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:48
+msgid "Z Axis"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:50
+msgid "Looking at the origin from the RED WALL, the Z axis extends through the origin point and runs up and down in a vertical line. Increasing Z values extend upwards."
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:55
+msgid "Rotation about Axes"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:57
+msgid "When considering rotations about an axis, consider yourself looking down the (positive) axis of rotation from the positive towards the origin. Positive rotations are then CCW, and negative rotations CW."
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:66
+msgid "Coordinate Axes"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:66
+msgid "Figure 1: Coordinate Axes"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:68
+msgid "An example: consider looking down the positive Z axis towards the origin. This would be like standing in the middle of the field, looking down. A positive rotation about Z (i.e. a rotation parallel to the X-Y plane) is then CCW, as one would normally expect from the usual classic 2D geometry."
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:74
+msgid "Examples"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:76
+msgid "Below are two examples illustrating this Axes definition."
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:79
+msgid "Note that in both cases the Red Alliance members are facing out, along the positive Y axis."
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:82
+msgid "However, in the “Diamond” field configuration, the X axis is pointing towards the Blue Alliance, but in the “Square” field configuration the Y axis is pointing towards the Blue Alliance."
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:92
+msgid "RES-Q"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:92
+msgid "Figure 2: FIRST Tech Challenge RES-Q game field orientation"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:99
+msgid "Cascade Effect"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:99
+msgid "Figure 3: FIRST Tech Challenge Cascade Effect game field orientation"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:102
+msgid "Measured Values"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:104
+msgid "The following values have been measured from a 2016 competition field. They are representative only, and should not be assumed to be exact, or guaranteed."
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:107
+msgid "Distance between opposite inside faces of panels: 3580 mm (if field assembled well: the straps give some adjustment tolerance)"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:109
+msgid "Polycarbonate transparencies have a visible opening height of 255 mm"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:110
+msgid "The top edge of transparencies is 30 mm from the top of the perimeter"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:111
+msgid "Total perimeter height is 313 mm"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:112
+msgid "Tiles are 13mm thick"
+msgstr ""
+
+#: game_specific_resources/field_coordinate_system/field-coordinate-system.rst:114
+msgid "So, for a diamond field configuration, the corner of the field closest to the audience, at a height equal to the top of the perimeter wall, would have a coordinate position of: (-1790, 1790, 300)."
+msgstr ""

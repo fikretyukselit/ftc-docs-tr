@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: manufacturing/3d_printing/filament_choice/filament_choice.rst:29
+msgid "Common Filaments"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_choice.rst:29
+msgid "Advanced Filaments"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_choice.rst:29
+msgid "Filament Storage Details"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_choice.rst:2
+msgid "Filament Choice"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_choice.rst:3
+msgid "There are many different materials and colors of plastics called \"filaments\" that can be used for 3D printing, but for FTC there are only a few that are of practical use for most teams. Since this guide is currently only addressing FDM (Fused Deposition Modeling) printing, materials like resin (used in SLA printing) will not be discussed. |"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_choice.rst:8
+msgid "Currently, the majority of commercial 3D printers use a 1.75mm diameter filament, so when shopping for filaments, teams should take care to avoid other diameters, such as 2.85mm, as these will not work with most printers."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_choice.rst:13
+msgid "This section is all about FDM filament choices for 3D printing. There are a variety of plastics that are commonly used, with some being more common than others, and some fulfilling specialty use cases. There are specialized to FTC descriptions in this section, but if you want a simple comparison chart like shown below, check out this `Filament Properties Table <https://www.simplify3d.com/resources/materials-guide/properties-table/>`_."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_choice.rst:None
+msgid "A chart comparing various 3d printing filaments."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/filament_choice.rst:25
+msgid "This section also talks about proper ways to store filament and the ever present complaint of \"moisture in filament\" in the filament storage section."
+msgstr ""

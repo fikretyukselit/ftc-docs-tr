@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/webcam_controls/gain/ex3/ex3.rst:2
+msgid "Example 3: An odd preview"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex3/ex3.rst:7
+msgid "Did TFOD make this recognition?"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex3/ex3.rst:10
+msgid "How can this be? Answer: this image was not an ‘instant’ result. Exposure was reduced very low, **after** TFOD had recognized the Duck."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/gain/ex3/ex3.rst:13
+msgid "The implementations of TensorFlow Lite (and Vuforia) are good at **tracking** a currently-identified object (or image) through translation, rotation, partial blockage, and even extreme changes in exposure."
+msgstr ""

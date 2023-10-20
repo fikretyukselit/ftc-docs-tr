@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: persona_pages/rookie_teams/rookie_teams.rst:2
+msgid "New Teams"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:4
+msgid "Welcome to *FIRST* Tech Challenge! Resources have been organized by type to help your team stay organized and be successful throughout the season. Get started by exploring our robot building resources, control system and the game.  You may also find the Coach's Playbook, a weekly schedule of activities, helpful to organize the whole team under Team Management. Just click on the panel for the resource you want to explore!"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:13
+msgid "**I AM A NEW TEAM**"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:22
+msgid "Programming Resources"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:26
+msgid "Look for programming resources here."
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:34
+msgid "Programming"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:44
+msgid "Machine Learning"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:54
+msgid "TensorFlow in CENTERSTAGE"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:66
+msgid "Robot Building and Control"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:70
+msgid "Look for programming and control system resources here."
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:78
+msgid "REV Kickoff Concepts"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:87
+msgid "Driver Station"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:97
+msgid "Robot Controller"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:109
+msgid "Game Manual Links"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:113
+msgid "Be sure you're following all of the rules of the competition! Game Manuals and Q&A are essential documents."
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:122
+msgid "Game Manuals"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:132
+msgid "Field Manuals"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:142
+msgid "Game Q&A System"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:155
+msgid "Team Management"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:159
+msgid "Links to team management resources."
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:167
+msgid "Pre-Match Checklist"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:171
+msgid "Pre-Match Checklist to ensure you're ready for each match!"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:179
+msgid "CAD Resources"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:183
+msgid "Look for resources for Computer-Aided Design software and tutorials."
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:191
+msgid "Event Info"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:195
+msgid "Links to event management, events and event results."
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:203
+msgid "Awards"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:207
+msgid "Know the awards criteria before the event."
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:215
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: persona_pages/rookie_teams/rookie_teams.rst:219
+msgid "Commonly asked team FAQs"
+msgstr ""

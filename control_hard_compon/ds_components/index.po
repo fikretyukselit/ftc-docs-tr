@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: control_hard_compon/ds_components/index.rst:1
+#: control_hard_compon/ds_components/index.rst:7
+msgid "Driver Station Overview"
+msgstr ""
+
+#: control_hard_compon/ds_components/index.rst:1
+msgid "An overview of the various components of the FTC Driver Station"
+msgstr ""
+
+#: control_hard_compon/ds_components/index.rst:1
+msgid "FTC Docs, FIRST Tech Challenge, DS"
+msgstr ""
+
+#: control_hard_compon/ds_components/index.rst:9
+msgid "These images represent a basic connection diagram for the components that have typically been used to create a Driver Station. These components have typically been purchased from the *FIRST* Storefront (in the \"Control and Communication\" kit). These configurations show sample connections, and in no way represent the only possible way of connecting these components. These images also do not represent using a `Driver Station Carrier <https://www.thingiverse.com/thing:3386378>`_, which is recommended for teams to use for component management and transportation. See rule ``DS07`` in :doc:`Game Manual 1 <../../manuals/game_manuals/game_manuals>` for more information on Driver Station Carriers."
+msgstr ""
+
+#: control_hard_compon/ds_components/index.rst:0
+msgid "Driver Station"
+msgstr ""
+
+#: control_hard_compon/ds_components/index.rst:25
+msgid ":download:`Driver Station C1 - Basic Config<files/C1.pdf>`"
+msgstr ""
+
+#: control_hard_compon/ds_components/index.rst:0
+msgid "Driver Station Image"
+msgstr ""
+
+#: control_hard_compon/ds_components/index.rst:31
+#: control_hard_compon/ds_components/index.rst:41
+msgid "Diagram courtesy of FRC Team 3161 and Stefen Acepcion"
+msgstr ""
+
+#: control_hard_compon/ds_components/index.rst:0
+msgid "License"
+msgstr ""
+
+#: control_hard_compon/ds_components/index.rst:35
+msgid ":download:`License and Attribution<../license/sa_license.pdf>`"
+msgstr ""
+
+#: control_hard_compon/ds_components/index.rst:0
+msgid "License Info"
+msgstr ""

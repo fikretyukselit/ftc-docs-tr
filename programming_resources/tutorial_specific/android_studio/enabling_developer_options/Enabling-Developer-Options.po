@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options.rst:2
+msgid "Enabling Developer Options :bdg-success:`AS`"
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options.rst:4
+msgid "After you have configured your Android phone, you will also have to make sure that your phone is in developer mode before you will be able to install apps onto the phone using the tools that are included with Android Studio."
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options.rst:9
+msgid "Control Hub Users - The Control Hub has Developer Options automatically enabled from the factory, so you do **NOT** need to do this step for your Control Hub."
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options.rst:13
+msgid "The Android Developer website contains information on how to enable Developer Options onto your phone. If you visit the following link and read the section entitled \"Enabling On-device Developer Options\" you will see that you can enable Developer Options on your Android phone by going to Settings->About phone on the phone, and then tapping the Build number seven times."
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options.rst:20
+msgid "https://developer.android.com/studio/run/device#setting-up"
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options.rst:22
+msgid "In order to be able to use the Android Studio tools to install apps onto your phone, you will need to make sure that the Developer Options and USB debugging are enabled for both of your phones."
+msgstr ""
+
+#: programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options.rst:31
+msgid "When you first connect a phone to your computer with Android Studio running, the phone might prompt you if it is OK to allow the computer to have USB debugging access to the phone. If this happens, make sure that you check the \"Always allow from this computer\" option and hit the OK button to allow USB debugging."
+msgstr ""

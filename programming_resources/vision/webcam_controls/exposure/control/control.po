@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/vision/webcam_controls/exposure/control/control.rst:2
+msgid "Exposure Control"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/control/control.rst:4
+msgid "Exposure is the amount of light that reaches the webcam sensor. It is an important part of how bright or dark your image appears."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/control/control.rst:7
+msgid "Exposure varies directly with the amount of time that the shutter is open, allowing light to enter and reach the sensor. So, the interface ExposureControl uses a single value of **duration**, in units of time that you specify, typically ``TimeUnit.MILLISECONDS``."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/control/control.rst:12
+msgid "For example, at a frame rate of 60 frames per second (fps), exposure duration is 1/60 of a second, or 1/60 x 1000 = 16 milliseconds. This basic tutorial does not address frame rate."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/control/control.rst:16
+msgid "Here are the methods to manage exposure:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/control/control.rst:18
+msgid "setExposure() has two parameters: duration and time unit"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/control/control.rst:19
+msgid "getExposure() has one parameter: time unit"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/control/control.rst:21
+msgid "The webcam may support minimum and maximum allowed values of exposure. These can be retrieved with:"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/control/control.rst:24
+msgid "getMinExposure(TimeUnit.MILLISECONDS)"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/control/control.rst:25
+msgid "getMaxExposure(TimeUnit.MILLISECONDS)"
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/control/control.rst:27
+msgid "There are no ``set()`` methods for min and max exposure; these are hard-coded in the webcam’s firmware. Note that firmware settings may vary among different versions of the same webcam model."
+msgstr ""
+
+#: programming_resources/vision/webcam_controls/exposure/control/control.rst:31
+msgid "These and other exposure methods are called on an ExposureControl object; sample code is shown below, after Exposure Control Mode."
+msgstr ""

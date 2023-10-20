@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: booklets/index.rst:2
+msgid "Booklets"
+msgstr ""
+
+#: booklets/index.rst:4
+msgid "More 'bite-sized' versions of the FTC Docs. These are meant to be printed out and used as a reference for teams."
+msgstr ""
+
+#: booklets/index.rst:11
+msgid "Control System"
+msgstr ""
+
+#: booklets/index.rst:13
+msgid "`Control System <https://ftc-docs-cdn.ftclive.org/booklets/en/control_system.pdf>`_"
+msgstr ""
+
+#: booklets/index.rst:16
+msgid "FTC Machine Learning"
+msgstr ""
+
+#: booklets/index.rst:17
+msgid "`FTC ML Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/ftc_ml.pdf>`_"
+msgstr ""
+
+#: booklets/index.rst:20
+msgid "Programming Resources"
+msgstr ""
+
+#: booklets/index.rst:21
+msgid "`Programming Resources <https://ftc-docs-cdn.ftclive.org/booklets/en/prgrm_res.pdf>`_"
+msgstr ""
+
+#: booklets/index.rst:22
+msgid "`Android Studios Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/android_studios.pdf>`_"
+msgstr ""
+
+#: booklets/index.rst:23
+msgid "`OnBot Java Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/onbot_java.pdf>`_"
+msgstr ""
+
+#: booklets/index.rst:24
+msgid "`Blocks Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/blocks.pdf>`_"
+msgstr ""
+
+#: booklets/index.rst:26
+msgid "`April Tags <https://ftc-docs-cdn.ftclive.org/booklets/en/april_tags.pdf>`_"
+msgstr ""
+
+#: booklets/index.rst:27
+msgid "`Advanced User <https://ftc-docs-cdn.ftclive.org/booklets/en/advanced.pdf>`_"
+msgstr ""
+
+#: booklets/index.rst:28
+msgid "`FTC SDK Guide <https://ftc-docs-cdn.ftclive.org/booklets/en/sdk.pdf>`_"
+msgstr ""
+
+#: booklets/index.rst:31
+msgid "Robot Building"
+msgstr ""
+
+#: booklets/index.rst:33
+msgid "`Part 1 - Basic 'Bot Guide for REV <https://ftc-docs-cdn.ftclive.org/booklets/en/rob_building_rev_p1.pdf>`_"
+msgstr ""

@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst:2
+msgid "Connecting a Servo to the Hub"
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst:4
+msgid "The Hub has 6 built-in servo ports. The servo ports accept the standard 3-wire header style connectors commonly found on servos. Note that ground pin is on the left side of the servo port."
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst:8
+msgid "Note that it will take an estimated 2.5 minutes to complete this task."
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst:11
+msgid "Connecting a Servo to the Hub Instructions"
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst:13
+msgid "1. Connect the servo cable to the servo port labeled \"0\" on the Hub. Note that the ground pin is on the left side of the servo port."
+msgstr ""
+
+#: hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst:21
+msgid "2. Verify that the black ground wire of the servo cable matches the ground pin of the servo port (which is aligned on the left side of the port)."
+msgstr ""

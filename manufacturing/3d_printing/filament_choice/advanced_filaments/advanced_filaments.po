@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:2
+msgid "Advanced Filaments"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:4
+msgid "If your printer's hotend (the part that melts the filament) has a PTFE (Teflon) lining where the PTFE tube goes all the way down to the heat block (common in lower price printers like the base Ender 3), then you should not be printing at or above 250° C. Doing so will cause the PTFE tube to degrade and melt, potentially releasing toxic fumes. If you need to print at these temperatures (used for some of the advanced filaments listed here), and you have a PTFE lined hotend, you can look at upgrading to an all-metal hotend."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:12
+msgid "ABS (Acrylonitrile Butadiene Styrene)"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:18
+msgid "A lego brick showing the plastic used"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:18
+msgid "ABS can best be recognized as the plastic used for Lego Bricks."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:22
+msgid "Before PLA became readily available, ABS was the most common filament used for 3D printing. Nowadays, it's regarded as a more advanced filament with a specilized setup needed. ABS is very strong, having a high ductility and able to withstand shock loads well. These strengths come with major difficulties, however, as an enclosure is often needed to increase the ambient temperature in order to prevent severe part warping. This enclosure is also a good idea due to ABS's production of styrene when it melts, a carcinogenic gas that can cause headaches. ABS should only be printed within filtered enclosures or in extremely well ventilated areas. If you have a proper setup with a heated enclosure, ABS can be very worth your time, but if you don't have a setup for it, it's not worth the pain to try and pring it. Notably, ABS can be very inexpensive and often found near the same price as PLA or even cheaper."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:31
+msgid "ASA, a slightly more expensive but similar material, prints at approximately the same temperatures but prints slightly easier without an enclosure and produces considerably less styrene, making it safer to use."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:34
+msgid "ABS hotend temperatures: 230-250° C"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:35
+msgid "ABS bed temperatures: 100-120° C"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:36
+msgid "ABS enclosure temperature: 30-40° C"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:39
+msgid "Polyamide Filaments"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:45
+msgid "Picture of Nylon parts"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:45
+msgid "A collection of Nylon parts, including gears, a great usecase for Nylon"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:49
+msgid "Nylon is a category of Polyamide, and these generalizations should apply to all filaments based on Nylon or a general Polyamide."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:51
+msgid "Being more of a category of filaments, polyamide (PA) based filaments can boast impressive capabilities while being relatively easy to print. These show their strength in extreme durability and resistance to wear, making them ideal for gears and pulleys if you can safely print them. Common filaments in this category include Pure Nylon, Polyamide, PA-KV (kevlar filled nylon), and PA-CF (carbon fiber filled polyamide). Polyamide filaments will commonly require printing temperatures in excess of 250° C, making an all-metal hotend necessary, and require heated bed temperatures in the range of 80-100° C. Some of these filaments are abrasive, requiring a hardened steel nozzle on your hotend to avoid damage. These filaments are also **extremely** hygroscopic, making proper storage a necessity."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:60
+msgid "Carbon Fiber Filaments"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:66
+msgid "Picture of a Carbon Fiber filament roll"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:66
+msgid "The abrasiveness of Carbon Fiber filament is visible."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:70
+msgid "Carbon fiber (CF) filled filaments are everywhere, bringing increased stiffness and strength to many parts while keeping them light. You can find PLA-CF, PETG-CF, PA-CF, CF-ASA, PC-CF, and many others. CF filled filaments typically keep many properties from the filament they are based on, including how hygroscopic the filament is, the printing temperatures, and the ease of printing. The one large difference is the abrasion of the filament, meaning that you need a hardened steel nozzle or other abrasion resistant nozzle for your hotend."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:78
+msgid "TPU/TPE (Thermoplastic Polyurethane/Elastomer)"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:85
+msgid "Picture of TPU parts"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:85
+msgid "An intake using custom TPU parts to grab game elements."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:89
+msgid "TPU and TPE are flexible filaments that can be used to create parts that are flexible and can bend. These filaments are sold under a variety of different durometers (a measure of a material's hardness). You will find 95A durometer the most common durometer due to it's printability. TPU/TPE's flexibility grants it an extremely high impact resistance, making it very durable as well. In FTC, TPU/TPE is often used to make flexible components such as intake rollers, wheel bumpers, and occasionally low-load toothed belts. Finally, TPU is extremely hygroscopic, and proper filament storage practices should be used."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:96
+msgid "Since TPU/TPE is very flexible, printers with a Bowden extrusion system, where the extruder motor and gear is not located near the hotend, will have a very difficult time printing with it."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:99
+msgid "TPU hotend temperatures: 210-250° C"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:100
+msgid "TPU bed temperatures: Heated bed not required, but do not exceed 60° C"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:101
+msgid "TPU printing speeds should never exceed 50mm/s on a direct drive printer and 20mm/s on a bowden printer"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:102
+msgid "Direct drive extrusion system highly recommended"
+msgstr ""

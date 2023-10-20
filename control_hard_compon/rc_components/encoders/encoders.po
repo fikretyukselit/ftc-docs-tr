@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: control_hard_compon/rc_components/encoders/encoders.rst:2
+msgid "Encoders (Rotation Counters)"
+msgstr ""
+
+#: control_hard_compon/rc_components/encoders/encoders.rst:11
+msgid "REV HD Hex Motor"
+msgstr ""
+
+#: control_hard_compon/rc_components/encoders/encoders.rst:21
+msgid "Built-in Encoder in the REV HD Hex Motor"
+msgstr ""
+
+#: control_hard_compon/rc_components/encoders/encoders.rst:27
+msgid "REV Through Bore Encoder"
+msgstr ""
+
+#: control_hard_compon/rc_components/encoders/encoders.rst:37
+msgid "REV Through Bore Encoder, in incremental mode."
+msgstr ""
+
+#: control_hard_compon/rc_components/encoders/encoders.rst:39
+msgid "An encoder is a device that measures the rotational displacement around an axis.  Most legal *FIRST* Tech Challenge motors contain a built in quadrature encoder that is compatible with a REV Hub. It is also possible to use a standalone incremental encoder like a REV Through Bore Encoder (shown above). An incremental encoder works by sending out a \"tick\" per partial rotation of the shaft. More information on how many ticks are output per rotation can be found on the manufacturer's website. An absolute encoder is able to indicate the displacement of the shaft from its starting position and the the exact angle the shaft is currently at relative to a \"zero\" position."
+msgstr ""
+
+#: control_hard_compon/rc_components/encoders/encoders.rst:51
+msgid "Additional Resources"
+msgstr ""
+
+#: control_hard_compon/rc_components/encoders/encoders.rst:53
+msgid ":ref:`Encoder Port Overview <control_hard_compon/rc_components/hub/ports/exh-ports:encoder ports>`"
+msgstr ""

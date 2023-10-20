@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:2
+msgid "Phone Pairing"
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:7
+msgid "The recent generation of apps (8.0, 8.1.1, and newer) are extremely reliable for pairing, including between **all models of legal phones**."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:11
+msgid "When the Android phones have been suitably prepared, pairing via Wi-Fi Direct is **fast** and usually **automatic**. Here is a procedure that addresses various **pre-existing conditions** that can impede pairing."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:15
+msgid "This article does not cover the REV Control Hub or REV Driver Hub."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:18
+msgid "Legal Phones"
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:20
+msgid "As of CENTERSTAGE presented by Raytheon Technologies in 2023-2024, these are the legal phones: - Motorola Moto G4 Play (XT1607, XT1609) - Motorola Moto G5 - Motorola Moto G5 Plus - Motorola Moto E4 (XT1765, XT1765PP, XT1766, XT1767) - Motorola Moto E5 (XT1920) - Motorola Moto E5 Play (XT1921)"
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:26
+msgid "Note that only Motorola Moto G4 Play models that have been updated to Android 7 (Nougat) are legal to use, as the minimum Android version is Android 7.0 - unfortunately Motorola no longer supports Over-The-Air updates for the Motorola Moto G4 Play, so there is no automatic way to update the smartphone. Depending on the exact model of the phone, the `Motorola Rescue and Smart Assistant Tool <https://www.motorola.co.uk/rescue-and-smart-assistant/p>`__ **may** be able to update your device, however there are no guarantees."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:35
+msgid "Phone Cleanup and Prep"
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:37
+msgid "On RC phone: if needed, select Settings/Accounts/Google/select/3 dots/Remove account/confirm. Repeat for any other accounts. Also remove any non-*FIRST* Tech Challenge apps/games that might run in the background or attempt updates."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:42
+msgid "On RC phone: force quit (swipe away) all apps, including the RC app."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:44
+msgid "RC phone, Apps/Settings/Wi-Fi. Manually select and Forget any saved Networks."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:47
+msgid "RC phone, still in WiFi menu: navigate to Wi-Fi Direct menu (via More Settings or Advanced)."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:50
+msgid "Select and forget/disconnect any connections with Peer Devices, including the current phone pairing. This may take a few tries; OK to give up if disconnect not acknowledged."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:54
+msgid "If the top item shows ‘Created Group’, Disconnect it."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:55
+msgid "If you inadvertently create an Invitation pop-up on the other phone, Decline on the other phone and Cancel on this phone. In rare cases, the Invite prompt is underneath any open windows on the RC phone."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:59
+msgid "Pairing will be done later in the apps; see below."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:61
+msgid "Select and Forget all Remembered Groups, including ANY phone pairings. (This can also be done from Advanced RC Settings from either app.) Your goal after steps d1 and d2: ‘Not visible’, no ‘Peer devices’, no ‘Remembered groups’."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:66
+msgid "If needed, Rename/Configure phone now to legal name, e.g. 12345-A-RC or 12345-RC. (This can also be done from Settings in each app.)"
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:70
+msgid "Optional for Moto phones only: Configure device/Limit 2 devices, ‘Inactivity timeout’ Never, check box ‘Auto connect remembered groups’. (Note: timeout is not persistent, re-check occasionally.)"
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:74
+msgid "Force quit to device home screen. Swipe down twice from top, do this in order:"
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:77
+msgid "Airplane Mode ON"
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:78
+msgid "Wi-Fi ON (usually toggles off when Airplane Mode is turned on), then Done"
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:80
+msgid "Bluetooth OFF"
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:81
+msgid "Location OFF, only for Android 7.x"
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:83
+msgid "repeat above steps on DS phone."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:87
+msgid "Pairing"
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:89
+msgid "On RC phone: open the current season’s RC app. Check Self Inspect for any RC issues."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:92
+msgid "On DS phone: open the current season’s DS app. Check Self Inspect for any DS issues."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:95
+msgid "On DS phone: Menu (3 dots)/Settings. Confirm ‘Pairing Method’ is Wi-Fi Direct. Open ‘Pair with Robot Controller’. (Do not pair using phone/Android menu.)"
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:99
+msgid "Filter can remain on, be patient and wait for the app to find the matching device. Or turn off Filter to see all devices within a few seconds. Choose the corresponding RC phone, touch Back, and Back again to return to the DS home screen."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:104
+msgid "Look at RC phone, accept the Invitation there. In rare cases, the Invite prompt is underneath any open windows on the RC phone. Pairing will happen within seconds."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:109
+msgid "Summary"
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:111
+msgid "The above procedure may seem long, but it covers conditions that should not have been present in the first place. Going forward, pairing will be **fast and reliable – usually automatic**."
+msgstr ""
+
+#: programming_resources/shared/phone_pairing/phone-pairing.rst:117
+msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
+msgstr ""

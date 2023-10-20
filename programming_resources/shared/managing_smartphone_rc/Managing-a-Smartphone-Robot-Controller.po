@@ -1,0 +1,313 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:2
+msgid "Managing a Smartphone Robot Controller"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:5
+msgid "Changing the Name"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:7
+msgid "In order to comply with game manual rule <RS01>, the name of the Robot Controller (RC) smartphone should be changed."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:10
+msgid "This can be done in the RC app or in a paired DS app, as described below. (These steps also work for changing the name of a Control Hub, from a paired DS app.)"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:14
+msgid "As an alternate, :ref:`Renaming Devices<programming_resources/shared/configuring_android/Configuring-Your-Android-Devices:renaming your smartphones>` show how to rename a smartphone using the Android Settings activity of the phone."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:16
+msgid "Once the name of your Robot Controller is changed, you might need to reconnect your devices (Driver Station and programming laptop) to the newly changed network."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:21
+msgid "Changing the Name of a Robot Controller"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:23
+msgid "1. On the Robot Controller phone or paired Driver Station phone, touch the three dots in the upper right hand corner to display a pop-up menu."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:32
+msgid "Select the *Settings* menu item from the pop-up menu."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:39
+msgid "Click on *Robot Controller Name* on the *ROBOT CONTROLLER SETTINGS* page."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:46
+msgid "4.Specify the new Robot Controller Name and press *OK* to accept the changes."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:54
+msgid "Changing the WiFi Channel"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:56
+msgid "By default the smartphone Robot Controller automatically picks its own operating WiFi channel. However, it is sometimes necessary to specify the operating channel for the device."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:60
+msgid "For example, at a large competition an FTA might ask that you switch to a designated channel to avoid wireless interference that is present in the venue. Similarly, an FTA might ask you to switch to a specific channel because the FTA is monitoring that designated channel for interference or other wireless disruptions."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:66
+msgid "You can change the operating channel using the Advanced Settings menu on the Robot Controller or Driver Station."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:69
+msgid "Not every Android phone supports channel changing through the software. Refer to rule <RE06> in the game manual for a list of *FIRST*-approved phones that support channel changing through the software."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:75
+msgid "Changing the WiFi Channel Instructions"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:77
+msgid "1. Verify that the Driver Station is connected to your Robot Controller."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:80
+msgid "2. Tap the three dots in the upper right hand corner of the Driver Station's main screen to display the pop-up menu and select *Settings* from the menu."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:84
+msgid "3. Scroll down to the *ROBOT CONTROLLER SETTINGS* section of the *Settings* screen and click on the words *Advanced Settings* to display the *ADVANCED ROBOT CONTROLLER SETTINGS* activity."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:93
+msgid "4. Click on the *Change Wifi Channel* link to display a list of available channels."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:101
+msgid "5. Select the desired operating channel. The phone should display a toast message if the channel change was successful."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:109
+msgid "6. Use the Android back arrow to return to the main Driver Station screen. The new operating channel should be displayed in the Network: section under the Robot Controller's name"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:120
+msgid "Downloading the Log File"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:122
+msgid "It's often helpful when troubleshooting problems with the Control System to download the log file from the Robot Controller. This can be done from the *Manage* page. Note that the log file name is *robotControllerLog.txt* by default."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:128
+msgid "Downloading the Log File Instructions"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:130
+msgid "1. Verify that your laptop or Chromebook is connected to the Program & Manage wireless network of the smartphone Robot Controller. If you are connected to the network, you should be able to see the *Robot Controller Connection Info* page when you navigate to address \"192.168.49.1:8080\":"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:141
+msgid "If your laptop or Chromebook is not connected and you are unable to access the *Robot Controller Connection Info* page, then read the instructions in the following tutorial to learn how to connect to the Program & Manage network."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:143
+msgid ":doc:`Connecting a laptop to the Program & Manage Network <../program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network>`"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:145
+msgid "2. Click on the *Manage* link towards the top of the *Robot Controller Connection Info* page to navigate to the Manage page."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:153
+msgid "3. Click the *Download Logs* button to download the Robot Controller log file."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:161
+msgid "4. Verify that the Robot Controller log file was downloaded to the Downloads directory of your computer."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:165
+msgid "5. Use a text editor such as `Notepad++ <https://notepad-plus-plus.org/>`__ or Microsoft's WordPad to open and view the contents of the log file. Note that the Windows app, Notepad, will not properly display the contents of the log file."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:177
+msgid "Updating the Expansion Hub Firmware"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:179
+msgid "A Robot Controller phone connects to a standalone REV Robotics Expansion Hub using a USB connection. The purpose of the Expansion Hub is to facilitate communication between the Robot Controller and the motors, servos, and sensors of the robot. Periodically, REV Robotics may release new versions of the firmware which contains fixes and improvements for the Expansion Hub. The firmware releases are in the form of a binary (\".bin\") file."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:187
+msgid "The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ software can update the firmware of an Expansion Hub plugged directly into the computer via USB cable."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:191
+msgid "As an alternate, you can use the *Manage* interface from a laptop or Driver Station (DS) connected to a Robot Controller phone with Expansion Hub plugged in via USB. The Manage page allows you to upload an Expansion Hub's firmware, or to update it using the included or uploaded version. New firmware images can be obtained from the `REV Robotics website <https://www.revrobotics.com/software/>`__."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:198
+msgid "Also, included or uploaded Expansion Hub firmware can be updated in Robot Controller Advanced Settings, from a paired Driver Station (DS) app as shown below."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:202
+msgid "These three update methods do not apply to an Expansion Hub connected via RS485 data wire. Standalone Expansion Hubs must be updated by direct USB plug-in."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:207
+msgid "Updating the Expansion Hub Firmware Instructions"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:209
+msgid "1. On the *Manage* page of the Robot Controller user interface, press the *Select Firmware* button to to select the firmware file that you would like to upload."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:218
+msgid "An _Upload_ button should appear after you successfully selected a file."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:220
+msgid "2. Press the *Upload* button to upload the firmware file from your computer to the Robot Controller."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:228
+msgid "The words \"Firmware upload complete\" should appear once the file has been uploaded successfully."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:230
+msgid "3. Make sure that your Expansion Hub is turned on and powered by a freshly charged 12V battery and that the Robot Controller phone is connected to the Expansion Hub through a USB connection. Note that the Robot Controller does **not** need to have the Expansion Hub included in an active configuration file in order for the update to work."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:242
+msgid "4. On the Driver Station, touch the three dots in the upper right hand corner to display a pop-up menu."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:250
+msgid "5. Select *Settings* from the pop-up menu to display the Settings activity."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:258
+msgid "6. On the Driver Station, scroll down and select the *Advanced Settings* item (under the *ROBOT CONTROLLER SETTINGS* category)."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:266
+msgid "7. Select the *Expansion Hub Firmware Update* item on the *ADVANCED ROBOT CONTROLLER SETTINGS* activity."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:274
+msgid "8. If a firmware file that is different from the version currently installed on the Expansion Hub was successfully uploaded, the Driver Station should display some information about the current firmware version and the new firmware version. Press the *Update Expansion Hub Firmware* button to start the update process."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:285
+msgid "9. A progress bar will display while the firmware is being updated. Do not power off the Robot Controller/Expansion Hub during this process. The Driver Station will display a message when the update process is complete."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:297
+msgid "Updating the Robot Controller App"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:299
+msgid "It is important to know how to update the Robot Controller app that is installed on your smartphone. FIRST periodically releases new versions of this app, which contain improvements and fixes, as well as season-specific data and features."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:304
+msgid "Note that you can see the Robot Controller app version number through the Robot Controller or Driver Station user interface. Select the *About* menu option on the Robot Controller or Driver Station and note the App Version number under the *ABOUT ROBOT CONTROLLER* section."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:314
+msgid "As of 2021, the apps (v 6.1 and higher) are no longer available on Google Play."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:317
+msgid "The `REV Hardware Client software <https://docs.revrobotics.com/rev-hardware-client/>`__ will allow you to download the apps to approved devices: REV Control Hub, REV Expansion Hub, REV Driver Hub, and approved Android devices. Here are some of the benefits:"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:322
+msgid "Connect a REV Control Hub via WiFi."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:323
+msgid "One Click update of all software on connected devices."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:324
+msgid "Pre-download software updates without a connected device."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:325
+msgid "Back up and restore user data from Control Hub."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:326
+msgid "Install and switch between DS and RC applications on Android Devices."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:327
+msgid "Access the Robot Control Console on the Control Hub."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:329
+msgid "Teams using Blocks or OnBot Java for programming can use the REV Hardware Client to update the Robot Controller (RC) app on an RC phone."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:332
+msgid "Note it will take an estimated 7.5 minutes per device to complete this task."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:335
+msgid "As an alternate, the app releases are available on the `FTCRobotController Github <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__. Download the Robot Controller APK file to a computer, transfer it to the RC phone's Downloads folder, then open that file to install the RC app. This process is called \"side-loading\"."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:342
+msgid "If you update the Robot Controller (RC) app, you should also update the Driver Station (DS) app to the same version number."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:346
+msgid "Teams using Android Studio should not update the RC app with the REV Hardware Client or by side-loading. Instead, by updating to the newest version of the Android Studio project folder, you will update the Robot Controller app when you build the project and install it on your RC device. You can download the newest version of the project folder `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:355
+msgid "Uploading a Custom Webcam Calibration File"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:357
+msgid "The Robot Controller app has built-in calibration information for a variety of commonly available webcams. Users can also create their own custom calibration files and then upload these files to a Control Hub."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:361
+msgid "A commented example of what the contents of a calibration file should look like can be found in a file called *teamwebcamcalibrations.xml*, which is included with the Android Studio project folder. This example calibration file can be found `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:368
+msgid "Uploading a Custom Webcam Calibration File Instructions"
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:370
+msgid "On the *Manage* page, click on the *Select Webcam Calibration File* button to select the calibration file."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:377
+msgid "An *Upload* button should appear if a file was successfully selected."
+msgstr ""
+
+#: programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:379
+msgid "Click on the *Upload* button to upload the selected file. If the upload was successful, then the *Manage* page will display a message indicating that the upload has completed."
+msgstr ""

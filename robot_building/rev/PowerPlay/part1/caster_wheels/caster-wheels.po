@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:2
+msgid "Caster Wheels"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:5
+msgid "Step 1: Build Caster Brackets"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:8
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:40
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:77
+msgid "Parts Needed:"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:10
+msgid "REV-41-1303 – Bracket, Motion (2 per side, 4 total)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:12
+msgid "REV-41-1361 – Nut, Locking, M3 (2 per bracket, 4 per side, 8 total)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:14
+msgid "REV-41-1359 – Screw, Hex Cap, M3, 8mm (2 per bracket, 4 per side, 8 total)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:20
+msgid "*Figure 29- Unassembled view*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:26
+msgid "*Figure 30- Assembled view*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:30
+msgid "Screw the nuts onto the screws just until it’s difficult to turn them; just so that the nuts don’t fall off."
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:33
+msgid "The screw heads will need to slide along the center of an extrusion in a later step."
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:37
+msgid "Step 2: Add Caster Brackets to Chassis"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:42
+msgid "Caster Bracket Assemblies"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:44
+msgid "(4 – from the previous step)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:50
+msgid "*Figure 31- Unassembled view*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:56
+msgid "*Figure 32- Unassembled view*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:62
+msgid "*Figure 33- Assembled view*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:66
+msgid "Brackets must be installed 2 cm from the end of the extrusion, if used for competition, to fit within the sizing cube."
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:69
+msgid "Ensure that the pair of brackets on the same extrusion are the same distance from the end of the extrusion or the wheels will not rotate properly."
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:74
+msgid "Step 3: Add the Omni Wheels"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:79
+msgid "REV-41-1327 – Shaft Collar (2 per side – 4 total)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:81
+msgid "REV-41-1326 – Bearing, Through Bore, Short (2 per side – 4 total)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:83
+msgid "REV-41-1323 – Spacer, 15mm (1 per side – 2 total)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:85
+msgid "REV-41-1324 – Spacer, 3mm (1 per side – 2 total)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:87
+msgid "REV-41-1347 – Shaft, 5mm Hex, 75mm (1 per side – 2 total)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:89
+msgid "REV-41-1190 – Wheel, Omni 90mm (1 per side – 2 total)"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:95
+msgid "*Figure 34- Unassembled view of left wheel*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:97
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:112
+msgid "[Continued on the next page, so detail can be seen more easily.]"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:103
+msgid "*Figure 35- Assembled view of right wheel*"
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:107
+msgid "Order from the outside in: collar, omni wheel, 3mm spacer, bearing, bracket, 15mm spacer, bracket, bearing, collar."
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:110
+msgid "Adjust axle length, so it is flush with the collar."
+msgstr ""
+
+#: robot_building/rev/PowerPlay/part1/caster_wheels/caster-wheels.rst:118
+msgid "*Figure 36- Assembled view*"
+msgstr ""

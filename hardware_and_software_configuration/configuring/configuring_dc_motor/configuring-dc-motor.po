@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:2
+msgid "Configuring a DC Motor"
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:4
+msgid "Now that you've created a file, you will need to add a DC Motor to the configuration file."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:7
+msgid "At this point, although you have created your configuration file, you have not yet saved its contents to the Robot Controller. You will save the configuration file later in the :ref:`Saving the Configuration Information <hardware_and_software_configuration/configuring/saving_config/saving-config:Saving the Configuration Information>` step."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:10
+msgid "Configuring a DC Motor Instructions"
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:12
+msgid "1. Touch the word **Motors** on the screen to display the Motor Configuration screen."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:20
+msgid "2. Since we installed our motor onto port #0 of the Expansion Hub, use the dropdown control for port 0 to select the motor type (Tetrix Motor for this example)."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:29
+msgid "3. Use the touch screen keypad to specify a name for your motor (\"motorTest\" in this example)."
+msgstr ""
+
+#: hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:37
+msgid "4. Press the **Done** button to complete the motor configuration. The app should return to the previous screen."
+msgstr ""

@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:2
+msgid "Basic Post-Processing"
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:5
+msgid "Support Removal"
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:7
+msgid "Support material removal is a basic form of post processing where, as the name suggests, you remove support material from your print. This can typically be done easily with either just your fingers or a pair of pliers/flush cutters, however, sometimes removing support from small features or holes can be difficult. This is why it's recommended to design away from using supports, and if you must use them, to set up your slicing settings properly in order to make them easy to remove."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:None
+msgid "The process of support removal."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:20
+msgid "Drilling Out Holes"
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:22
+msgid "Drilling out printed holes are typically used in order to widen screw holes to achieve a loose fit. This can be done with any drill and properly sized drill bit, however take your time while drilling to ensure that the drill bit is lined up properly to guaruntee that drilled holes are straight."
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:27
+msgid "Brim Removal"
+msgstr ""
+
+#: manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:29
+msgid "Brims are used to have more surface area for your print to contact the build plate. To remove them, you typically just use your fingers, however, if your Z-Offset is too low, it may be easier to use a deburring tool to remove the inner layer lines of the brim."
+msgstr ""

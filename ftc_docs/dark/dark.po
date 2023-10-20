@@ -1,0 +1,26 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ftc_docs/dark/dark.rst:2
+#: ftc_docs/dark/dark.rst:None
+msgid "Dark Mode"
+msgstr ""
+
+#: ftc_docs/dark/dark.rst:11
+msgid "FTC Docs has built in functionality for a dark mode. This is disabled by default but can be activated by clicking the dark moon icon in the bottom right corner of the page. This can be disabled by clicking the light sun icon in the bottom right corner of the page. This functionality is available on every single page of FTC Docs."
+msgstr ""

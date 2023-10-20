@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:2
+msgid "VisionPortal Previews"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:7
+msgid "Managing AprilTag and TFOD performance is greatly enhanced with visual feedback of the camera’s view."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:15
+msgid "Multicam Preview"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:15
+msgid "LiveView demonstrating multiple camera support"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:17
+msgid "The Driver Station and Robot Controller apps offer a camera preview on both devices:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:19
+msgid "**LiveView** on Robot Controller (RC) device – RC phone or Control Hub (see below)"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:22
+msgid "**Camera Stream** on Driver Station (DS) device – DS phone or Driver Hub"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:25
+msgid "LiveView refers only to the **Robot Controller** preview (example shown above). It’s completely separate from **DS Camera Stream**, which still operates normally even if LiveView is stopped (manually or automatically)."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:29
+msgid "Instructions for viewing DS Camera Stream are shown at :ref:`ftc-docs <hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam:image preview>`."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:32
+msgid "Camera Stream uses its own frame collection process, which naturally still requires the camera/pipeline status to be ``STREAMING``. Disabling the stream will prevent the DS preview. Camera status is covered at the **Managing CPU and Bandwidth** page, and the **VisionPort Camera Controls** page."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:37
+msgid "Side Note: For SDK 8.2, “LiveView” became the new universal name for the RC preview. There remain two instances of old names:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:40
+msgid "``myVisionPortalBuilder.enableCameraMonitoring(true);``"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:41
+msgid "``VIEWPORT`` appears in the preview status window, when stopped"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:44
+msgid "LiveView on Control Hub"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:46
+msgid "The Control Hub does generate an RC preview, despite not having a built-in screen. LiveView can be seen in two ways:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:49
+msgid "Plug an HDMI monitor into the Control Hub’s (full-size) HDMI port"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:51
+msgid "Use ``scrcpy`` (pronounced “screen copy”), available here:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:53
+msgid "https://github.com/Genymobile/scrcpy"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:56
+msgid "Camera Controls"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:58
+msgid "Images in LiveView and Camera Stream are both affected by Camera Controls, for webcam. Changing values of Exposure and Gain, for example, do affect the displayed image and the actual recognitions."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:62
+msgid "During Camera Stream, manual adjustments to Camera Controls cannot be made in real time (with visible feedback) since gamepads are disabled."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:65
+msgid "Thus teams wanting to optimize AprilTag or TFOD recognitions with Camera Controls should use ``scrcpy`` or an HDMI monitor. Doing this via Camera Stream (“back and forth”) will be less effective and less efficient."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:69
+msgid "More information is available at the **VisionPortal Camera Controls** page, and at the :ref:`Webcam Control tutorial <programming_resources/vision/webcam_controls/index:webcam controls>`."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:74
+msgid "Aspect Ratios in Previews"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:76
+msgid "Here’s a Control Hub’s LiveView (via ``scrcpy``) of TFOD recognitions:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:83
+msgid "Gray Band Aspect Ratio Mismatch"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:83
+msgid "LiveView demonstrating Grey Bands from Aspect Ratio mismatch"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:85
+msgid "The **greyed bands** at top and bottom are from the **mismatch of aspect ratios**:"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:88
+msgid "4:3 for camera (640x480)"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:90
+msgid "16:9 for TFOD (per model training)"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:92
+msgid "Both of these ratios are set as defaults, hidden from the user in some Sample OpModes. Only the non-greyed region is eligible for TFOD recognitions."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:96
+msgid "Note that the TFOD annotations (text) extend beyond the image."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:99
+msgid "BIG Previews"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:101
+msgid "A new feature of SDK 8.2, the Driver Station’s **Camera Stream** preview can appear regular-size or **BIG**."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:109
+msgid "Camera Stream Full Screen"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:109
+msgid "Camera Stream preview enlargement buttons"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:112
+msgid "**Circled in yellow** are the user buttons to **go BIG** or return to the **default** screen."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:115
+msgid "Note the annotations have shifted to fit in the image."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:118
+msgid "Orientation Notes"
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:120
+msgid "With SDK 8.2, the default image orientation is **SENSOR_NATIVE**."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:122
+msgid "This Java **enum** SENSOR_NATIVE means that the processing pipeline is getting the image in the native orientation of the camera sensor. Namely, no rotation is performed. Note that (former) enum UPRIGHT for a webcam is the same as SENSOR_NATIVE, while for a phone camera, (former) enum SIDEWAYS_LEFT is the same as SENSOR_NATIVE."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:128
+msgid "SENSOR_NATIVE is ideal because the overhead of rotating the image stream is rather high."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:131
+msgid "Note that viewing the video stream from the same orientation as the statistics text box will show you the orientation of the stream passed to the AprilTag and/or TFOD processors."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:135
+msgid "Also note that for RC phone cameras, the LiveView preview is rotated (independent of rotation enum) such that the preview is the way you “expect” as if you were to open the camera app on the phone. That rotation happens during the GPU-accelerated rendering of the bitmap and is significantly easier on resources."
+msgstr ""
+
+#: apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:143
+msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
+msgstr ""

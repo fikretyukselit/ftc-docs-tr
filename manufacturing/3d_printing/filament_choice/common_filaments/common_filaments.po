@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:2
+msgid "Common Filaments"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:4
+msgid "These common filaments come in the most variety of color. Printing parts in colors that match a team's brand is an easy way to customize a robot!"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:7
+msgid "This page will go through the most common filaments and their properties. While each filament has advantages and disadvantages, most teams will find that the filaments listed on this page, PLA (Polylactic Acid) and PETG (Polyethylene Terephthalate Glycol) will be their best choice for strength, durability, cost, and aesthetics. These filaments are the easiest to print with, and are available from many different manufacturers at a low cost. Many other filaments that will be discussed add some specific property (ex: TPU/TPE for flexibility), but are more difficult to print with, and are often more expensive."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:14
+msgid "The temperatures listed here are simply a range of the common temperatures for that filament, and may vary depending on the specific filament."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:18
+msgid "PLA (Polylactic Acid)"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:25
+msgid "Picture of a PLA part"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:25
+msgid "A custom drivetrain with PLA parts used across it."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:29
+msgid "Polylactic Acid, or PLA, is the most common 3D printing filament used today. It is made from biological sources such as corn starch or sugar cane. PLA is easy to print with, and is usually the best choice for most robot parts. It prints at a low temperature, and tends to warp very little. PLA is very stiff, but can be brittle, especially under shock loads (impacts), and parts should be designed with this in mind."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:34
+msgid "PLA is also sold in a massive number of variations from different manufacturers, like PLA+ or PLA Pro. These filaments contain different additives to improve the properties of the filament, such as increased strength or better printability. While more expensive, these filaments can be a great option that make PLA much more capable."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:40
+msgid "PLA hotend temperatures: 190-230° C"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:41
+msgid "PLA bed temperatures: 20-70° C; PLA does not require a heated bed, but it is recommended."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:43
+msgid "Warning #1 about PLA: Due to the relatively low melting point of PLA, it is not advisable to leave PLA parts in locations such as a hot car, as this can produce severe warping in those parts."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:46
+msgid "Warning #2 about PLA: PLA is extremely sensitive to UV light and sunlight. After multiple days outside during something such as an outreach event, if your robot is not under shade you may experience part failures. Make sure to account for this and either avoid long outdoor outreach events with your robot exposed or be prepared to replace parts after such events."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:52
+msgid "PETG (Polyethylene Terephthalate Glycol)"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:59
+msgid "Picture of a PET-G part"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:59
+msgid "A linear slide insert printed in PET-G filament."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:63
+msgid "PETG is another very common filament that some consider an upgrade to PLA. Being only slightly more difficult to print with than PLA, PETG often has more stringing and other artifacts on parts. PETG's tensile strength is a technically lower than that of PLA, however it is much more flexible and less brittle. Because of this, PETG is more resistant to shock loads than PLA, and is a good choice for parts that may be impacted. PETG is also more resistant to heat than PLA, and is unlikely to warp when left in a hot location."
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:69
+msgid "PETG hotend temperatures: 230-250° C"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:70
+msgid "PETG bed temperatures: 60-80° C"
+msgstr ""
+
+#: manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:72
+msgid "PETG is well known for bonding extremely well to print beds, especially those made out of glass and PEI, to the point of tearing chunks out of the print surface. If you are printing with PETG, it may be a good idea to apply some glue stick or hairspray to the surface to prevent this."
+msgstr ""

@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 03:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:2
+msgid "Vision MultiPortal"
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:4
+msgid "The SDK can accommodate two portals, each with full features including AprilTag and TFOD processors, and even switchable cameras. USB Bandwidth must be considered, especially for webcams sharing an external USB hub."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:10
+msgid "Viewport ID"
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:12
+msgid "Each portal is assigned a ``Viewport ID`` by the Android operating system. At initialization, the OpMode must **capture** and use these ID numbers for operating the portals."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:16
+msgid "Android typically assigns a different Viewport ID number with each run of an OpMode. If desired, you could observe this by sending Telemetry to the Driver Station."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:20
+msgid "The ``makeMultiPortalView()`` Block or method returns a list of Viewport IDs. Each ID must be extracted from the list, then provided to each VisionPortal Builder using the ``setCameraMonitorViewId()`` Block or method."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:25
+msgid "“Dual cameras” was previously (and still is) available with EasyOpenCV. Now this is possible within the SDK."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:29
+msgid "Test OpMode"
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:31
+msgid "A sample FTC Blocks OpMode is posted `here <https://gist.github.com/WestsideRobotics/587b5c74375429ac4a929f690ae40940>`__ to demonstrate AprilTag detections from **two cameras at the same time**. For a Java version, click ``Export to Java`` in the Blocks editing window."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:37
+msgid "Here’s the image of that test OpMode. Careful study will allow a better understanding of the Blocks and Java methods to create and operate multiple camera streams at the same time."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:41
+msgid "Right-click to open image in new browser tab, to magnify on a large PC screen."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:49
+msgid "Multiportal Blocks OpMode"
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:49
+msgid "Example Blocks Multiportal OpMode"
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:51
+msgid "On a Moto e4 RC phone, the OpMode can run the built-in phone camera along with a webcam."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:54
+msgid "On a Control Hub, it can run two webcams:"
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:56
+msgid "both plugged in directly to the Hub, or"
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:57
+msgid "both plugged into an unpowered USB Hub (with more restricted USB bandwidth)"
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:60
+msgid "Dual Previews"
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:62
+msgid "The dual RC previews can be displayed as ``VERTICAL``, or side-by-side with the enum ``HORIZONTAL``:"
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:70
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:70
+msgid "Dual RC Previews"
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:72
+msgid "The DS Camera Stream preview can display only one camera’s view (a `known characteristic <https://github.com/FIRST-Tech-Challenge/FtcRobotController/issues/585>`__)."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:77
+msgid "USB Bandwidth"
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:79
+msgid "**USB Bandwidth** is a concern for dual **webcams**; internal phone cameras have an independent high-speed interconnect (not USB), unaffected by an added USB webcam."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:83
+msgid "See the USB bandwidth analysis at the **Managing CPU and Bandwidth** page."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:86
+msgid "The two webcams do *not* need to use the same format or resolution. For the testing mentioned above, the same format and resolution were applied to a Logitech C920 and a Logitech C270."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:91
+msgid "Control Hub"
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:93
+msgid "For dual webcams **plugged directly into the Control Hub**, the USB 2.0 and USB 3.0 ports are on different buses."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:96
+msgid "This reduces the concern about USB bandwidth capacity, although higher resolution causes the auto-optimized frame rate to reduce (see test data below)."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:100
+msgid "Here the choice of stream format has little impact. But the USB 2.0 bus also carries the Control Hub’s **WiFi radio**; adding a webcam may affect its reliability."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:105
+msgid "External USB Hub"
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:107
+msgid "On the other hand, both webcams on an **external USB Hub** (plugged into the CH 3.0 port) can exceed **USB bandwidth limits** (not quantified here)."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:111
+msgid "Under the legacy **YUY2 format**, one webcam or the other may stop streaming above roughly 640x360 resolution. This is indicated by no detections, and a blue screen in RC preview via ``scrcpy``."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:115
+msgid "Under **MJPEG format**, resolutions under roughly 432x240 may degrade the image to prevent AprilTag detection on at least 1 webcam, while higher resolutions may occasionally stop the RC app or crash the Control Hub."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:120
+msgid "For both formats, higher resolution reduces frame rate. The **Managing CPU and Bandwidth** page discusses testing, tradeoffs and optimization."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:123
+msgid "Teams can evaluate these tradeoffs, assisted by the new reporting feature ``getFps()``, providing Frames Per Second (FPS). It’s available for Blocks and Java."
+msgstr ""
+
+#: apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:129
+msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
+msgstr ""
