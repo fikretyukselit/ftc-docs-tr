@@ -7,12 +7,11 @@ build:
   apt_packages:
     - make
     - gettext
-    - tree
 
   commands:
     - git clone https://github.com/FIRST-Tech-Challenge/ftcdocs.git venv/ftcdocs
     - python -m pip install --upgrade pip setuptools
-    - tree
+    - ls *
     - python -m pip install -r requirements.txt -r venv/ftcdocs/docs/requirements.txt
     - make
     - mkdir -p _readthedocs/html/
