@@ -166,11 +166,11 @@ msgstr "Bu proje aktif olarak geliştirilmektedir. Burada bulunan her şey yaln�
 
 #: index.rst:137
 msgid "**I AM A...**"
-msgstr "**BEN BİR...**"
+msgstr "**BEN...**"
 
 #: index.rst:148
 msgid "New Team"
-msgstr "Yeni Takımım"
+msgstr "Yeni bir Takımım"
 
 #: index.rst:152
 msgid "New Teams may not know where to start. This is the way!"
@@ -178,7 +178,7 @@ msgstr "Yeni Takımlar nereden başlayacağını bilemeyebilir. Burası sizin i�
 
 #: index.rst:160
 msgid "Returning Team"
-msgstr "Dönen Takımım"
+msgstr "Dönen bir Takımım"
 
 #: index.rst:164
 msgid "Returning Teams looking for resources can look here."
