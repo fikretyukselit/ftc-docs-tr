@@ -1,125 +1,124 @@
-# SOME DESCRIPTIVE TITLE.
+# FTC Documentation Turkish Translation
 # Copyright (C) FIRST
 # This file is distributed under the same license as the FIRST Tech Challenge Docs package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-20 03:04+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: \n"
+"Language-Team: TURKISH\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: faq/faqs.rst:1
 msgid "Common FTC Team FAQs"
-msgstr ""
+msgstr "Sık Sorulan FTC Takım Soruları"
 
 #: faq/faqs.rst:1
 msgid "Common questions asked by FIRST Tech Challenge teams answered"
-msgstr ""
+msgstr "FIRST Tech Challenge takımları tarafından sorulan yaygın soruların cevapları"
 
 #: faq/faqs.rst:1
 msgid "FTC Docs, FIRST Tech Challenge, FTC, FAQ"
-msgstr ""
+msgstr "FTC Dokümantasyonu, FIRST Tech Challenge, FTC, SSS"
 
 #: faq/faqs.rst:7
 msgid "Common Team FAQs"
-msgstr ""
+msgstr "Sık Sorulan Takım Soruları"
 
 #: faq/faqs.rst:9
 msgid "If you're looking for quick answers regarding the many facets of being a team from registration to competition to judging. Please refer to these official questions and answers to guide you through the season. If you need further clarification navigate to https://www.firstinspires.org/ to Live Chat or ask game specific questions on the `Game Q&A <https://ftc-qa.firstinspires.org/>`_ ."
-msgstr ""
+msgstr "Kayıttan yapmaktan yarışmaya, ve jüriye kadar takım olmanın birçok yönüyle ilgili hızlı cevaplar arıyorsanız doğru yerdesiniz. Lütfen bu resmi soruları ve cevapları referans alın ve sezon boyunca size rehberlik etsin. Daha fazla açıklamaya ihtiyacınız varsa, https://www.firstinspires.org/ adresine gidin ve Canlı Sohbet veya `Oyun Soru-Cevap <https://ftc-qa.firstinspires.org/>`_ üzerinden oyunla ilgili sorular sorun."
 
 #: faq/faqs.rst:15
 msgid "Dashboard/Registration FAQs"
-msgstr ""
+msgstr "Kontrol Paneli/Kayıt SSS"
 
 #: faq/faqs.rst:22
 msgid "Each team is required to have two YPP screened lead coaches to see the Invite Youth Member contact option"
-msgstr ""
+msgstr "Her takımın, Gençleri Davet Et iletişim seçeneğini görebilmek için iki YPP imzalamış ana koçu olması gerekir."
 
 #: faq/faqs.rst:26
 msgid "Pitsco submits payments to us electronically. This process can take 24-48 hours to complete."
-msgstr ""
+msgstr "Pitsco ödemeleri elektronik olarak bize gönderir. Bu işlem 24-48 saat sürebilir."
 
 #: faq/faqs.rst:29
 msgid "System FAQs"
-msgstr ""
+msgstr "Sistem SSS"
 
 #: faq/faqs.rst:36
 msgid "Lead Coach 1 & 2"
-msgstr ""
+msgstr "Ana Koç 1 & 2"
 
 #: faq/faqs.rst:40
 msgid "All team members, registered mentors and Lead Coach 1 and 2 can login although only Lead Coach 1 and 2 can upload videos."
-msgstr ""
+msgstr "Tüm takım üyeleri, kayıtlı mentörler ve Ana Koç 1 ve 2 giriş yapabilir, ancak yalnızca Ana Koç 1 ve 2 video yükleyebilir."
 
 #: faq/faqs.rst:42
 msgid ":doc:`FTC-ML Manual </ftc_ml/index>`"
-msgstr ""
+msgstr ":doc:`FTC-ML Kılavuzu </ftc_ml/index>`"
 
 #: faq/faqs.rst:46
 msgid "https://ftc-events.firstinspires.org/ is the source for FIRST-official team, events and event results information for *FIRST* Tech Challenge"
-msgstr ""
+msgstr "https://ftc-events.firstinspires.org/ *FIRST* Tech Challenge için *FIRST* tarafından onaylanmış takım, etkinlik ve etkinlik sonuçları bilgilerinin kaynağıdır"
 
 #: faq/faqs.rst:49
 msgid "Judging FAQs"
-msgstr ""
+msgstr "Jüri SSS"
 
 #: faq/faqs.rst:56
 msgid "Teams should bring their robot, their engineering portfolio, their control award submission, and their request for feedback form. Please note that at some events, the engineering portfolio, control award submission and feedback request form are collected when the team checks in for the event."
-msgstr ""
+msgstr "Takımlar robotlarını, mühendislik portföylerini, kontrol ödülü başvurularını ve geri bildirim formunu getirmelidir. Lütfen bazı etkinliklerde; mühendislik portföyü, kontrol ödülü başvurusu ve geri bildirim isteği formunun takım etkinlik için kayıt yaptırdığında toplandığını unutmayın."
 
 #: faq/faqs.rst:63
 msgid "Judges complete the feedback form after the team has completed their formal interview, and after the Judges have reviewed the Engineering Portfolio. Feedback is limited to the initial interview and Engineering Portfolio only."
-msgstr ""
+msgstr "Jüri, takımla resmi görüşmesini tamamladıktan ve Jüri Mühendislik Portföyünü inceledikten sonra geri bildirim formunu doldurur. Geri bildirim, yalnızca ilk görüşme ve Mühendislik Portföyü ile sınırlıdır."
 
 #: faq/faqs.rst:69
 msgid "Teams are not required to prepare a 5 minute presentation. Teams should let the judges know they do not have a formal presentation. The judges will begin to ask the team questions at the beginning of the interview. Teams are not penalized in any way if they do not have a prepared presentation."
-msgstr ""
+msgstr "Takımların 5 dakikalık bir sunum hazırlaması gerekmez. Takımların jüriye resmi bir sunumları olmadığını bildirmeleri gerekir. Jüri, görüşmenin başında takıma sorular sormaya başlayacaktır. Takımlar hazırlanmış bir sunumları yoksa herhangi bir şekilde cezalandırılmazlar."
 
 #: faq/faqs.rst:75
 msgid "Competition FAQs"
-msgstr ""
+msgstr "Yarışma SSS"
 
 #: faq/faqs.rst:82
 msgid "It depends on which inspection station you're visiting and how your event is configured. The inspectors at Field Inspection like to see the Drive Team, Human Player (if there is one), and Drive Coach. The inspectors at Robot Inspection really just want to see team members who have the best idea of what's going on with the robot (mechanically and electrically). Look at your inspection sheets, you can generally determine what you're doing based on the checklist."
-msgstr ""
+msgstr "Hangi denetim istasyonunu ziyaret ettiğinize ve etkinliğinizin nasıl yapılandırıldığına bağlıdır. Saha Denetim istasyonundaki denetçiler, Sürücü Takımı, İnsan Oyuncu (varsa) ve Sürücü Koçunu görmek ister. Robot Denetimi'ndeki denetçiler, robotla ilgili olanların (mekanik ve elektriksel olarak) ne olduğu konusunda en iyi fikre sahip olan takım üyelerini görmek istiyor. Denetim formlarınıza bakın, genellikle kontrol listesine dayanarak ne yaptığınızı belirleyebilirsiniz."
 
 #: faq/faqs.rst:91
 msgid "There are only certain situations that warrant replaying a match. Unless we can prove that it was a field fault or Wi-Fi interference, we cannot replay a match."
-msgstr ""
+msgstr "Bir maçın tekrar oynanmasını gerektiren yalnızca belirli durumlar vardır. Bir saha hatası veya Wi-Fi paraziti olduğunu kanıtlayamadıkça, bir maç tekrar oynatılmaz."
 
 #: faq/faqs.rst:96
 msgid "The situation was different. If necessary, teams can talk with the head referee in the competition area Question Box."
-msgstr ""
+msgstr "Durum farklıydı. Gerekirse, takımlar yarışma alanındaki Soru Kutusu'ndaki baş hakemle konuşabilir."
 
 #: faq/faqs.rst:100
 msgid "Teams can go the question box so they can discuss this issue with the head referee. No photographs or videos wil be reviewed per GM1 <C02>."
-msgstr ""
+msgstr "Takımlar, bu konuyu baş hakemle tartışabilmek için soru kutusuna gidebilir. GM1 <C02> uyarınca fotoğraf veya videolar incelenmeyecektir."
 
 #: faq/faqs.rst:104
 msgid "WiFi is observed throughout the event."
-msgstr ""
+msgstr "WiFi etkinlik boyunca gözlemlenir."
 
 #: faq/faqs.rst:108
 msgid "Teams may formally protest a match for a period of time not to exceed three matches following the match in question. If a team wants to dispute a score, one student representative should wait patiently in the designated Question Box area for the head referee (do not interrupt matches for this conversation). If the referees agree that they made a mistake, they can correct it. If the referees are confident in their score, the team should accept that decision. Refer to  GM1 <C02>."
-msgstr ""
+msgstr "Takımlar, maçtan sonra üç maçı geçmeyecek bir süre içinde resmi olarak itiraz edebilir. Bir takımın bir puanı tartışmak istemesi durumunda, bir öğrenci temsilcisi, baş hakemi beklemeli ve soru kutusu alanında sabırla beklemelidir (bu konuşma için maçları kesmeyin). Hakemler bir hata yaptıklarına karar verirse, düzeltebilirler. Hakemler puanlarına güveniyorsa, takım bu kararı kabul etmelidir. GM1 <C02> 'ye bakın."
 
 #: faq/faqs.rst:114
 msgid "Technology FAQs"
-msgstr ""
+msgstr "Teknoloji SSS"
 
 #: faq/faqs.rst:121
 msgid "The best place to go for help is the `ftc-community platform <https://ftc-community.firstinspires.org>`__. The ftc-community platform is a community place to ask questions that is monitored by a variety of knowledgeable folks who can likely help you with your questions!"
-msgstr ""
+msgstr "Yardım için gidilebilecek en iyi yer `ftc-community platformu <https://ftc-community.firstinspires.org>`__'dur. ftc-community platformu, sorular sorup, sorularınıza büyük ihtimalle cevap alabileceğiniz; bilgili kişiler tarafından izlenen bir topluluk yeridir!"
 
 #: faq/faqs.rst:127
 msgid "Reviewed by *FIRST* Tech Challenge Game Design Committee"
-msgstr ""
+msgstr "*FIRST* Tech Challenge Oyun Tasarım Komitesi tarafından incelendi"

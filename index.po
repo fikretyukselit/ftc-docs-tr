@@ -1,298 +1,297 @@
-# SOME DESCRIPTIVE TITLE.
+# FTC Documentation Turkish Translation
 # Copyright (C) FIRST
 # This file is distributed under the same license as the FIRST Tech Challenge Docs package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FIRST Tech Challenge Docs 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-20 03:04+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: \n"
+"Language-Team: TURKISH\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: index.rst:29
 msgid "Getting Started"
-msgstr ""
+msgstr "Başlarken"
 
 #: index.rst:39
 msgid "Game Q&A Forum"
-msgstr ""
+msgstr "Oyun Soru-Cevap Forumu"
 
 #: index.rst:39
 msgid "Field Coordinate System"
-msgstr ""
+msgstr "Saha Koordinat Sistemi"
 
 #: index.rst:39
 msgid "Game and Season-Specific Resources"
-msgstr ""
+msgstr "Oyun ve Sezon Kaynakları"
 
 #: index.rst:50
 msgid "SDK Overview"
-msgstr ""
+msgstr "SDK Genel Bakış"
 
 #: index.rst:50
 msgid "Updating Components"
-msgstr ""
+msgstr "Bileşenleri Güncelleme"
 
 #: index.rst:50
 #: index.rst:327
 msgid "Software Development Kit (SDK)"
-msgstr ""
+msgstr "Yazılım Geliştirme Kiti (SDK)"
 
 #: index.rst:58
 msgid "Basic ‘Bot Guide for REV"
-msgstr ""
+msgstr "REV için Temel ‘Bot Kılavuzu"
 
 #: index.rst:58
 msgid "Robot Building Resources"
-msgstr ""
+msgstr "Robot Yapım Kaynakları"
 
 #: index.rst:65
 msgid "Control System Resources"
-msgstr ""
+msgstr "Kontrol Sistemi Kaynakları"
 
 #: index.rst:75
 msgid "AprilTag Introduction"
-msgstr ""
+msgstr "AprilTag Tanıtımı"
 
 #: index.rst:75
 msgid "VisionPortal Overview"
-msgstr ""
+msgstr "VisionPortal Genel Bakış"
 
 #: index.rst:75
 msgid "Webcams for VisionPortal"
-msgstr ""
+msgstr "VisionPortal için Web Kameralar"
 
 #: index.rst:75
 msgid "Understanding AprilTag Values"
-msgstr ""
+msgstr "AprilTag Değerlerini Anlama"
 
 #: index.rst:75
 msgid "AprilTag Test Images"
-msgstr ""
+msgstr "AprilTag Test Görüntüleri"
 
 #: index.rst:75
 msgid "AprilTag Resources"
-msgstr ""
+msgstr "AprilTag Kaynakları"
 
 #: index.rst:86
 msgid "Computer Aided Design (CAD)"
-msgstr ""
+msgstr "Bilgisayar Destekli Tasarım (CAD)"
 
 #: index.rst:86
 msgid "CAD Resources"
-msgstr ""
+msgstr "CAD Kaynakları"
 
 #: index.rst:93
 msgid "Manufacturing Methods"
-msgstr ""
+msgstr "Üretim Yöntemleri"
 
 #: index.rst:93
 msgid "Manufacturing"
-msgstr ""
+msgstr "Üretim"
 
 #: index.rst:100
 msgid "Additional Tools"
-msgstr ""
+msgstr "Ek Araçlar"
 
 #: index.rst:107
 msgid "Team Resources"
-msgstr ""
+msgstr "Takım Kaynakları"
 
 #: index.rst:114
 msgid "Team Complimentary Software"
-msgstr ""
+msgstr "Takımlar için Ücretsiz Yazılımlar"
 
 #: index.rst:114
 msgid "Team Discounts"
-msgstr ""
+msgstr "Takımlar için İndirimler"
 
 #: index.rst:114
 msgid "Team Freebies and Discounts"
-msgstr ""
+msgstr "Takımlar için Hediyeler ve İndirimler"
 
 #: index.rst:122
 msgid "Booklets"
-msgstr ""
+msgstr "Kitapçıklar"
 
 #: index.rst:122
 msgid "Site Feedback Form"
-msgstr ""
+msgstr "Site Geri Bildirim Formu"
 
 #: index.rst:122
 msgid "FTC Docs PDF"
-msgstr ""
+msgstr "FTC Dokümanları PDF"
 
 #: index.rst:122
 msgid "Dark Mode"
-msgstr ""
+msgstr "Karanlık Mod"
 
 #: index.rst:122
 msgid "Workflow"
-msgstr ""
+msgstr "İş Akışı"
 
 #: index.rst:122
 msgid "FTC Docs"
-msgstr ""
+msgstr "FTC Dokümanları"
 
 #: index.rst:1
 msgid "FIRST Tech Challenge Documentation"
-msgstr ""
+msgstr "FIRST Tech Challenge Dokümanları"
 
 #: index.rst:1
 msgid "The official home of FIRST Tech Challenge Documentation."
-msgstr ""
+msgstr "FIRST Tech Challenge Dokümanlarının resmi adresi."
 
 #: index.rst:1
 msgid "FTC Control System, Control Hub, TensorFlow, CENTERSTAGE, Blocks, OnBot Java, Android Studio, OpenCV, EasyOpenCV, AprilTags, FTC SDK, Robot Controller App, Driver Station App, Control Hub, Driver Hub, ftc-ml, IMU, Water Game"
-msgstr ""
+msgstr "FTC Kontrol Sistemi, Control Hub, TensorFlow, CENTERSTAGE, Blocks, OnBot Java, Android Studio, OpenCV, EasyOpenCV, AprilTags, FTC SDK, Robot Controller App, Driver Station App, Control Hub, Driver Hub, ftc-ml, IMU, Water Game"
 
 #: index.rst:7
 msgid "*FIRST* Tech Challenge documentation"
-msgstr ""
+msgstr "*FIRST* Tech Challenge dokümanları"
 
 #: index.rst:9
 msgid "*FIRST* Tech Challenge is a robotics program for middle and high school students. It’s way more than building robots, see :doc:`About the 𝘍𝘐𝘙𝘚𝘛 Tech Challenge <overview/ftcoverview>` to see why."
-msgstr ""
+msgstr "*FIRST* Tech Challenge ortaokul ve lise öğrencileri için bir robotik programıdır. FTC robot yapmaktan çok daha fazlasıdır, nedenini görmek için :doc:`𝘍𝘐𝘙𝘚𝘛 Tech Challenge Hakkında <overview/ftcoverview>` sayfasına bakın."
 
 #: index.rst:16
 msgid "This project is under active development. Anything contained herein is for informational purposes only; while this documentation is intended to support teams and in some way provide context to game rules, the game rules supercede all documentation found here. If you have feedback about this project, please use our :doc:`feedback form <ftc_docs/form/form>`."
-msgstr ""
+msgstr "Bu proje aktif olarak geliştirilmektedir. Burada bulunan her şey yalnızca bilgilendirme amaçlıdır; bu dokümanlar takımlara destek olmak ve oyun kurallarına bir şekilde bağlam sağlamak için tasarlanmıştır, ancak oyun kuralları burada bulunan tüm dokümanları geçersiz kılar. Bu projeye ilişkin geri bildiriminiz varsa, lütfen :doc:`geri bildirim formumuzu <ftc_docs/form/form>` kullanın."
 
 #: index.rst:137
 msgid "**I AM A...**"
-msgstr ""
+msgstr "**BEN BİR...**"
 
 #: index.rst:148
 msgid "New Team"
-msgstr ""
+msgstr "Yeni Takımım"
 
 #: index.rst:152
 msgid "New Teams may not know where to start. This is the way!"
-msgstr ""
+msgstr "Yeni Takımlar nereden başlayacağını bilemeyebilir. Burası sizin için!"
 
 #: index.rst:160
 msgid "Returning Team"
-msgstr ""
+msgstr "Dönen Takımım"
 
 #: index.rst:164
 msgid "Returning Teams looking for resources can look here."
-msgstr ""
+msgstr "Kaynak arayan Dönen Takımlar buraya bakabilir."
 
 #: index.rst:172
 msgid "Coach (Admin)"
-msgstr ""
+msgstr "Koçum (Yönetici)"
 
 #: index.rst:176
 msgid "Coaches looking for Team Administrative Resources can look here for help."
-msgstr ""
+msgstr "Koçlar Takım Yönetim Kaynakları arıyorsa buraya bakabilir."
 
 #: index.rst:185
 msgid "Mentor (Technical)"
-msgstr ""
+msgstr "Mentorum (Teknik)"
 
 #: index.rst:189
 msgid "Technical Mentors looking for Technical Resources should look here first!"
-msgstr ""
+msgstr "Teknik Mentörler Teknik Kaynaklar arıyorsa önce buraya bakmalı!"
 
 #: index.rst:199
 msgid "Programming Quick Links"
-msgstr ""
+msgstr "Programlama Hızlı Bağlantıları"
 
 #: index.rst:203
 msgid "Quick Links for Programming Language Resources"
-msgstr ""
+msgstr "Programlama Dili Kaynakları için Hızlı Bağlantılar"
 
 #: index.rst:211
 msgid "Blocks"
-msgstr ""
+msgstr "Blocks"
 
 #: index.rst:221
 msgid "OnBot Java"
-msgstr ""
+msgstr "OnBot Java"
 
 #: index.rst:231
 msgid "Android Studio"
-msgstr ""
+msgstr "Android Studio"
 
 #: index.rst:241
 msgid "AprilTags"
-msgstr ""
+msgstr "AprilTags"
 
 #: index.rst:251
 msgid "TensorFlow"
-msgstr ""
+msgstr "TensorFlow"
 
 #: index.rst:261
 msgid "All Resources"
-msgstr ""
+msgstr "Tüm Kaynaklar"
 
 #: index.rst:273
 msgid "Control System Links"
-msgstr ""
+msgstr "Kontrol Sistemi Bağlantıları"
 
 #: index.rst:277
 msgid "Let's get to know the *FIRST* Tech Challenge Control System!"
-msgstr ""
+msgstr "*FIRST* Tech Challenge Kontrol Sistemini tanıyalım!"
 
 #: index.rst:285
 msgid "Driver Station"
-msgstr ""
+msgstr "Driver Station (Sürücü İstasyonu)"
 
 #: index.rst:295
 msgid "Robot Controller"
-msgstr ""
+msgstr "Robot Kontrolcüsü"
 
 #: index.rst:305
 msgid "Device Connections"
-msgstr ""
+msgstr "Cihaz Bağlantıları"
 
 #: index.rst:315
 msgid "Hardware Configuration"
-msgstr ""
+msgstr "Donanım Yapılandırması"
 
 #: index.rst:331
 msgid "The Software Development Kit (SDK) is the collection of tools for developing software and executing it on the robot."
-msgstr ""
+msgstr "Yazılım Geliştirme Kiti (SDK), yazılım geliştirmek ve robot üzerinde çalıştırmak için gerekli araçların toplamıdır."
 
 #: index.rst:340
 msgid "About the SDK"
-msgstr ""
+msgstr "SDK Hakkında"
 
 #: index.rst:350
 msgid "SDK GitHub Repository"
-msgstr ""
+msgstr "SDK GitHub Deposu"
 
 #: index.rst:360
 msgid "SDK Releases"
-msgstr ""
+msgstr "SDK Sürümleri"
 
 #: index.rst:369
 msgid "Javadoc Documentation"
-msgstr ""
+msgstr "Javadoc Dokümantasyonu"
 
 #: index.rst:380
 msgid "Game Manual Links"
-msgstr ""
+msgstr "Oyun Kılavuzu Bağlantıları"
 
 #: index.rst:384
 msgid "Be sure you're following all of the rules of the competition! Game Manuals and Q&A are essential documents."
-msgstr ""
+msgstr "Yarışmanın tüm kurallarını takip ettiğinizden emin olun! Oyun Kılavuzları ve Soru-Cevap forumu olmazsa olmaz belgelerdir."
 
 #: index.rst:393
 msgid "Game Manuals"
-msgstr ""
+msgstr "Oyun Kılavuzları"
 
 #: index.rst:403
 msgid "Field Manuals"
-msgstr ""
+msgstr "Saha Kılavuzları"
 
 #: index.rst:413
 msgid "Game Q&A System"
-msgstr ""
+msgstr "Oyun Soru-Cevap Sistemi"
